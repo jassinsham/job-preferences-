@@ -22,9 +22,7 @@ def extract_text_from_docx(file_bytes: bytes) -> str:
     text = docx2txt.process(io.BytesIO(file_bytes))
     return text
 
-def extract_skills(text: str) -> list[str]:
-    # Basic skill extraction logic using NER and predefined lists/patterns
-    # For a production app, we would use a more comprehensive skill taxonomy or custom NER model.
+def extract_resume_data(text: str) -> dict:
     doc = nlp(text)
     
     # Common tech skills dictionary (simplified for demo)
@@ -37,14 +35,36 @@ def extract_skills(text: str) -> list[str]:
     }
     
     found_skills = set()
-    
-    # Simple keyword matching
     text_lower = text.lower()
+    
     for skill in tech_skills:
         # Avoid partial word matches using regex word boundaries
         if re.search(r'\b' + re.escape(skill) + r'\b', text_lower):
             found_skills.add(skill)
 
-    # Adding entities found by Spacy that might be skills (ORG, PRODUCT, GPE sometimes misclassified)
-    # This is rudimentary, typically a dedicated NER for skills is better.
-    return list(found_skills)
+    # Simple heuristic for Education
+    education_level = "Unknown"
+    if re.search(r'\b(ph\.?d\.?|doctorate)\b', text_lower):
+        education_level = "Ph.D."
+    elif re.search(r'\b(master\'?s?|ms|m\.?s\.?|mba)\b', text_lower):
+        education_level = "Master's"
+    elif re.search(r'\b(bachelor\'?s?|bs|b\.?s\.?|ba|b\.?a\.?)\b', text_lower):
+        education_level = "Bachelor's"
+        
+    # Simple heuristic for Years of Experience
+    experience_level = "Entry Level" # Default
+    # Look for patterns like "5 years of experience", "5+ years", etc.
+    exp_matches = re.findall(r'(\d+)\+?\s*years?', text_lower)
+    
+    if exp_matches:
+        max_years = max([int(y) for y in exp_matches if int(y) < 50]) # filter out noise
+        if max_years >= 5:
+            experience_level = "Senior"
+        elif max_years >= 2:
+            experience_level = "Mid Level"
+            
+    return {
+        "skills": list(found_skills),
+        "education": education_level,
+        "experience": experience_level
+    }

@@ -3,7 +3,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from services.resume_parser import extract_text_from_pdf, extract_text_from_docx, extract_skills
+from services.resume_parser import extract_text_from_pdf, extract_text_from_docx, extract_resume_data
 from services.skill_matcher import analyze_resume_against_market
 from models.database import engine, Base, get_db
 from models.job import Job
@@ -65,13 +65,20 @@ async def upload_resume_ui(request: Request, file: UploadFile = File(...), db: S
         if not text.strip():
             return templates.TemplateResponse("index.html", {"request": request, "error": "Could not extract text from the provided file."})
             
-        skills = extract_skills(text)
+        resume_data = extract_resume_data(text)
+        skills = resume_data["skills"]
+        education = resume_data["education"]
+        experience = resume_data["experience"]
+        
+        # Analyze against market
         analysis_results = analyze_resume_against_market(skills, db)
         
         return templates.TemplateResponse("results.html", {
             "request": request,
             "filename": file.filename,
             "extracted_skills": skills,
+            "education": education,
+            "experience": experience,
             "analysis": analysis_results
         })
     except Exception as e:

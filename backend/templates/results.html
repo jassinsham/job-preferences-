@@ -67,6 +67,15 @@
             </div>
             {% endif %}
         </div>
+
+        <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed var(--border-color);">
+            <h3 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Extracted Education</h3>
+            <span class="badge" style="background: #f1f5f9;">{{ education }}</span>
+
+            <h3 style="font-size: 1rem; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--text-primary);">
+                Extracted Experience Level</h3>
+            <span class="badge" style="background: #f1f5f9;">{{ experience }}</span>
+        </div>
     </div>
 
     <!-- Main Content: Job Matches -->
@@ -92,7 +101,16 @@
                             <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
                         </svg>
                         {{ match.match_percentage }}% Match
+                        {{ match.match_percentage }}% Match
                     </div>
+                </div>
+
+                <div
+                    style="margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-secondary); display: flex; gap: 1rem;">
+                    <span><strong style="color:var(--text-primary)">Req. Education:</strong> {{ match.education
+                        }}</span>
+                    <span><strong style="color:var(--text-primary)">Req. Experience:</strong> {{ match.experience_level
+                        }}</span>
                 </div>
 
                 <div>

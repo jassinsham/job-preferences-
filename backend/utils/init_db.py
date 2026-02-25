@@ -14,6 +14,8 @@ def init_db_data(db: Session):
             role=job_data["role"],
             company=job_data["company"],
             required_skills=",".join(job_data["required_skills"]),
+            experience_level=job_data.get("experience_level", "Entry Level"),
+            education=job_data.get("education", "Bachelor's"),
             trend_score=job_data["trend_score"]
         )
         db.add(job)
