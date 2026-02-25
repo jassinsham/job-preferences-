@@ -1,0 +1,501 @@
+Job_ID,Job_Title,Company,Location,Experience_Level,Employment_Type,Skills,Industry,Salary_LPA,Posted_Days_Ago
+1001,Frontend Developer,Amazon,Mumbai,Senior-Level,Full-Time,"Power BI, AWS, SQL, Node.js, Machine Learning",EdTech,24,14
+1002,Machine Learning Engineer,Flipkart,Mumbai,Mid-Level,Full-Time,"SQL, AWS, Kubernetes, Tableau, TensorFlow",AI & ML,25,6
+1003,Machine Learning Engineer,Tech Mahindra,Gurgaon,Senior-Level,Full-Time,"Excel, Spring Boot, NLP, TensorFlow, Deep Learning",Cloud Computing,8,3
+1004,Data Scientist,Accenture,Mumbai,Entry-Level,Full-Time,"Hadoop, SQL, MongoDB, AWS, Node.js",Consulting,10,12
+1005,Full Stack Developer,Accenture,Pune,Entry-Level,Full-Time,"NLP, TensorFlow, Power BI, Node.js, Spark",Consulting,14,2
+1006,Machine Learning Engineer,Flipkart,Gurgaon,Entry-Level,Full-Time,"Node.js, SQL, Tableau, Docker, Spring Boot",E-Commerce,35,1
+1007,DevOps Engineer,Cognizant,Bangalore,Senior-Level,Full-Time,"Kubernetes, Node.js, SQL, Machine Learning, Spring Boot",E-Commerce,12,7
+1008,Backend Developer,Amazon,Chennai,Entry-Level,Full-Time,"Java, Node.js, Docker, Kubernetes, SQL",FinTech,27,3
+1009,Machine Learning Engineer,Tech Mahindra,Mumbai,Entry-Level,Full-Time,"Machine Learning, React, TensorFlow, Spring Boot, Excel",Software,17,11
+1010,Backend Developer,TCS,Hyderabad,Mid-Level,Full-Time,"Java, Excel, Git, Node.js, NLP",EdTech,21,10
+1011,Software Engineer,Deloitte,Mumbai,Entry-Level,Full-Time,"SQL, NLP, Power BI, Docker, AWS",AI & ML,33,6
+1012,Backend Developer,Deloitte,Bangalore,Mid-Level,Full-Time,"Machine Learning, Kubernetes, Java, MongoDB, Power BI",Software,7,10
+1013,Machine Learning Engineer,IBM,Noida,Mid-Level,Full-Time,"Spark, Deep Learning, React, Git, SQL",IT Services,18,4
+1014,DevOps Engineer,Flipkart,Bangalore,Mid-Level,Full-Time,"Power BI, AWS, Git, Machine Learning, Tableau",Consulting,22,14
+1015,Data Analyst,HCL,Bangalore,Mid-Level,Full-Time,"Git, Spark, Machine Learning, Docker, Hadoop",Software,32,6
+1016,Frontend Developer,Accenture,Noida,Mid-Level,Full-Time,"AWS, Deep Learning, Kubernetes, MongoDB, Spring Boot",FinTech,34,14
+1017,Backend Developer,IBM,Pune,Senior-Level,Full-Time,"Git, Excel, MongoDB, Python, Java",IT Services,27,7
+1018,Business Analyst,Deloitte,Chennai,Mid-Level,Full-Time,"Kubernetes, Machine Learning, AWS, TensorFlow, Java",Consulting,17,13
+1019,Business Analyst,IBM,Gurgaon,Mid-Level,Full-Time,"Spring Boot, Kubernetes, Node.js, AWS, Python",Software,30,11
+1020,Business Analyst,Amazon,Chennai,Mid-Level,Full-Time,"Java, Excel, Power BI, Node.js, Python",Consulting,25,4
+1021,Data Analyst,Zoho,Gurgaon,Senior-Level,Full-Time,"Docker, Deep Learning, Spark, Java, SQL",Consulting,32,2
+1022,DevOps Engineer,IBM,Gurgaon,Mid-Level,Full-Time,"Excel, SQL, Docker, Deep Learning, MongoDB",Cloud Computing,9,6
+1023,Data Analyst,HCL,Noida,Mid-Level,Full-Time,"Deep Learning, TensorFlow, Excel, React, MongoDB",Consulting,29,4
+1024,Cloud Engineer,IBM,Bangalore,Mid-Level,Full-Time,"React, Excel, Python, NLP, Java",FinTech,21,3
+1025,Cloud Engineer,TCS,Pune,Mid-Level,Full-Time,"MongoDB, Power BI, Excel, Spring Boot, Kubernetes",IT Services,8,2
+1026,Backend Developer,Wipro,Noida,Entry-Level,Full-Time,"Docker, MongoDB, Power BI, Python, React",Consulting,7,4
+1027,Machine Learning Engineer,Flipkart,Mumbai,Senior-Level,Full-Time,"NLP, Node.js, Hadoop, TensorFlow, AWS",AI & ML,31,6
+1028,Data Analyst,Amazon,Noida,Entry-Level,Full-Time,"React, MongoDB, Power BI, Excel, Git",Consulting,12,3
+1029,Frontend Developer,Deloitte,Gurgaon,Senior-Level,Full-Time,"Kubernetes, Spring Boot, React, Excel, Tableau",E-Commerce,14,5
+1030,Business Analyst,Deloitte,Mumbai,Entry-Level,Full-Time,"Java, TensorFlow, Kubernetes, Power BI, Spark",IT Services,19,1
+1031,Frontend Developer,TCS,Mumbai,Mid-Level,Full-Time,"Spark, SQL, AWS, Python, Git",Consulting,26,8
+1032,Software Engineer,TCS,Pune,Entry-Level,Full-Time,"React, Hadoop, Deep Learning, Excel, Spring Boot",Cloud Computing,30,7
+1033,Machine Learning Engineer,Flipkart,Pune,Senior-Level,Full-Time,"NLP, Git, SQL, Docker, Machine Learning",Software,30,8
+1034,Machine Learning Engineer,Flipkart,Noida,Mid-Level,Full-Time,"Machine Learning, SQL, Power BI, Tableau, Excel",Cloud Computing,24,13
+1035,DevOps Engineer,Cognizant,Pune,Senior-Level,Full-Time,"Tableau, SQL, React, Deep Learning, AWS",AI & ML,35,8
+1036,Machine Learning Engineer,TCS,Hyderabad,Mid-Level,Full-Time,"Machine Learning, AWS, Spark, Deep Learning, Java",EdTech,17,14
+1037,Software Engineer,Deloitte,Bangalore,Mid-Level,Full-Time,"AWS, Python, Git, SQL, Docker",FinTech,12,8
+1038,Software Engineer,Capgemini,Bangalore,Mid-Level,Full-Time,"Hadoop, Java, AWS, MongoDB, Tableau",IT Services,11,6
+1039,Cloud Engineer,TCS,Noida,Senior-Level,Full-Time,"React, NLP, AWS, Deep Learning, Java",Cloud Computing,25,7
+1040,Data Analyst,TCS,Gurgaon,Entry-Level,Full-Time,"Python, Git, React, Docker, NLP",Consulting,17,14
+1041,Frontend Developer,Tech Mahindra,Bangalore,Mid-Level,Full-Time,"Java, Spark, Machine Learning, NLP, Excel",Software,31,13
+1042,Software Engineer,Accenture,Gurgaon,Mid-Level,Full-Time,"NLP, Spring Boot, Python, TensorFlow, AWS",Software,35,14
+1043,Data Scientist,IBM,Pune,Senior-Level,Full-Time,"Node.js, Docker, Tableau, TensorFlow, SQL",Cloud Computing,31,13
+1044,Machine Learning Engineer,HCL,Mumbai,Entry-Level,Full-Time,"Git, Spark, Spring Boot, Hadoop, Deep Learning",Cloud Computing,28,2
+1045,Data Scientist,Accenture,Bangalore,Mid-Level,Full-Time,"Spring Boot, Node.js, Python, Git, Machine Learning",Cloud Computing,22,7
+1046,DevOps Engineer,Cognizant,Pune,Entry-Level,Full-Time,"Java, TensorFlow, Git, Node.js, Docker",Consulting,8,12
+1047,Business Analyst,Cognizant,Gurgaon,Entry-Level,Full-Time,"SQL, TensorFlow, Docker, Tableau, Excel",Consulting,16,11
+1048,Software Engineer,Tech Mahindra,Pune,Entry-Level,Full-Time,"MongoDB, Git, AWS, TensorFlow, Hadoop",FinTech,11,12
+1049,Full Stack Developer,Cognizant,Hyderabad,Senior-Level,Full-Time,"Deep Learning, Spring Boot, Hadoop, AWS, NLP",EdTech,31,5
+1050,Cloud Engineer,Deloitte,Chennai,Entry-Level,Full-Time,"Spring Boot, SQL, MongoDB, Spark, NLP",IT Services,15,6
+1051,Software Engineer,Tech Mahindra,Mumbai,Entry-Level,Full-Time,"AWS, Python, Spring Boot, Java, Git",Software,12,13
+1052,Business Analyst,Infosys,Bangalore,Mid-Level,Full-Time,"Deep Learning, Java, Hadoop, AWS, Machine Learning",EdTech,19,12
+1053,Data Scientist,Flipkart,Mumbai,Senior-Level,Full-Time,"Docker, Git, Kubernetes, SQL, Python",E-Commerce,30,13
+1054,Cloud Engineer,Flipkart,Pune,Mid-Level,Full-Time,"AWS, Deep Learning, Java, SQL, Spark",Cloud Computing,17,8
+1055,Software Engineer,Flipkart,Noida,Mid-Level,Full-Time,"MongoDB, Spark, TensorFlow, Kubernetes, Node.js",EdTech,31,1
+1056,Data Analyst,Cognizant,Hyderabad,Mid-Level,Full-Time,"React, TensorFlow, Kubernetes, Machine Learning, SQL",EdTech,23,3
+1057,Data Analyst,Accenture,Bangalore,Mid-Level,Full-Time,"Kubernetes, SQL, Java, Hadoop, MongoDB",E-Commerce,14,3
+1058,Full Stack Developer,Capgemini,Mumbai,Senior-Level,Full-Time,"Docker, TensorFlow, Spring Boot, Power BI, Tableau",E-Commerce,29,5
+1059,Full Stack Developer,Cognizant,Mumbai,Senior-Level,Full-Time,"NLP, Python, Tableau, Kubernetes, SQL",Consulting,6,13
+1060,Software Engineer,Deloitte,Chennai,Mid-Level,Full-Time,"Power BI, Machine Learning, MongoDB, Hadoop, React",FinTech,12,9
+1061,Business Analyst,Cognizant,Chennai,Mid-Level,Full-Time,"Spring Boot, Python, Excel, Hadoop, Power BI",FinTech,33,2
+1062,Business Analyst,HCL,Bangalore,Senior-Level,Full-Time,"MongoDB, Machine Learning, Kubernetes, Java, Excel",Cloud Computing,7,12
+1063,Full Stack Developer,HCL,Gurgaon,Senior-Level,Full-Time,"Docker, Python, Power BI, NLP, Spark",EdTech,25,14
+1064,Data Analyst,Amazon,Noida,Senior-Level,Full-Time,"TensorFlow, React, Spark, Git, MongoDB",AI & ML,34,5
+1065,Backend Developer,Tech Mahindra,Chennai,Entry-Level,Full-Time,"Excel, Kubernetes, Deep Learning, Node.js, Tableau",EdTech,24,1
+1066,Backend Developer,Tech Mahindra,Gurgaon,Entry-Level,Full-Time,"Spring Boot, TensorFlow, Docker, Node.js, Power BI",EdTech,10,14
+1067,Data Scientist,Wipro,Noida,Entry-Level,Full-Time,"TensorFlow, Docker, Git, Machine Learning, Spark",FinTech,16,8
+1068,Data Scientist,Wipro,Pune,Mid-Level,Full-Time,"Deep Learning, Spark, SQL, Power BI, Excel",EdTech,34,8
+1069,Cloud Engineer,Deloitte,Chennai,Entry-Level,Full-Time,"Python, Power BI, Node.js, Deep Learning, MongoDB",E-Commerce,12,8
+1070,Data Analyst,Deloitte,Gurgaon,Senior-Level,Full-Time,"NLP, MongoDB, Hadoop, Kubernetes, Machine Learning",FinTech,31,11
+1071,Cloud Engineer,Infosys,Gurgaon,Entry-Level,Full-Time,"MongoDB, Hadoop, Python, Machine Learning, Kubernetes",EdTech,30,10
+1072,Data Scientist,TCS,Bangalore,Senior-Level,Full-Time,"Kubernetes, Deep Learning, Java, React, Git",FinTech,16,9
+1073,Data Scientist,Zoho,Chennai,Mid-Level,Full-Time,"TensorFlow, SQL, MongoDB, Hadoop, Git",EdTech,14,1
+1074,Business Analyst,TCS,Mumbai,Senior-Level,Full-Time,"Deep Learning, SQL, Docker, MongoDB, Hadoop",Software,23,11
+1075,Frontend Developer,Zoho,Chennai,Senior-Level,Full-Time,"Kubernetes, Docker, React, AWS, Spring Boot",Software,15,10
+1076,Backend Developer,Capgemini,Gurgaon,Entry-Level,Full-Time,"MongoDB, Java, Hadoop, SQL, Spark",E-Commerce,31,11
+1077,Software Engineer,Flipkart,Pune,Senior-Level,Full-Time,"NLP, Git, Java, Hadoop, Spring Boot",Cloud Computing,20,7
+1078,Full Stack Developer,IBM,Chennai,Senior-Level,Full-Time,"Docker, Power BI, Spring Boot, SQL, AWS",Cloud Computing,26,10
+1079,Full Stack Developer,Cognizant,Hyderabad,Senior-Level,Full-Time,"SQL, Tableau, Deep Learning, Kubernetes, React",EdTech,15,6
+1080,Software Engineer,Zoho,Noida,Mid-Level,Full-Time,"Git, Kubernetes, Java, Excel, AWS",Cloud Computing,9,5
+1081,Business Analyst,Capgemini,Chennai,Entry-Level,Full-Time,"Spark, Node.js, Python, AWS, Java",Consulting,23,6
+1082,Business Analyst,Zoho,Noida,Entry-Level,Full-Time,"SQL, Machine Learning, Node.js, Excel, Java",Consulting,35,3
+1083,Machine Learning Engineer,Accenture,Mumbai,Mid-Level,Full-Time,"React, Python, Spring Boot, Git, Tableau",IT Services,8,10
+1084,Data Analyst,Zoho,Chennai,Mid-Level,Full-Time,"AWS, Machine Learning, Hadoop, SQL, Tableau",AI & ML,31,4
+1085,Data Scientist,Infosys,Chennai,Entry-Level,Full-Time,"Python, MongoDB, Deep Learning, Docker, Excel",Software,32,9
+1086,Machine Learning Engineer,Tech Mahindra,Chennai,Entry-Level,Full-Time,"Kubernetes, AWS, Deep Learning, MongoDB, Machine Learning",Software,24,10
+1087,Data Scientist,IBM,Pune,Entry-Level,Full-Time,"Docker, Kubernetes, Tableau, Spring Boot, Excel",AI & ML,28,14
+1088,Full Stack Developer,Zoho,Noida,Mid-Level,Full-Time,"Machine Learning, TensorFlow, Tableau, Node.js, Git",EdTech,35,2
+1089,Backend Developer,Wipro,Bangalore,Senior-Level,Full-Time,"Deep Learning, Excel, MongoDB, Docker, Java",E-Commerce,16,5
+1090,DevOps Engineer,Zoho,Gurgaon,Entry-Level,Full-Time,"NLP, Java, Spark, Docker, Node.js",Consulting,31,10
+1091,Full Stack Developer,Infosys,Noida,Senior-Level,Full-Time,"Java, AWS, SQL, NLP, TensorFlow",FinTech,17,13
+1092,Full Stack Developer,HCL,Chennai,Mid-Level,Full-Time,"SQL, Excel, MongoDB, Spark, Git",E-Commerce,8,9
+1093,Frontend Developer,Deloitte,Chennai,Mid-Level,Full-Time,"MongoDB, React, Machine Learning, Python, Node.js",EdTech,19,8
+1094,Data Scientist,Zoho,Bangalore,Entry-Level,Full-Time,"Git, Power BI, TensorFlow, Deep Learning, Hadoop",FinTech,28,8
+1095,Frontend Developer,TCS,Gurgaon,Senior-Level,Full-Time,"Python, Node.js, AWS, Git, Machine Learning",Cloud Computing,19,14
+1096,Machine Learning Engineer,Zoho,Pune,Entry-Level,Full-Time,"Machine Learning, NLP, Java, AWS, TensorFlow",EdTech,8,1
+1097,DevOps Engineer,TCS,Mumbai,Mid-Level,Full-Time,"Deep Learning, Tableau, TensorFlow, SQL, Java",E-Commerce,28,14
+1098,Frontend Developer,TCS,Hyderabad,Mid-Level,Full-Time,"Docker, Kubernetes, MongoDB, NLP, AWS",AI & ML,7,12
+1099,Frontend Developer,Deloitte,Bangalore,Mid-Level,Full-Time,"Python, Hadoop, MongoDB, Spring Boot, TensorFlow",Software,27,3
+1100,Data Scientist,Amazon,Chennai,Entry-Level,Full-Time,"AWS, Python, Power BI, Excel, Spark",IT Services,16,4
+1101,Frontend Developer,Flipkart,Gurgaon,Senior-Level,Full-Time,"React, NLP, Git, Spring Boot, MongoDB",Cloud Computing,25,8
+1102,DevOps Engineer,Accenture,Gurgaon,Senior-Level,Full-Time,"Python, Node.js, AWS, Git, SQL",AI & ML,33,3
+1103,Data Scientist,Deloitte,Pune,Mid-Level,Full-Time,"Power BI, Git, Tableau, Spark, Java",Software,24,6
+1104,Frontend Developer,IBM,Chennai,Mid-Level,Full-Time,"AWS, Git, Spark, Machine Learning, Deep Learning",E-Commerce,12,14
+1105,Backend Developer,Capgemini,Pune,Senior-Level,Full-Time,"Node.js, Docker, Tableau, Git, Deep Learning",IT Services,18,9
+1106,Cloud Engineer,HCL,Gurgaon,Mid-Level,Full-Time,"TensorFlow, Spark, Git, Node.js, AWS",IT Services,26,12
+1107,Cloud Engineer,Flipkart,Chennai,Mid-Level,Full-Time,"MongoDB, NLP, TensorFlow, Deep Learning, Python",AI & ML,22,13
+1108,Cloud Engineer,Capgemini,Bangalore,Entry-Level,Full-Time,"React, Power BI, Deep Learning, SQL, NLP",Software,13,7
+1109,Frontend Developer,Deloitte,Mumbai,Mid-Level,Full-Time,"Git, Deep Learning, Excel, AWS, Machine Learning",IT Services,34,3
+1110,Frontend Developer,Amazon,Mumbai,Entry-Level,Full-Time,"TensorFlow, Spark, Git, Java, MongoDB",IT Services,31,8
+1111,Cloud Engineer,Amazon,Pune,Entry-Level,Full-Time,"NLP, Spring Boot, Spark, Deep Learning, Node.js",Consulting,11,12
+1112,Business Analyst,Capgemini,Mumbai,Mid-Level,Full-Time,"Tableau, Kubernetes, MongoDB, Power BI, Git",E-Commerce,8,12
+1113,Backend Developer,Amazon,Hyderabad,Mid-Level,Full-Time,"TensorFlow, SQL, Java, Hadoop, Python",E-Commerce,17,5
+1114,Software Engineer,Cognizant,Mumbai,Mid-Level,Full-Time,"NLP, MongoDB, Spark, Python, Machine Learning",Consulting,9,8
+1115,Full Stack Developer,Cognizant,Hyderabad,Mid-Level,Full-Time,"Node.js, Python, Tableau, SQL, Machine Learning",Consulting,6,3
+1116,Data Analyst,TCS,Mumbai,Senior-Level,Full-Time,"Excel, Spark, Git, React, Kubernetes",E-Commerce,31,13
+1117,Machine Learning Engineer,Flipkart,Mumbai,Entry-Level,Full-Time,"Java, Machine Learning, Spring Boot, Node.js, AWS",FinTech,31,14
+1118,Cloud Engineer,Zoho,Pune,Mid-Level,Full-Time,"Tableau, SQL, Power BI, Spring Boot, NLP",AI & ML,31,2
+1119,Software Engineer,Cognizant,Pune,Mid-Level,Full-Time,"Git, MongoDB, Machine Learning, Excel, AWS",Software,21,7
+1120,Backend Developer,Flipkart,Gurgaon,Senior-Level,Full-Time,"Spring Boot, MongoDB, Node.js, NLP, React",Cloud Computing,12,6
+1121,Cloud Engineer,Capgemini,Pune,Senior-Level,Full-Time,"Machine Learning, TensorFlow, MongoDB, Excel, Deep Learning",FinTech,33,14
+1122,Data Scientist,TCS,Chennai,Senior-Level,Full-Time,"Java, Hadoop, React, Excel, NLP",E-Commerce,28,3
+1123,Full Stack Developer,Infosys,Mumbai,Entry-Level,Full-Time,"Power BI, Python, Excel, Spring Boot, React",Cloud Computing,13,8
+1124,Cloud Engineer,TCS,Chennai,Senior-Level,Full-Time,"Git, React, Tableau, NLP, Deep Learning",EdTech,12,11
+1125,Data Scientist,Tech Mahindra,Hyderabad,Entry-Level,Full-Time,"NLP, Power BI, Java, Docker, AWS",Software,27,8
+1126,DevOps Engineer,TCS,Noida,Senior-Level,Full-Time,"AWS, React, Spark, Machine Learning, Excel",IT Services,5,5
+1127,Business Analyst,Flipkart,Noida,Senior-Level,Full-Time,"AWS, Java, Tableau, Git, TensorFlow",AI & ML,25,6
+1128,DevOps Engineer,Capgemini,Bangalore,Mid-Level,Full-Time,"Machine Learning, SQL, Docker, MongoDB, Node.js",EdTech,20,8
+1129,Business Analyst,Cognizant,Hyderabad,Mid-Level,Full-Time,"Docker, Spring Boot, Machine Learning, TensorFlow, Power BI",Software,29,13
+1130,DevOps Engineer,Cognizant,Pune,Entry-Level,Full-Time,"TensorFlow, Tableau, React, Machine Learning, SQL",Consulting,34,1
+1131,Machine Learning Engineer,Deloitte,Bangalore,Senior-Level,Full-Time,"Spring Boot, Deep Learning, Excel, Git, TensorFlow",IT Services,20,3
+1132,Data Analyst,Infosys,Pune,Mid-Level,Full-Time,"NLP, Excel, Git, Tableau, Docker",Consulting,5,14
+1133,Business Analyst,HCL,Noida,Mid-Level,Full-Time,"Machine Learning, Hadoop, Docker, Deep Learning, Git",Consulting,11,1
+1134,Full Stack Developer,Flipkart,Hyderabad,Senior-Level,Full-Time,"NLP, Docker, Deep Learning, Spark, Kubernetes",Cloud Computing,32,13
+1135,Software Engineer,TCS,Hyderabad,Entry-Level,Full-Time,"Hadoop, TensorFlow, AWS, Python, Deep Learning",AI & ML,25,14
+1136,Cloud Engineer,Accenture,Hyderabad,Mid-Level,Full-Time,"AWS, Deep Learning, Power BI, Spark, Git",IT Services,9,9
+1137,Machine Learning Engineer,Deloitte,Mumbai,Entry-Level,Full-Time,"Spark, Tableau, Git, Machine Learning, NLP",Software,19,8
+1138,Machine Learning Engineer,Tech Mahindra,Chennai,Senior-Level,Full-Time,"NLP, Spark, Tableau, TensorFlow, Deep Learning",AI & ML,29,5
+1139,Cloud Engineer,Zoho,Gurgaon,Senior-Level,Full-Time,"Kubernetes, NLP, Spring Boot, Machine Learning, Spark",AI & ML,10,2
+1140,Machine Learning Engineer,Amazon,Hyderabad,Mid-Level,Full-Time,"Deep Learning, Docker, NLP, Excel, SQL",Software,7,6
+1141,Frontend Developer,Accenture,Pune,Entry-Level,Full-Time,"Hadoop, Spark, Kubernetes, React, Java",Software,8,10
+1142,DevOps Engineer,Amazon,Bangalore,Mid-Level,Full-Time,"Docker, Git, Hadoop, Kubernetes, MongoDB",IT Services,28,8
+1143,Data Scientist,Amazon,Noida,Entry-Level,Full-Time,"React, Docker, TensorFlow, Python, Excel",IT Services,7,14
+1144,Frontend Developer,IBM,Pune,Entry-Level,Full-Time,"React, Tableau, AWS, Machine Learning, Spark",Software,26,5
+1145,Data Scientist,Deloitte,Bangalore,Mid-Level,Full-Time,"React, Hadoop, Tableau, Spring Boot, Spark",Consulting,14,3
+1146,DevOps Engineer,IBM,Mumbai,Entry-Level,Full-Time,"React, Spring Boot, Spark, Docker, Python",Cloud Computing,9,9
+1147,Full Stack Developer,IBM,Bangalore,Entry-Level,Full-Time,"AWS, Excel, Hadoop, Docker, TensorFlow",Consulting,13,11
+1148,Cloud Engineer,Flipkart,Noida,Mid-Level,Full-Time,"Tableau, Kubernetes, MongoDB, NLP, Git",Cloud Computing,12,1
+1149,Backend Developer,IBM,Hyderabad,Senior-Level,Full-Time,"AWS, Spark, Node.js, SQL, MongoDB",EdTech,17,5
+1150,Cloud Engineer,HCL,Chennai,Entry-Level,Full-Time,"Deep Learning, Excel, Spark, SQL, Node.js",Cloud Computing,6,9
+1151,Backend Developer,Infosys,Mumbai,Mid-Level,Full-Time,"Python, Spark, AWS, Java, Tableau",Consulting,18,13
+1152,Business Analyst,Deloitte,Mumbai,Mid-Level,Full-Time,"Spark, React, Kubernetes, Power BI, NLP",Consulting,8,5
+1153,Software Engineer,HCL,Pune,Mid-Level,Full-Time,"React, Excel, TensorFlow, Hadoop, Deep Learning",FinTech,35,6
+1154,DevOps Engineer,IBM,Gurgaon,Senior-Level,Full-Time,"Tableau, React, Spark, Node.js, Docker",E-Commerce,7,3
+1155,Cloud Engineer,Deloitte,Hyderabad,Senior-Level,Full-Time,"NLP, Tableau, Java, Power BI, Node.js",AI & ML,5,2
+1156,Full Stack Developer,Wipro,Gurgaon,Senior-Level,Full-Time,"Spring Boot, SQL, Python, React, Machine Learning",AI & ML,11,11
+1157,Data Scientist,Deloitte,Noida,Senior-Level,Full-Time,"Tableau, Java, NLP, Deep Learning, Kubernetes",Software,6,8
+1158,Cloud Engineer,Cognizant,Mumbai,Entry-Level,Full-Time,"Git, Docker, Spark, Hadoop, Tableau",EdTech,24,2
+1159,Data Scientist,Amazon,Pune,Mid-Level,Full-Time,"Kubernetes, MongoDB, NLP, Spark, Docker",AI & ML,14,6
+1160,Software Engineer,Flipkart,Hyderabad,Mid-Level,Full-Time,"Kubernetes, Deep Learning, Python, Node.js, Java",E-Commerce,29,6
+1161,Machine Learning Engineer,HCL,Gurgaon,Senior-Level,Full-Time,"SQL, Power BI, React, Spring Boot, Hadoop",Cloud Computing,9,2
+1162,Cloud Engineer,HCL,Gurgaon,Entry-Level,Full-Time,"Java, React, AWS, Machine Learning, Deep Learning",Software,21,13
+1163,Data Scientist,HCL,Noida,Senior-Level,Full-Time,"Power BI, Java, Python, Git, SQL",FinTech,20,13
+1164,Cloud Engineer,Wipro,Pune,Senior-Level,Full-Time,"SQL, Git, Spark, Excel, Tableau",FinTech,6,7
+1165,Full Stack Developer,Flipkart,Chennai,Entry-Level,Full-Time,"Kubernetes, Node.js, Power BI, Spark, Git",E-Commerce,17,9
+1166,Software Engineer,Deloitte,Hyderabad,Mid-Level,Full-Time,"Git, Machine Learning, Power BI, Python, Tableau",Cloud Computing,25,13
+1167,Backend Developer,Flipkart,Pune,Senior-Level,Full-Time,"SQL, Tableau, Hadoop, Spring Boot, MongoDB",Cloud Computing,26,6
+1168,Backend Developer,TCS,Mumbai,Entry-Level,Full-Time,"MongoDB, Spark, Docker, NLP, Excel",FinTech,19,7
+1169,Machine Learning Engineer,Cognizant,Gurgaon,Senior-Level,Full-Time,"Java, Deep Learning, Tableau, Spring Boot, Docker",IT Services,5,3
+1170,Data Scientist,Deloitte,Noida,Senior-Level,Full-Time,"Git, SQL, TensorFlow, Spring Boot, Excel",EdTech,18,3
+1171,Data Scientist,HCL,Bangalore,Entry-Level,Full-Time,"React, Docker, Excel, Java, TensorFlow",Consulting,27,2
+1172,Full Stack Developer,TCS,Bangalore,Senior-Level,Full-Time,"NLP, Machine Learning, Spring Boot, MongoDB, Spark",EdTech,30,9
+1173,Software Engineer,Zoho,Bangalore,Mid-Level,Full-Time,"React, MongoDB, Docker, Spring Boot, NLP",Cloud Computing,31,10
+1174,Data Analyst,Wipro,Pune,Senior-Level,Full-Time,"Docker, Power BI, Excel, TensorFlow, React",AI & ML,14,10
+1175,Business Analyst,Capgemini,Mumbai,Entry-Level,Full-Time,"Hadoop, Kubernetes, Spark, Power BI, Tableau",E-Commerce,32,13
+1176,Machine Learning Engineer,IBM,Pune,Senior-Level,Full-Time,"NLP, Hadoop, Spark, Deep Learning, MongoDB",Cloud Computing,15,4
+1177,Data Analyst,TCS,Pune,Senior-Level,Full-Time,"MongoDB, Tableau, Deep Learning, AWS, Docker",Consulting,28,3
+1178,Data Scientist,Amazon,Pune,Entry-Level,Full-Time,"Node.js, React, NLP, Python, AWS",FinTech,22,6
+1179,Software Engineer,Tech Mahindra,Mumbai,Entry-Level,Full-Time,"Spring Boot, Java, AWS, Machine Learning, Hadoop",Cloud Computing,24,1
+1180,DevOps Engineer,Cognizant,Pune,Mid-Level,Full-Time,"Hadoop, AWS, TensorFlow, Power BI, Python",FinTech,7,1
+1181,Data Analyst,Infosys,Chennai,Mid-Level,Full-Time,"React, TensorFlow, Power BI, Node.js, SQL",Software,25,13
+1182,Cloud Engineer,Wipro,Hyderabad,Entry-Level,Full-Time,"Docker, TensorFlow, Kubernetes, Java, Spark",Cloud Computing,14,4
+1183,Frontend Developer,Wipro,Hyderabad,Mid-Level,Full-Time,"Spring Boot, Python, React, Kubernetes, Docker",E-Commerce,7,11
+1184,Cloud Engineer,Amazon,Chennai,Mid-Level,Full-Time,"Deep Learning, Docker, React, Hadoop, SQL",Software,21,12
+1185,Frontend Developer,Deloitte,Bangalore,Entry-Level,Full-Time,"Tableau, NLP, Spring Boot, React, Kubernetes",AI & ML,25,12
+1186,Business Analyst,IBM,Mumbai,Senior-Level,Full-Time,"Python, Tableau, TensorFlow, NLP, React",EdTech,10,2
+1187,Data Scientist,Zoho,Gurgaon,Senior-Level,Full-Time,"SQL, Spark, Docker, Kubernetes, Spring Boot",Software,21,3
+1188,Frontend Developer,Capgemini,Pune,Entry-Level,Full-Time,"Tableau, Kubernetes, Machine Learning, Power BI, Python",Software,25,14
+1189,Software Engineer,Tech Mahindra,Gurgaon,Entry-Level,Full-Time,"Spark, Git, Docker, Spring Boot, AWS",E-Commerce,10,13
+1190,Cloud Engineer,Deloitte,Hyderabad,Entry-Level,Full-Time,"AWS, Java, Kubernetes, Spring Boot, Tableau",IT Services,8,5
+1191,Backend Developer,Amazon,Noida,Mid-Level,Full-Time,"Power BI, NLP, Tableau, Python, Node.js",Software,30,2
+1192,Data Scientist,Cognizant,Mumbai,Entry-Level,Full-Time,"Deep Learning, MongoDB, Hadoop, Python, React",Software,32,5
+1193,DevOps Engineer,Amazon,Pune,Mid-Level,Full-Time,"TensorFlow, Tableau, AWS, Java, Machine Learning",IT Services,30,11
+1194,Business Analyst,Tech Mahindra,Gurgaon,Senior-Level,Full-Time,"Git, NLP, Node.js, Kubernetes, TensorFlow",Cloud Computing,20,6
+1195,Full Stack Developer,Accenture,Bangalore,Senior-Level,Full-Time,"Tableau, Python, Hadoop, Machine Learning, Excel",EdTech,8,1
+1196,Data Analyst,Wipro,Mumbai,Mid-Level,Full-Time,"Power BI, Excel, Python, MongoDB, Git",Software,34,13
+1197,Data Analyst,Wipro,Gurgaon,Mid-Level,Full-Time,"Kubernetes, Excel, Git, Python, Node.js",EdTech,29,13
+1198,Business Analyst,HCL,Chennai,Entry-Level,Full-Time,"Git, Python, Java, Kubernetes, Hadoop",E-Commerce,34,11
+1199,DevOps Engineer,Deloitte,Pune,Mid-Level,Full-Time,"Git, AWS, React, Tableau, Spring Boot",FinTech,24,3
+1200,Backend Developer,Wipro,Bangalore,Entry-Level,Full-Time,"AWS, MongoDB, Tableau, TensorFlow, Machine Learning",Software,10,8
+1201,Backend Developer,Amazon,Bangalore,Entry-Level,Full-Time,"Power BI, Python, Hadoop, Machine Learning, Tableau",IT Services,12,14
+1202,Machine Learning Engineer,Wipro,Chennai,Mid-Level,Full-Time,"Excel, AWS, Node.js, Power BI, TensorFlow",Consulting,14,4
+1203,Backend Developer,Wipro,Noida,Entry-Level,Full-Time,"Tableau, TensorFlow, AWS, Power BI, Excel",FinTech,20,6
+1204,Frontend Developer,HCL,Pune,Senior-Level,Full-Time,"MongoDB, Java, Deep Learning, Power BI, Git",AI & ML,5,13
+1205,Business Analyst,Amazon,Gurgaon,Entry-Level,Full-Time,"Tableau, SQL, TensorFlow, Node.js, Kubernetes",IT Services,22,4
+1206,Data Analyst,Flipkart,Pune,Entry-Level,Full-Time,"Tableau, Git, Excel, AWS, TensorFlow",E-Commerce,27,7
+1207,Machine Learning Engineer,Infosys,Chennai,Entry-Level,Full-Time,"React, Python, MongoDB, Tableau, NLP",IT Services,12,13
+1208,DevOps Engineer,Amazon,Chennai,Entry-Level,Full-Time,"AWS, Deep Learning, Excel, Node.js, Tableau",E-Commerce,9,2
+1209,Business Analyst,TCS,Bangalore,Senior-Level,Full-Time,"AWS, Hadoop, Node.js, NLP, Java",IT Services,26,8
+1210,Business Analyst,Wipro,Noida,Mid-Level,Full-Time,"Tableau, AWS, React, Excel, Machine Learning",FinTech,22,3
+1211,DevOps Engineer,Wipro,Hyderabad,Senior-Level,Full-Time,"Hadoop, SQL, Java, Node.js, Tableau",Software,8,8
+1212,Business Analyst,Wipro,Noida,Senior-Level,Full-Time,"Machine Learning, Deep Learning, Kubernetes, TensorFlow, Git",E-Commerce,8,12
+1213,Frontend Developer,Amazon,Pune,Senior-Level,Full-Time,"Deep Learning, Machine Learning, Power BI, Git, Spark",EdTech,14,3
+1214,Frontend Developer,Wipro,Hyderabad,Senior-Level,Full-Time,"Node.js, SQL, Spring Boot, Machine Learning, Python",Software,27,12
+1215,Software Engineer,Deloitte,Bangalore,Mid-Level,Full-Time,"AWS, Hadoop, Spring Boot, Machine Learning, MongoDB",Software,34,2
+1216,Full Stack Developer,Capgemini,Chennai,Mid-Level,Full-Time,"Java, Git, Docker, SQL, Python",EdTech,17,2
+1217,Business Analyst,Infosys,Chennai,Entry-Level,Full-Time,"Node.js, Docker, React, Tableau, Deep Learning",Software,18,6
+1218,Cloud Engineer,Infosys,Gurgaon,Senior-Level,Full-Time,"Hadoop, Machine Learning, Power BI, SQL, MongoDB",AI & ML,11,13
+1219,Data Scientist,Tech Mahindra,Noida,Mid-Level,Full-Time,"React, Excel, AWS, Spark, TensorFlow",E-Commerce,22,1
+1220,Frontend Developer,Tech Mahindra,Bangalore,Entry-Level,Full-Time,"SQL, Spark, React, AWS, NLP",EdTech,18,14
+1221,Full Stack Developer,Accenture,Mumbai,Entry-Level,Full-Time,"Kubernetes, Node.js, Spring Boot, AWS, Machine Learning",EdTech,31,11
+1222,Machine Learning Engineer,HCL,Noida,Mid-Level,Full-Time,"Hadoop, Java, Python, Machine Learning, TensorFlow",Software,28,8
+1223,DevOps Engineer,Wipro,Bangalore,Entry-Level,Full-Time,"Git, Node.js, TensorFlow, Deep Learning, Hadoop",IT Services,21,6
+1224,Cloud Engineer,Flipkart,Mumbai,Senior-Level,Full-Time,"NLP, Node.js, Hadoop, Tableau, Kubernetes",E-Commerce,27,9
+1225,DevOps Engineer,Flipkart,Pune,Mid-Level,Full-Time,"Spring Boot, SQL, Machine Learning, Java, Docker",E-Commerce,13,12
+1226,DevOps Engineer,Amazon,Noida,Entry-Level,Full-Time,"Power BI, TensorFlow, Git, Node.js, MongoDB",Cloud Computing,17,1
+1227,Software Engineer,Cognizant,Chennai,Mid-Level,Full-Time,"Git, NLP, Kubernetes, SQL, Spring Boot",EdTech,26,10
+1228,Frontend Developer,Flipkart,Bangalore,Mid-Level,Full-Time,"Spring Boot, Docker, Python, Spark, Deep Learning",EdTech,35,4
+1229,Data Scientist,Cognizant,Bangalore,Entry-Level,Full-Time,"Excel, MongoDB, Deep Learning, Hadoop, Kubernetes",IT Services,5,12
+1230,Frontend Developer,HCL,Noida,Mid-Level,Full-Time,"React, SQL, Machine Learning, NLP, Kubernetes",FinTech,27,10
+1231,Data Analyst,HCL,Chennai,Entry-Level,Full-Time,"Docker, Tableau, SQL, TensorFlow, Spring Boot",Consulting,28,7
+1232,Backend Developer,TCS,Gurgaon,Mid-Level,Full-Time,"Python, Power BI, Hadoop, Java, Spark",AI & ML,19,7
+1233,Full Stack Developer,Deloitte,Pune,Entry-Level,Full-Time,"Kubernetes, Spring Boot, Deep Learning, SQL, NLP",IT Services,24,14
+1234,Software Engineer,Capgemini,Gurgaon,Mid-Level,Full-Time,"MongoDB, Spring Boot, Deep Learning, Excel, AWS",Software,23,4
+1235,Business Analyst,IBM,Bangalore,Mid-Level,Full-Time,"AWS, Machine Learning, Power BI, Docker, Node.js",E-Commerce,34,7
+1236,Full Stack Developer,Deloitte,Chennai,Mid-Level,Full-Time,"Java, Kubernetes, Spring Boot, Spark, Machine Learning",Cloud Computing,9,10
+1237,Backend Developer,Capgemini,Pune,Senior-Level,Full-Time,"Hadoop, SQL, Deep Learning, NLP, Tableau",Cloud Computing,22,9
+1238,Business Analyst,Cognizant,Noida,Senior-Level,Full-Time,"Git, Hadoop, Power BI, Tableau, Machine Learning",Cloud Computing,20,5
+1239,Data Scientist,Tech Mahindra,Gurgaon,Senior-Level,Full-Time,"Machine Learning, Spring Boot, Deep Learning, Node.js, Power BI",Software,16,3
+1240,Cloud Engineer,Deloitte,Pune,Senior-Level,Full-Time,"Java, Kubernetes, Excel, MongoDB, Hadoop",EdTech,30,14
+1241,Backend Developer,Cognizant,Noida,Senior-Level,Full-Time,"React, Deep Learning, Excel, TensorFlow, Java",Consulting,20,11
+1242,Software Engineer,Accenture,Bangalore,Mid-Level,Full-Time,"SQL, Kubernetes, MongoDB, Power BI, Node.js",Cloud Computing,7,10
+1243,DevOps Engineer,Flipkart,Noida,Entry-Level,Full-Time,"Hadoop, TensorFlow, Machine Learning, MongoDB, Spark",Consulting,13,13
+1244,Software Engineer,Cognizant,Bangalore,Entry-Level,Full-Time,"AWS, TensorFlow, Hadoop, Node.js, Docker",AI & ML,14,1
+1245,Full Stack Developer,Wipro,Bangalore,Entry-Level,Full-Time,"Git, TensorFlow, Spring Boot, AWS, Node.js",E-Commerce,18,3
+1246,Business Analyst,Zoho,Gurgaon,Mid-Level,Full-Time,"Machine Learning, Spring Boot, AWS, SQL, Docker",Software,5,12
+1247,Business Analyst,HCL,Hyderabad,Entry-Level,Full-Time,"Git, SQL, NLP, Python, Deep Learning",Cloud Computing,31,7
+1248,Machine Learning Engineer,TCS,Hyderabad,Senior-Level,Full-Time,"NLP, Spark, Git, Power BI, TensorFlow",IT Services,6,3
+1249,Data Scientist,Cognizant,Mumbai,Entry-Level,Full-Time,"Git, Python, Docker, Spring Boot, TensorFlow",E-Commerce,33,9
+1250,Business Analyst,Zoho,Bangalore,Mid-Level,Full-Time,"Kubernetes, Machine Learning, Tableau, Hadoop, Docker",Software,10,1
+1251,DevOps Engineer,Zoho,Bangalore,Entry-Level,Full-Time,"NLP, Tableau, Spark, React, Java",AI & ML,30,9
+1252,DevOps Engineer,Infosys,Gurgaon,Senior-Level,Full-Time,"React, Tableau, Deep Learning, Kubernetes, Node.js",E-Commerce,15,13
+1253,Frontend Developer,TCS,Gurgaon,Mid-Level,Full-Time,"TensorFlow, Machine Learning, SQL, Hadoop, Kubernetes",Software,24,9
+1254,Full Stack Developer,Flipkart,Hyderabad,Mid-Level,Full-Time,"Spark, Hadoop, AWS, MongoDB, Git",EdTech,21,9
+1255,Full Stack Developer,IBM,Bangalore,Senior-Level,Full-Time,"NLP, MongoDB, Excel, SQL, React",FinTech,31,14
+1256,Business Analyst,Capgemini,Gurgaon,Mid-Level,Full-Time,"NLP, Hadoop, Java, Excel, SQL",EdTech,27,14
+1257,Data Analyst,Capgemini,Gurgaon,Entry-Level,Full-Time,"NLP, Docker, Python, Power BI, Excel",AI & ML,28,3
+1258,Business Analyst,Zoho,Noida,Mid-Level,Full-Time,"AWS, SQL, Power BI, Docker, Deep Learning",EdTech,31,10
+1259,Data Scientist,Zoho,Chennai,Senior-Level,Full-Time,"Git, MongoDB, Hadoop, NLP, Power BI",Consulting,7,10
+1260,Data Analyst,Accenture,Noida,Senior-Level,Full-Time,"AWS, Power BI, Kubernetes, TensorFlow, Machine Learning",Software,31,3
+1261,DevOps Engineer,Flipkart,Hyderabad,Entry-Level,Full-Time,"Hadoop, Java, MongoDB, Power BI, TensorFlow",FinTech,14,7
+1262,Machine Learning Engineer,Accenture,Mumbai,Entry-Level,Full-Time,"React, Tableau, Spring Boot, Docker, Kubernetes",EdTech,20,10
+1263,DevOps Engineer,Infosys,Gurgaon,Senior-Level,Full-Time,"MongoDB, Node.js, AWS, Kubernetes, Machine Learning",FinTech,24,12
+1264,Machine Learning Engineer,Wipro,Bangalore,Senior-Level,Full-Time,"Python, Docker, Excel, React, Deep Learning",IT Services,11,7
+1265,Software Engineer,Zoho,Pune,Mid-Level,Full-Time,"Excel, Git, SQL, React, Spark",EdTech,23,5
+1266,Data Scientist,Zoho,Mumbai,Mid-Level,Full-Time,"Deep Learning, Power BI, Git, SQL, NLP",AI & ML,34,5
+1267,Backend Developer,Capgemini,Pune,Mid-Level,Full-Time,"Java, MongoDB, Power BI, Kubernetes, React",Software,13,11
+1268,Business Analyst,Accenture,Pune,Mid-Level,Full-Time,"Spark, Deep Learning, Docker, MongoDB, AWS",EdTech,35,1
+1269,Backend Developer,HCL,Gurgaon,Senior-Level,Full-Time,"Java, Kubernetes, SQL, React, Python",EdTech,18,6
+1270,Machine Learning Engineer,IBM,Chennai,Mid-Level,Full-Time,"Kubernetes, Spring Boot, SQL, MongoDB, Deep Learning",FinTech,26,3
+1271,Full Stack Developer,Amazon,Gurgaon,Mid-Level,Full-Time,"Deep Learning, React, Python, Hadoop, SQL",E-Commerce,17,14
+1272,Backend Developer,Zoho,Gurgaon,Senior-Level,Full-Time,"TensorFlow, React, Spark, Python, Deep Learning",AI & ML,21,8
+1273,Full Stack Developer,Cognizant,Hyderabad,Senior-Level,Full-Time,"Spark, Excel, Python, React, Git",Software,11,9
+1274,DevOps Engineer,TCS,Pune,Entry-Level,Full-Time,"Excel, Power BI, Tableau, Kubernetes, AWS",Software,21,3
+1275,Software Engineer,Tech Mahindra,Chennai,Entry-Level,Full-Time,"Git, Excel, Kubernetes, Python, Spring Boot",E-Commerce,34,6
+1276,Machine Learning Engineer,Zoho,Gurgaon,Mid-Level,Full-Time,"MongoDB, Git, Spring Boot, Power BI, Java",EdTech,9,12
+1277,Cloud Engineer,Flipkart,Hyderabad,Senior-Level,Full-Time,"Python, Excel, MongoDB, Spark, Node.js",E-Commerce,27,6
+1278,Frontend Developer,Deloitte,Mumbai,Senior-Level,Full-Time,"TensorFlow, AWS, SQL, Python, NLP",E-Commerce,18,11
+1279,Backend Developer,Wipro,Noida,Entry-Level,Full-Time,"Spring Boot, SQL, Git, Node.js, React",Consulting,18,3
+1280,Machine Learning Engineer,Tech Mahindra,Pune,Mid-Level,Full-Time,"Git, Deep Learning, Docker, Machine Learning, Spark",IT Services,11,8
+1281,DevOps Engineer,Amazon,Gurgaon,Senior-Level,Full-Time,"Power BI, SQL, Docker, NLP, Tableau",AI & ML,24,5
+1282,Data Scientist,IBM,Chennai,Mid-Level,Full-Time,"Git, Hadoop, Spring Boot, Power BI, MongoDB",Cloud Computing,14,2
+1283,DevOps Engineer,TCS,Noida,Mid-Level,Full-Time,"SQL, Python, React, Java, Machine Learning",Consulting,13,2
+1284,Software Engineer,Deloitte,Bangalore,Senior-Level,Full-Time,"AWS, NLP, Git, React, Excel",Cloud Computing,10,1
+1285,Frontend Developer,Wipro,Hyderabad,Entry-Level,Full-Time,"Power BI, Docker, Node.js, Spring Boot, Machine Learning",Consulting,22,8
+1286,Data Analyst,Amazon,Gurgaon,Entry-Level,Full-Time,"Java, Deep Learning, Spark, Excel, Node.js",Consulting,27,1
+1287,Business Analyst,Amazon,Pune,Entry-Level,Full-Time,"Deep Learning, TensorFlow, Power BI, AWS, NLP",AI & ML,7,12
+1288,Cloud Engineer,Tech Mahindra,Mumbai,Mid-Level,Full-Time,"Kubernetes, Java, Hadoop, SQL, Docker",AI & ML,11,4
+1289,Business Analyst,Deloitte,Pune,Senior-Level,Full-Time,"Spark, Power BI, Docker, Python, Git",Consulting,16,1
+1290,DevOps Engineer,Cognizant,Gurgaon,Senior-Level,Full-Time,"Excel, SQL, Node.js, Kubernetes, TensorFlow",IT Services,23,10
+1291,Data Analyst,Deloitte,Chennai,Mid-Level,Full-Time,"Power BI, Kubernetes, Hadoop, TensorFlow, SQL",E-Commerce,33,9
+1292,Data Scientist,Capgemini,Noida,Senior-Level,Full-Time,"Git, Deep Learning, Hadoop, Spark, Java",AI & ML,29,8
+1293,Cloud Engineer,Wipro,Pune,Mid-Level,Full-Time,"React, Spring Boot, SQL, MongoDB, Deep Learning",FinTech,7,9
+1294,Data Analyst,Cognizant,Gurgaon,Entry-Level,Full-Time,"Tableau, Spring Boot, Machine Learning, Hadoop, Node.js",Consulting,10,13
+1295,Full Stack Developer,Zoho,Pune,Senior-Level,Full-Time,"TensorFlow, Python, React, Git, Hadoop",AI & ML,32,8
+1296,Full Stack Developer,Amazon,Pune,Senior-Level,Full-Time,"SQL, Machine Learning, NLP, Node.js, Excel",AI & ML,14,7
+1297,Data Scientist,IBM,Noida,Entry-Level,Full-Time,"Node.js, SQL, Hadoop, MongoDB, Java",IT Services,11,12
+1298,Business Analyst,Amazon,Mumbai,Mid-Level,Full-Time,"Python, TensorFlow, React, Kubernetes, MongoDB",Software,22,7
+1299,Machine Learning Engineer,Tech Mahindra,Bangalore,Mid-Level,Full-Time,"TensorFlow, Spark, Node.js, Python, AWS",Cloud Computing,7,9
+1300,Software Engineer,Infosys,Hyderabad,Entry-Level,Full-Time,"TensorFlow, React, Git, Java, Kubernetes",IT Services,33,3
+1301,Machine Learning Engineer,Tech Mahindra,Mumbai,Entry-Level,Full-Time,"Spark, AWS, Git, Docker, Python",E-Commerce,25,11
+1302,Cloud Engineer,Deloitte,Gurgaon,Mid-Level,Full-Time,"Node.js, SQL, TensorFlow, AWS, MongoDB",IT Services,28,9
+1303,Full Stack Developer,Accenture,Chennai,Senior-Level,Full-Time,"Spring Boot, React, Docker, Deep Learning, Excel",FinTech,11,13
+1304,Backend Developer,Cognizant,Bangalore,Entry-Level,Full-Time,"Power BI, Java, Spring Boot, React, NLP",Software,11,1
+1305,Data Analyst,HCL,Bangalore,Senior-Level,Full-Time,"Excel, React, Hadoop, AWS, Python",FinTech,31,14
+1306,DevOps Engineer,Wipro,Bangalore,Mid-Level,Full-Time,"SQL, Hadoop, React, Docker, MongoDB",E-Commerce,21,1
+1307,Data Scientist,IBM,Noida,Entry-Level,Full-Time,"Git, MongoDB, Hadoop, Spring Boot, React",AI & ML,21,5
+1308,Machine Learning Engineer,Tech Mahindra,Hyderabad,Entry-Level,Full-Time,"MongoDB, Spring Boot, Git, Deep Learning, Tableau",EdTech,13,6
+1309,Data Scientist,Cognizant,Gurgaon,Senior-Level,Full-Time,"Kubernetes, Spring Boot, Docker, MongoDB, SQL",Cloud Computing,17,12
+1310,Business Analyst,Cognizant,Pune,Entry-Level,Full-Time,"Power BI, React, SQL, AWS, Spring Boot",IT Services,25,2
+1311,Software Engineer,Cognizant,Gurgaon,Senior-Level,Full-Time,"Spring Boot, Tableau, Git, Power BI, Spark",Consulting,24,6
+1312,Machine Learning Engineer,Wipro,Noida,Senior-Level,Full-Time,"Docker, TensorFlow, Spark, Java, Kubernetes",Cloud Computing,23,5
+1313,DevOps Engineer,Cognizant,Chennai,Mid-Level,Full-Time,"Git, Kubernetes, Node.js, Excel, Deep Learning",IT Services,13,10
+1314,Data Analyst,TCS,Chennai,Mid-Level,Full-Time,"Excel, Spring Boot, Power BI, MongoDB, Deep Learning",Consulting,19,9
+1315,Frontend Developer,Zoho,Noida,Entry-Level,Full-Time,"React, Java, Tableau, AWS, Deep Learning",IT Services,19,7
+1316,Cloud Engineer,Flipkart,Hyderabad,Entry-Level,Full-Time,"Docker, Python, Machine Learning, Spring Boot, Node.js",AI & ML,35,6
+1317,Software Engineer,HCL,Mumbai,Entry-Level,Full-Time,"Git, AWS, Spark, Spring Boot, Python",E-Commerce,13,10
+1318,DevOps Engineer,Amazon,Pune,Mid-Level,Full-Time,"Deep Learning, AWS, Hadoop, NLP, Excel",Software,12,1
+1319,Backend Developer,TCS,Pune,Mid-Level,Full-Time,"Python, Deep Learning, MongoDB, Machine Learning, NLP",Software,19,11
+1320,Software Engineer,Amazon,Chennai,Senior-Level,Full-Time,"TensorFlow, Hadoop, MongoDB, Tableau, Node.js",Software,35,13
+1321,Business Analyst,IBM,Hyderabad,Entry-Level,Full-Time,"TensorFlow, Tableau, Git, Java, Python",AI & ML,20,4
+1322,Data Analyst,IBM,Pune,Entry-Level,Full-Time,"TensorFlow, AWS, Hadoop, NLP, Tableau",AI & ML,28,4
+1323,Software Engineer,TCS,Noida,Entry-Level,Full-Time,"Hadoop, Power BI, Spark, Spring Boot, TensorFlow",FinTech,10,1
+1324,Data Scientist,Deloitte,Gurgaon,Senior-Level,Full-Time,"Java, Hadoop, Excel, Node.js, Spark",AI & ML,20,12
+1325,Software Engineer,Accenture,Pune,Mid-Level,Full-Time,"Java, SQL, Python, Excel, AWS",Software,18,7
+1326,Full Stack Developer,TCS,Noida,Senior-Level,Full-Time,"TensorFlow, Hadoop, Java, Kubernetes, Docker",E-Commerce,19,4
+1327,Cloud Engineer,Tech Mahindra,Pune,Senior-Level,Full-Time,"TensorFlow, AWS, Python, Git, Deep Learning",FinTech,25,12
+1328,Data Analyst,Deloitte,Pune,Mid-Level,Full-Time,"Node.js, TensorFlow, AWS, MongoDB, Java",FinTech,21,1
+1329,Full Stack Developer,Accenture,Noida,Senior-Level,Full-Time,"React, Spark, Power BI, SQL, Node.js",Consulting,28,3
+1330,Business Analyst,Infosys,Chennai,Senior-Level,Full-Time,"Power BI, Java, Spark, Docker, NLP",Consulting,25,3
+1331,Data Scientist,Capgemini,Mumbai,Entry-Level,Full-Time,"Java, Tableau, TensorFlow, React, Excel",Consulting,11,11
+1332,Backend Developer,Amazon,Noida,Mid-Level,Full-Time,"Machine Learning, AWS, Spark, SQL, Excel",E-Commerce,5,13
+1333,Backend Developer,HCL,Pune,Senior-Level,Full-Time,"React, Spark, AWS, MongoDB, TensorFlow",E-Commerce,12,1
+1334,Data Analyst,Wipro,Bangalore,Mid-Level,Full-Time,"Tableau, Docker, SQL, Kubernetes, AWS",E-Commerce,30,3
+1335,Frontend Developer,Infosys,Bangalore,Senior-Level,Full-Time,"Docker, Kubernetes, React, Python, AWS",Software,21,8
+1336,Business Analyst,Accenture,Pune,Senior-Level,Full-Time,"Git, Hadoop, Machine Learning, TensorFlow, Tableau",IT Services,34,2
+1337,Backend Developer,Deloitte,Chennai,Mid-Level,Full-Time,"NLP, Excel, React, TensorFlow, Docker",FinTech,15,4
+1338,Software Engineer,Zoho,Pune,Mid-Level,Full-Time,"MongoDB, Machine Learning, React, SQL, Spring Boot",Cloud Computing,5,5
+1339,DevOps Engineer,Flipkart,Hyderabad,Mid-Level,Full-Time,"React, SQL, TensorFlow, MongoDB, Python",IT Services,28,3
+1340,DevOps Engineer,HCL,Chennai,Senior-Level,Full-Time,"Excel, Power BI, Docker, Tableau, TensorFlow",Consulting,18,7
+1341,Cloud Engineer,Accenture,Mumbai,Entry-Level,Full-Time,"NLP, AWS, Spark, Machine Learning, Docker",E-Commerce,12,3
+1342,Data Analyst,Flipkart,Gurgaon,Entry-Level,Full-Time,"Docker, Deep Learning, TensorFlow, Machine Learning, Hadoop",EdTech,33,8
+1343,Full Stack Developer,Deloitte,Noida,Entry-Level,Full-Time,"React, Spring Boot, SQL, Deep Learning, Tableau",IT Services,11,5
+1344,Data Analyst,Flipkart,Pune,Entry-Level,Full-Time,"SQL, Machine Learning, Spring Boot, Kubernetes, React",Software,13,2
+1345,Data Analyst,Zoho,Noida,Entry-Level,Full-Time,"Kubernetes, Git, Hadoop, SQL, MongoDB",IT Services,17,11
+1346,Software Engineer,Cognizant,Gurgaon,Senior-Level,Full-Time,"Hadoop, AWS, Node.js, React, NLP",Consulting,6,3
+1347,Machine Learning Engineer,HCL,Gurgaon,Mid-Level,Full-Time,"MongoDB, Docker, Node.js, Git, Hadoop",FinTech,27,13
+1348,Cloud Engineer,Wipro,Noida,Entry-Level,Full-Time,"Kubernetes, Tableau, Spark, Docker, Node.js",AI & ML,29,9
+1349,Cloud Engineer,Wipro,Mumbai,Senior-Level,Full-Time,"TensorFlow, Machine Learning, Deep Learning, SQL, Spring Boot",FinTech,35,8
+1350,Software Engineer,IBM,Noida,Entry-Level,Full-Time,"Power BI, React, Python, SQL, Machine Learning",AI & ML,8,9
+1351,Frontend Developer,Flipkart,Mumbai,Mid-Level,Full-Time,"Git, AWS, Hadoop, TensorFlow, Deep Learning",Software,26,7
+1352,Cloud Engineer,Wipro,Pune,Mid-Level,Full-Time,"NLP, Kubernetes, Tableau, Spark, Docker",EdTech,12,3
+1353,Software Engineer,Amazon,Mumbai,Senior-Level,Full-Time,"MongoDB, Node.js, Machine Learning, SQL, Excel",Cloud Computing,27,9
+1354,Backend Developer,Amazon,Bangalore,Mid-Level,Full-Time,"Git, Kubernetes, Machine Learning, TensorFlow, Spring Boot",AI & ML,26,11
+1355,Business Analyst,Capgemini,Chennai,Mid-Level,Full-Time,"Power BI, Git, Deep Learning, Hadoop, Tableau",IT Services,22,5
+1356,Cloud Engineer,Flipkart,Bangalore,Senior-Level,Full-Time,"Power BI, Java, TensorFlow, Tableau, Python",Software,15,9
+1357,Full Stack Developer,TCS,Pune,Senior-Level,Full-Time,"Java, Hadoop, React, Docker, Tableau",Consulting,11,4
+1358,Data Scientist,IBM,Noida,Senior-Level,Full-Time,"SQL, Node.js, Excel, Hadoop, Java",Software,19,14
+1359,DevOps Engineer,Zoho,Bangalore,Senior-Level,Full-Time,"Machine Learning, Hadoop, Deep Learning, Power BI, TensorFlow",Consulting,15,13
+1360,Cloud Engineer,Wipro,Noida,Senior-Level,Full-Time,"Tableau, SQL, Python, Spring Boot, Git",EdTech,25,6
+1361,Cloud Engineer,HCL,Hyderabad,Mid-Level,Full-Time,"Deep Learning, MongoDB, Tableau, Spark, Power BI",IT Services,29,10
+1362,Business Analyst,Deloitte,Noida,Senior-Level,Full-Time,"Kubernetes, Excel, Python, Deep Learning, Docker",Cloud Computing,6,11
+1363,DevOps Engineer,Capgemini,Bangalore,Senior-Level,Full-Time,"AWS, Docker, Machine Learning, SQL, NLP",Software,18,9
+1364,Data Analyst,Infosys,Hyderabad,Entry-Level,Full-Time,"Python, Tableau, MongoDB, AWS, Git",Consulting,26,10
+1365,DevOps Engineer,Wipro,Mumbai,Mid-Level,Full-Time,"Node.js, SQL, NLP, Git, Power BI",E-Commerce,12,2
+1366,Backend Developer,Amazon,Pune,Mid-Level,Full-Time,"Git, Spark, Tableau, NLP, Kubernetes",Cloud Computing,26,3
+1367,Cloud Engineer,IBM,Noida,Senior-Level,Full-Time,"TensorFlow, MongoDB, Git, Docker, SQL",AI & ML,29,10
+1368,Data Analyst,Zoho,Bangalore,Entry-Level,Full-Time,"Kubernetes, Excel, AWS, Python, NLP",EdTech,7,12
+1369,Software Engineer,Capgemini,Chennai,Senior-Level,Full-Time,"Power BI, Spark, Python, Kubernetes, Spring Boot",Consulting,22,5
+1370,Backend Developer,HCL,Noida,Senior-Level,Full-Time,"Power BI, React, Docker, MongoDB, Excel",FinTech,32,11
+1371,DevOps Engineer,Flipkart,Pune,Entry-Level,Full-Time,"Spark, Docker, NLP, Excel, Git",Cloud Computing,34,13
+1372,Software Engineer,Cognizant,Pune,Entry-Level,Full-Time,"Git, TensorFlow, Deep Learning, Java, Spring Boot",Software,28,7
+1373,DevOps Engineer,Tech Mahindra,Chennai,Entry-Level,Full-Time,"Hadoop, Deep Learning, Docker, Python, NLP",E-Commerce,27,2
+1374,Cloud Engineer,Capgemini,Noida,Entry-Level,Full-Time,"Git, Power BI, Spring Boot, Excel, React",AI & ML,32,8
+1375,Software Engineer,Flipkart,Chennai,Senior-Level,Full-Time,"Hadoop, MongoDB, TensorFlow, Excel, Machine Learning",AI & ML,17,5
+1376,Cloud Engineer,Capgemini,Hyderabad,Entry-Level,Full-Time,"Hadoop, Kubernetes, SQL, MongoDB, Power BI",Cloud Computing,17,5
+1377,Data Analyst,Deloitte,Mumbai,Entry-Level,Full-Time,"Spark, Git, Tableau, TensorFlow, Python",Cloud Computing,32,14
+1378,Data Scientist,Amazon,Pune,Entry-Level,Full-Time,"Spark, Git, Power BI, MongoDB, Kubernetes",IT Services,24,4
+1379,DevOps Engineer,Cognizant,Hyderabad,Entry-Level,Full-Time,"Power BI, Excel, Tableau, Docker, React",AI & ML,15,6
+1380,Data Analyst,Infosys,Hyderabad,Mid-Level,Full-Time,"Git, TensorFlow, Deep Learning, Kubernetes, Hadoop",EdTech,8,13
+1381,Machine Learning Engineer,Capgemini,Hyderabad,Entry-Level,Full-Time,"Docker, Java, Spring Boot, Hadoop, React",Consulting,29,6
+1382,Data Analyst,Deloitte,Bangalore,Entry-Level,Full-Time,"TensorFlow, Excel, Machine Learning, AWS, Deep Learning",FinTech,14,11
+1383,Frontend Developer,HCL,Bangalore,Senior-Level,Full-Time,"NLP, Tableau, AWS, Excel, Deep Learning",AI & ML,32,5
+1384,Frontend Developer,Accenture,Pune,Entry-Level,Full-Time,"MongoDB, Java, AWS, Spring Boot, Power BI",IT Services,28,10
+1385,DevOps Engineer,Deloitte,Hyderabad,Mid-Level,Full-Time,"Hadoop, Excel, React, Machine Learning, TensorFlow",E-Commerce,27,14
+1386,DevOps Engineer,Capgemini,Chennai,Senior-Level,Full-Time,"Docker, Java, React, Spring Boot, Tableau",Software,31,3
+1387,Machine Learning Engineer,Amazon,Noida,Entry-Level,Full-Time,"NLP, Java, React, Power BI, MongoDB",Consulting,34,3
+1388,Data Analyst,Deloitte,Mumbai,Entry-Level,Full-Time,"Machine Learning, NLP, Excel, Spark, Tableau",E-Commerce,29,4
+1389,Machine Learning Engineer,Flipkart,Mumbai,Mid-Level,Full-Time,"MongoDB, Git, Machine Learning, Power BI, SQL",FinTech,27,5
+1390,Data Analyst,Zoho,Gurgaon,Mid-Level,Full-Time,"Hadoop, React, Docker, TensorFlow, SQL",EdTech,23,10
+1391,Frontend Developer,Tech Mahindra,Gurgaon,Entry-Level,Full-Time,"Excel, Hadoop, TensorFlow, Deep Learning, Python",Cloud Computing,15,9
+1392,Software Engineer,Amazon,Bangalore,Senior-Level,Full-Time,"Deep Learning, Machine Learning, React, Hadoop, Excel",IT Services,33,12
+1393,Data Scientist,Zoho,Chennai,Senior-Level,Full-Time,"SQL, NLP, Git, Tableau, Deep Learning",Consulting,31,9
+1394,Cloud Engineer,Zoho,Pune,Senior-Level,Full-Time,"Excel, MongoDB, AWS, React, TensorFlow",Software,18,10
+1395,Machine Learning Engineer,TCS,Pune,Mid-Level,Full-Time,"Machine Learning, Tableau, Git, React, Hadoop",AI & ML,20,14
+1396,Software Engineer,Zoho,Bangalore,Entry-Level,Full-Time,"Deep Learning, Excel, Spark, Python, Power BI",IT Services,19,7
+1397,Machine Learning Engineer,IBM,Chennai,Mid-Level,Full-Time,"Deep Learning, TensorFlow, Git, Python, Kubernetes",Consulting,15,9
+1398,Business Analyst,Tech Mahindra,Mumbai,Senior-Level,Full-Time,"MongoDB, Spark, Kubernetes, Docker, Java",FinTech,16,13
+1399,Data Analyst,Infosys,Noida,Mid-Level,Full-Time,"Python, Excel, Machine Learning, Kubernetes, React",AI & ML,29,14
+1400,Business Analyst,Cognizant,Chennai,Entry-Level,Full-Time,"Spark, SQL, NLP, Docker, React",Consulting,7,5
+1401,Data Analyst,HCL,Chennai,Entry-Level,Full-Time,"Spring Boot, Power BI, Tableau, Excel, React",FinTech,35,9
+1402,DevOps Engineer,HCL,Noida,Senior-Level,Full-Time,"SQL, Kubernetes, Java, TensorFlow, Hadoop",Cloud Computing,21,4
+1403,DevOps Engineer,HCL,Bangalore,Mid-Level,Full-Time,"Docker, AWS, MongoDB, Tableau, React",Software,22,7
+1404,Data Analyst,TCS,Pune,Entry-Level,Full-Time,"Excel, Hadoop, NLP, SQL, Power BI",IT Services,9,9
+1405,DevOps Engineer,Capgemini,Hyderabad,Mid-Level,Full-Time,"Tableau, MongoDB, Power BI, Git, Excel",AI & ML,29,13
+1406,Data Analyst,Infosys,Chennai,Entry-Level,Full-Time,"SQL, Java, Power BI, MongoDB, Tableau",Cloud Computing,30,6
+1407,Business Analyst,Tech Mahindra,Pune,Senior-Level,Full-Time,"Deep Learning, Spark, Kubernetes, Machine Learning, Tableau",Cloud Computing,13,6
+1408,Data Analyst,Infosys,Mumbai,Mid-Level,Full-Time,"MongoDB, Power BI, Deep Learning, Node.js, AWS",FinTech,18,7
+1409,Business Analyst,Wipro,Pune,Senior-Level,Full-Time,"SQL, Git, Tableau, Spark, MongoDB",Cloud Computing,20,8
+1410,Data Analyst,Accenture,Hyderabad,Mid-Level,Full-Time,"AWS, Python, Deep Learning, Git, Machine Learning",IT Services,34,1
+1411,Full Stack Developer,Accenture,Noida,Entry-Level,Full-Time,"Node.js, Deep Learning, Java, TensorFlow, Power BI",AI & ML,25,5
+1412,Data Analyst,IBM,Noida,Senior-Level,Full-Time,"SQL, Spark, Java, Kubernetes, TensorFlow",FinTech,34,14
+1413,Data Scientist,TCS,Bangalore,Senior-Level,Full-Time,"Machine Learning, Python, Node.js, Power BI, Spring Boot",Cloud Computing,6,2
+1414,Business Analyst,Accenture,Hyderabad,Senior-Level,Full-Time,"React, Machine Learning, Node.js, Kubernetes, Python",AI & ML,7,12
+1415,Software Engineer,Capgemini,Hyderabad,Entry-Level,Full-Time,"AWS, Spark, Hadoop, Python, MongoDB",EdTech,16,13
+1416,Full Stack Developer,Cognizant,Chennai,Mid-Level,Full-Time,"Node.js, Machine Learning, SQL, AWS, Power BI",AI & ML,15,7
+1417,Frontend Developer,Zoho,Pune,Mid-Level,Full-Time,"Excel, Power BI, Hadoop, Kubernetes, Python",EdTech,12,14
+1418,Data Scientist,Amazon,Noida,Mid-Level,Full-Time,"Python, Tableau, Spring Boot, SQL, Excel",AI & ML,20,1
+1419,Backend Developer,Wipro,Hyderabad,Entry-Level,Full-Time,"Docker, MongoDB, Tableau, Java, Spring Boot",EdTech,31,7
+1420,Frontend Developer,Tech Mahindra,Noida,Mid-Level,Full-Time,"Spark, Spring Boot, Excel, Python, NLP",IT Services,17,4
+1421,Full Stack Developer,HCL,Bangalore,Mid-Level,Full-Time,"SQL, Machine Learning, Java, Excel, Hadoop",Software,12,10
+1422,Data Scientist,Cognizant,Gurgaon,Senior-Level,Full-Time,"Kubernetes, TensorFlow, AWS, Docker, Java",Cloud Computing,28,10
+1423,Software Engineer,Capgemini,Hyderabad,Mid-Level,Full-Time,"Git, Tableau, Spring Boot, Kubernetes, Hadoop",AI & ML,27,9
+1424,Data Scientist,Deloitte,Pune,Mid-Level,Full-Time,"TensorFlow, Git, Python, Node.js, Tableau",FinTech,21,1
+1425,Data Analyst,Capgemini,Mumbai,Entry-Level,Full-Time,"SQL, Node.js, MongoDB, Kubernetes, Spark",EdTech,5,14
+1426,Backend Developer,Accenture,Chennai,Mid-Level,Full-Time,"Git, Spring Boot, Machine Learning, Power BI, Kubernetes",E-Commerce,6,4
+1427,Frontend Developer,IBM,Pune,Mid-Level,Full-Time,"Tableau, SQL, React, Python, Hadoop",IT Services,17,3
+1428,Data Analyst,HCL,Hyderabad,Senior-Level,Full-Time,"Git, SQL, Python, TensorFlow, Deep Learning",AI & ML,17,2
+1429,Data Scientist,Tech Mahindra,Bangalore,Senior-Level,Full-Time,"Machine Learning, Spring Boot, Docker, NLP, Hadoop",EdTech,9,2
+1430,Data Analyst,Accenture,Bangalore,Senior-Level,Full-Time,"Deep Learning, Docker, React, Python, Excel",EdTech,20,5
+1431,DevOps Engineer,Zoho,Noida,Entry-Level,Full-Time,"Hadoop, Docker, TensorFlow, Node.js, Spring Boot",Software,29,14
+1432,DevOps Engineer,Infosys,Chennai,Entry-Level,Full-Time,"Python, SQL, Power BI, Deep Learning, Excel",E-Commerce,30,10
+1433,Backend Developer,Cognizant,Gurgaon,Mid-Level,Full-Time,"Power BI, SQL, Deep Learning, React, Hadoop",Cloud Computing,34,14
+1434,Data Scientist,TCS,Noida,Mid-Level,Full-Time,"SQL, Kubernetes, Hadoop, Machine Learning, Node.js",EdTech,24,6
+1435,Full Stack Developer,Accenture,Noida,Senior-Level,Full-Time,"Tableau, Machine Learning, Git, Spring Boot, Spark",FinTech,25,3
+1436,Data Scientist,Accenture,Pune,Entry-Level,Full-Time,"Tableau, Machine Learning, SQL, Hadoop, Kubernetes",AI & ML,21,2
+1437,Cloud Engineer,Tech Mahindra,Pune,Senior-Level,Full-Time,"Hadoop, MongoDB, Git, Power BI, Java",EdTech,12,13
+1438,Frontend Developer,Deloitte,Pune,Mid-Level,Full-Time,"TensorFlow, AWS, Tableau, NLP, Docker",FinTech,17,9
+1439,Machine Learning Engineer,Zoho,Pune,Mid-Level,Full-Time,"React, Python, AWS, SQL, Docker",EdTech,31,5
+1440,Software Engineer,Wipro,Pune,Entry-Level,Full-Time,"Docker, MongoDB, Hadoop, React, NLP",E-Commerce,15,5
+1441,Data Scientist,Accenture,Bangalore,Entry-Level,Full-Time,"React, MongoDB, Kubernetes, Python, NLP",IT Services,13,10
+1442,Cloud Engineer,Wipro,Noida,Mid-Level,Full-Time,"React, Power BI, Spark, Hadoop, Git",E-Commerce,5,2
+1443,Machine Learning Engineer,Cognizant,Chennai,Entry-Level,Full-Time,"Docker, Spring Boot, Machine Learning, React, Spark",AI & ML,8,13
+1444,Data Analyst,Deloitte,Chennai,Entry-Level,Full-Time,"Git, Power BI, Docker, Node.js, AWS",AI & ML,35,4
+1445,Data Scientist,Capgemini,Noida,Senior-Level,Full-Time,"Machine Learning, Excel, SQL, Hadoop, Spark",Software,10,8
+1446,Cloud Engineer,HCL,Bangalore,Senior-Level,Full-Time,"Kubernetes, Node.js, Hadoop, Python, TensorFlow",EdTech,14,1
+1447,Data Analyst,Capgemini,Noida,Mid-Level,Full-Time,"Java, NLP, AWS, Spark, MongoDB",Cloud Computing,10,10
+1448,Machine Learning Engineer,Deloitte,Bangalore,Mid-Level,Full-Time,"Tableau, Power BI, Git, SQL, Node.js",EdTech,6,7
+1449,Business Analyst,Amazon,Gurgaon,Mid-Level,Full-Time,"AWS, Kubernetes, Power BI, Tableau, Spring Boot",Consulting,6,11
+1450,Software Engineer,Flipkart,Pune,Entry-Level,Full-Time,"TensorFlow, Power BI, Excel, Spark, Docker",Consulting,19,11
+1451,Backend Developer,Capgemini,Pune,Mid-Level,Full-Time,"Hadoop, Spark, Docker, Machine Learning, Spring Boot",E-Commerce,24,10
+1452,Data Scientist,Cognizant,Noida,Mid-Level,Full-Time,"Spark, Git, MongoDB, NLP, Excel",Software,17,2
+1453,Cloud Engineer,Deloitte,Pune,Entry-Level,Full-Time,"Node.js, Spring Boot, Java, Hadoop, NLP",E-Commerce,27,7
+1454,Cloud Engineer,Tech Mahindra,Gurgaon,Mid-Level,Full-Time,"TensorFlow, Spark, Deep Learning, MongoDB, Docker",IT Services,15,3
+1455,Machine Learning Engineer,TCS,Mumbai,Entry-Level,Full-Time,"Spark, Tableau, Kubernetes, AWS, Power BI",Cloud Computing,15,8
+1456,Data Analyst,Cognizant,Pune,Senior-Level,Full-Time,"Node.js, Git, NLP, Python, Excel",Consulting,5,1
+1457,Backend Developer,IBM,Mumbai,Mid-Level,Full-Time,"SQL, Machine Learning, Kubernetes, NLP, Python",AI & ML,19,1
+1458,Data Scientist,Infosys,Bangalore,Entry-Level,Full-Time,"Hadoop, TensorFlow, Power BI, Git, React",EdTech,17,7
+1459,Cloud Engineer,Tech Mahindra,Pune,Mid-Level,Full-Time,"Spring Boot, Hadoop, Machine Learning, TensorFlow, Git",E-Commerce,17,8
+1460,Data Scientist,IBM,Pune,Mid-Level,Full-Time,"Kubernetes, Python, Docker, Java, SQL",Cloud Computing,34,7
+1461,DevOps Engineer,Cognizant,Bangalore,Mid-Level,Full-Time,"Machine Learning, Hadoop, Excel, Deep Learning, NLP",IT Services,23,8
+1462,Frontend Developer,Flipkart,Mumbai,Mid-Level,Full-Time,"Java, Spark, Docker, Deep Learning, Git",EdTech,20,8
+1463,Data Analyst,Zoho,Chennai,Senior-Level,Full-Time,"Power BI, Excel, MongoDB, Git, SQL",AI & ML,13,2
+1464,Frontend Developer,Capgemini,Bangalore,Entry-Level,Full-Time,"MongoDB, Deep Learning, Node.js, Hadoop, Git",FinTech,11,2
+1465,Software Engineer,Accenture,Mumbai,Entry-Level,Full-Time,"Kubernetes, Excel, Hadoop, Python, Spring Boot",E-Commerce,19,10
+1466,Business Analyst,Cognizant,Mumbai,Mid-Level,Full-Time,"MongoDB, AWS, Deep Learning, Git, Docker",EdTech,27,14
+1467,Data Scientist,Tech Mahindra,Bangalore,Mid-Level,Full-Time,"Power BI, NLP, AWS, Kubernetes, Git",Software,28,4
+1468,Data Analyst,Accenture,Hyderabad,Mid-Level,Full-Time,"Node.js, SQL, MongoDB, Docker, Spark",Cloud Computing,22,13
+1469,Machine Learning Engineer,Accenture,Chennai,Senior-Level,Full-Time,"AWS, MongoDB, Spark, NLP, Excel",Cloud Computing,10,9
+1470,Frontend Developer,Zoho,Hyderabad,Senior-Level,Full-Time,"React, SQL, Docker, TensorFlow, MongoDB",FinTech,19,5
+1471,Cloud Engineer,Accenture,Hyderabad,Senior-Level,Full-Time,"Python, Machine Learning, Excel, Kubernetes, Tableau",E-Commerce,34,9
+1472,DevOps Engineer,HCL,Hyderabad,Mid-Level,Full-Time,"Kubernetes, Power BI, Spark, Git, Node.js",AI & ML,22,10
+1473,DevOps Engineer,TCS,Mumbai,Entry-Level,Full-Time,"AWS, React, Kubernetes, Deep Learning, Node.js",Software,16,4
+1474,Machine Learning Engineer,Tech Mahindra,Bangalore,Entry-Level,Full-Time,"React, TensorFlow, Docker, Deep Learning, SQL",Cloud Computing,22,4
+1475,Machine Learning Engineer,Zoho,Mumbai,Senior-Level,Full-Time,"Java, TensorFlow, Deep Learning, NLP, Machine Learning",FinTech,32,11
+1476,Full Stack Developer,TCS,Mumbai,Senior-Level,Full-Time,"NLP, Kubernetes, Node.js, Python, Git",Software,11,5
+1477,Frontend Developer,Amazon,Noida,Senior-Level,Full-Time,"Tableau, Power BI, MongoDB, Python, Deep Learning",Consulting,24,14
+1478,Data Analyst,Infosys,Pune,Senior-Level,Full-Time,"Tableau, Node.js, AWS, TensorFlow, Machine Learning",E-Commerce,32,2
+1479,Machine Learning Engineer,Accenture,Hyderabad,Senior-Level,Full-Time,"Excel, SQL, Kubernetes, Power BI, TensorFlow",AI & ML,22,12
+1480,Software Engineer,HCL,Pune,Mid-Level,Full-Time,"Java, Spring Boot, TensorFlow, Docker, Python",AI & ML,34,5
+1481,Full Stack Developer,Cognizant,Mumbai,Entry-Level,Full-Time,"TensorFlow, React, Power BI, Tableau, MongoDB",FinTech,34,1
+1482,Data Scientist,Amazon,Hyderabad,Senior-Level,Full-Time,"TensorFlow, Docker, SQL, Python, AWS",Consulting,29,11
+1483,Machine Learning Engineer,Flipkart,Hyderabad,Mid-Level,Full-Time,"Excel, Python, Tableau, SQL, Node.js",IT Services,15,8
+1484,Frontend Developer,Cognizant,Bangalore,Mid-Level,Full-Time,"NLP, AWS, MongoDB, Spark, Tableau",E-Commerce,22,9
+1485,Cloud Engineer,Amazon,Chennai,Entry-Level,Full-Time,"Hadoop, Spark, Python, Docker, Spring Boot",IT Services,35,3
+1486,Business Analyst,Capgemini,Mumbai,Mid-Level,Full-Time,"AWS, MongoDB, Tableau, Python, Hadoop",Software,31,5
+1487,Frontend Developer,Accenture,Chennai,Entry-Level,Full-Time,"React, TensorFlow, Machine Learning, Spark, Git",Software,22,7
+1488,Backend Developer,Tech Mahindra,Chennai,Mid-Level,Full-Time,"AWS, React, Excel, Deep Learning, NLP",AI & ML,20,8
+1489,Machine Learning Engineer,Capgemini,Bangalore,Entry-Level,Full-Time,"Spring Boot, Excel, Machine Learning, Spark, Git",Software,10,2
+1490,Business Analyst,IBM,Gurgaon,Senior-Level,Full-Time,"Spark, Tableau, Deep Learning, AWS, Spring Boot",Cloud Computing,19,5
+1491,Frontend Developer,Flipkart,Noida,Senior-Level,Full-Time,"Machine Learning, AWS, MongoDB, Spark, Kubernetes",AI & ML,30,11
+1492,Software Engineer,Wipro,Gurgaon,Entry-Level,Full-Time,"Spark, Java, Docker, Spring Boot, React",AI & ML,32,11
+1493,Data Analyst,Accenture,Gurgaon,Senior-Level,Full-Time,"NLP, Docker, Node.js, TensorFlow, Java",AI & ML,17,5
+1494,Business Analyst,Tech Mahindra,Chennai,Entry-Level,Full-Time,"SQL, Java, Hadoop, Spark, MongoDB",E-Commerce,21,11
+1495,Data Analyst,Tech Mahindra,Gurgaon,Entry-Level,Full-Time,"SQL, Node.js, Spring Boot, React, NLP",AI & ML,9,2
+1496,Software Engineer,Amazon,Pune,Entry-Level,Full-Time,"AWS, MongoDB, Docker, Spark, Hadoop",Software,33,7
+1497,Full Stack Developer,Infosys,Noida,Mid-Level,Full-Time,"Excel, Kubernetes, Java, Machine Learning, Git",AI & ML,31,6
+1498,Backend Developer,Infosys,Hyderabad,Entry-Level,Full-Time,"Tableau, Machine Learning, Deep Learning, Hadoop, Docker",IT Services,34,13
+1499,Full Stack Developer,Cognizant,Pune,Mid-Level,Full-Time,"AWS, Docker, Deep Learning, Spring Boot, Machine Learning",AI & ML,23,14
+1500,Data Scientist,Amazon,Pune,Senior-Level,Full-Time,"TensorFlow, Power BI, Java, Hadoop, Git",E-Commerce,10,11
