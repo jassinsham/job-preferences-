@@ -168,6 +168,141 @@ MOCK_JOB_DATA = [
         "experience_level": "Senior",
         "education": "Ph.D.",
         "trend_score": 99
+    },
+    {
+        "id": "job_016",
+        "role": "Cybersecurity Analyst",
+        "company": "SecureNet",
+        "required_skills": ["python", "sql", "aws", "docker", "communication"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 93
+    },
+    {
+        "id": "job_017",
+        "role": "UI/UX Developer",
+        "company": "DesignHub",
+        "required_skills": ["html", "css", "javascript", "communication", "agile"],
+        "experience_level": "Entry Level",
+        "education": "Bachelor's",
+        "trend_score": 88
+    },
+    {
+        "id": "job_018",
+        "role": "Product Manager",
+        "company": "Tech Ventures",
+        "required_skills": ["agile", "scrum", "leadership", "communication", "data analysis"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 95
+    },
+    {
+        "id": "job_019",
+        "role": "QA Automation Engineer",
+        "company": "Quality First",
+        "required_skills": ["python", "java", "javascript", "sql", "agile"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 87
+    },
+    {
+        "id": "job_020",
+        "role": "Blockchain Developer",
+        "company": "Crypto Solutions",
+        "required_skills": ["go", "c++", "javascript", "node.js"],
+        "experience_level": "Senior",
+        "education": "Master's",
+        "trend_score": 91
+    },
+    {
+        "id": "job_021",
+        "role": "Game Developer",
+        "company": "Pixel Studios",
+        "required_skills": ["c#", "c++", "agile"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 86
+    },
+    {
+        "id": "job_022",
+        "role": "Embedded Systems Engineer",
+        "company": "Hardware Tech",
+        "required_skills": ["c++", "python", "agile"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 82
+    },
+    {
+        "id": "job_023",
+        "role": "Cloud Architect",
+        "company": "SkyNet Systems",
+        "required_skills": ["aws", "docker", "kubernetes", "python", "leadership"],
+        "experience_level": "Senior",
+        "education": "Master's",
+        "trend_score": 97
+    },
+    {
+        "id": "job_024",
+        "role": "Database Administrator",
+        "company": "Data Fortress",
+        "required_skills": ["sql", "aws", "python", "agile"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 85
+    },
+    {
+        "id": "job_025",
+        "role": "Network Engineer",
+        "company": "Connect IT",
+        "required_skills": ["aws", "python", "communication"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 83
+    },
+    {
+        "id": "job_026",
+        "role": "Marketing Analytics Manager",
+        "company": "Growth Engine",
+        "required_skills": ["data analysis", "sql", "python", "pandas", "leadership"],
+        "experience_level": "Senior",
+        "education": "Master's",
+        "trend_score": 89
+    },
+    {
+        "id": "job_027",
+        "role": "Scrum Master",
+        "company": "Agile Dynamics",
+        "required_skills": ["agile", "scrum", "leadership", "communication"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 88
+    },
+    {
+        "id": "job_028",
+        "role": "Technical Writer",
+        "company": "DocuSignage",
+        "required_skills": ["html", "css", "communication", "git"],
+        "experience_level": "Entry Level",
+        "education": "Bachelor's",
+        "trend_score": 79
+    },
+    {
+        "id": "job_029",
+        "role": "Systems Administrator",
+        "company": "IT Core",
+        "required_skills": ["python", "aws", "docker", "sql"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 84
+    },
+    {
+        "id": "job_030",
+        "role": "Full Stack Python Developer",
+        "company": "Web Solutions",
+        "required_skills": ["python", "django", "javascript", "react", "sql", "html", "css"],
+        "experience_level": "Mid Level",
+        "education": "Bachelor's",
+        "trend_score": 94
     }
 ]
 
