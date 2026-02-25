@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Analytics | Find Your Next Role</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- SVG Icons inline so we don't need external JS/Font libraries -->
+    <style>
+        svg.icon {
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: middle;
+            fill: currentColor;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path
+                        d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+                </svg>
+                Job<span>Analytics</span>
+            </a>
+            <nav class="header-nav">
+                <a href="#">Search Jobs</a>
+                <a href="#">Salary</a>
+                <a href="#" style="color: var(--accent); font-weight: 600;">Match Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Job Seekers</h4>
+                <a href="#">Search Jobs</a>
+                <a href="#">Salary Tools</a>
+                <a href="#">Resume Help</a>
+            </div>
+            <div class="footer-column">
+                <h4>Employers</h4>
+                <a href="#">Post a Job</a>
+                <a href="#">Recruiting Solutions</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <a href="#">Company</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 JobAnalyticsPlatform. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

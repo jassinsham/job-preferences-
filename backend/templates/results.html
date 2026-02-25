@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="results-header">
+    <h2 style="margin:0; font-size: 1.5rem;">Analysis Results for: <span
+            style="font-weight: 500; color: var(--text-secondary);">{{ filename }}</span></h2>
+    <a href="/" class="btn btn-secondary">Upload Another Resume</a>
+</div>
+
+<div class="results-grid">
+    <!-- Sidebar: Your Skills -->
+    <div class="card" style="position: sticky; top: 100px;">
+        <div style="margin-bottom: 2rem;">
+            <div class="filter-group">
+                <label>Distance</label>
+                <select class="filter-select">
+                    <option>Within 25 miles</option>
+                    <option>Within 50 miles</option>
+                    <option>Remote only</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Job Type</label>
+                <select class="filter-select">
+                    <option>Full-Time</option>
+                    <option>Contract</option>
+                    <option>Part-Time</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Date Posted</label>
+                <select class="filter-select">
+                    <option>Any Time</option>
+                    <option>Past 24 Hours</option>
+                    <option>Past Week</option>
+                </select>
+            </div>
+
+            <button class="btn btn-secondary" style="width: 100%; padding: 10px;">Apply Filters</button>
+        </div>
+
+        <h2 style="display:flex; align-items:center; gap: 8px;">
+            <svg class="icon" viewBox="0 0 24 24" style="color: var(--accent);">
+                <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+            </svg>
+            Extracted Skills
+        </h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">We identified these core
+            technical skills from your document.</p>
+
+        <div class="badge-container">
+            {% if extracted_skills %}
+            {% for skill in extracted_skills %}
+            <span class="badge">{{ skill | capitalize }}</span>
+            {% endfor %}
+            {% else %}
+            <div class="empty-skills">
+                <p style="color: var(--error); font-weight: 600; margin-top:0;">No technical skills identified.</p>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">Profiles with clear
+                    tech skills receive 3x more interview requests.</p>
+                <a href="/" class="btn btn-secondary"
+                    style="text-decoration:none; display:inline-block; font-size: 0.9rem; padding: 8px 16px;">Try
+                    Another Resume</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Main Content: Job Matches -->
+    <div>
+        <h2 style="margin-bottom: 1.5rem; display:flex; align-items:center; gap: 8px;">
+            <svg class="icon" viewBox="0 0 24 24" style="color: var(--accent);">
+                <path
+                    d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+            </svg>
+            Top Job Recommendations
+        </h2>
+
+        <ul class="jobs-list">
+            {% for match in analysis %}
+            <li class="job-item">
+                <div class="job-header">
+                    <div>
+                        <h3 class="job-title">{{ match.role }}</h3>
+                        <div class="company-name">{{ match.company }}</div>
+                    </div>
+                    <div class="match-score-pill">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                        {{ match.match_percentage }}% Match
+                    </div>
+                </div>
+
+                <div>
+                    <span class="skill-label">Required Skills You Have:</span>
+                    <div class="badge-container">
+                        {% for have in match.matched_skills %}
+                        <span class="badge have">{{ have | capitalize }}</span>
+                        {% endfor %}
+                        {% if not match.matched_skills %}
+                        <span style="font-size: 0.85rem; color: var(--text-secondary);">None</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="missing-skills-section">
+                    <span class="skill-label">Missing Skills:</span>
+                    <div class="badge-container">
+                        {% if match.missing_skills %}
+                        {% for ms in match.missing_skills %}
+                        <span class="badge missing">{{ ms | capitalize }}</span>
+                        {% endfor %}
+                        {% else %}
+                        <span style="font-size: 0.9rem; color: var(--success); font-weight: 500;">You meet all listed
+                            requirements!</span>
+                        {% endif %}
+                    </div>
+
+                    {% if match.recommendations and match.missing_skills %}
+                    <div class="recommendation-alert">
+                        <strong>Recommendation:</strong> {{ match.recommendations[0] }}
+                    </div>
+                    {% endif %}
+                </div>
+
+                <div class="job-actions">
+                    <button class="btn-apply">1-Click Apply</button>
+                    <button class="btn-save">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path
+                                d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z" />
+                        </svg>
+                        Save Job
+                    </button>
+                </div>
+            </li>
+            {% endfor %}
+            {% if not analysis %}
+            <li class="card text-center" style="padding: 3rem;">
+                <h3 style="margin-bottom: 0.5rem; color: var(--text-secondary);">No Matching Jobs Found</h3>
+                <p>We couldn't find any positions matching your specified skillset in our current database.</p>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

@@ -1,4 +1,6 @@
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Request
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from services.resume_parser import extract_text_from_pdf, extract_text_from_docx, extract_skills
@@ -11,6 +13,9 @@ from utils.init_db import init_db_data
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Job Analytics & Resume Matcher API")
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
 @app.on_event("startup")
 def startup_event():
@@ -28,8 +33,8 @@ app.add_middleware(
 )
 
 @app.get("/")
-def read_root():
-    return {"message": "Welcome to Job Analytics & Resume Matcher API"}
+def read_root(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
 
 @app.get("/api/trends")
 def get_trends(db: Session = Depends(get_db)):
@@ -45,10 +50,10 @@ def get_trends(db: Session = Depends(get_db)):
         } for job in jobs
     ]
 
-@app.post("/api/upload_resume")
-async def upload_resume(file: UploadFile = File(...), db: Session = Depends(get_db)):
+@app.post("/upload_resume")
+async def upload_resume_ui(request: Request, file: UploadFile = File(...), db: Session = Depends(get_db)):
     if not file.filename.endswith(('.pdf', '.docx')):
-        raise HTTPException(status_code=400, detail="Invalid file type. Only PDF and DOCX are supported.")
+        return templates.TemplateResponse("index.html", {"request": request, "error": "Invalid file type. Only PDF and DOCX are supported."})
     
     try:
         file_bytes = await file.read()
@@ -58,16 +63,16 @@ async def upload_resume(file: UploadFile = File(...), db: Session = Depends(get_
             text = extract_text_from_docx(file_bytes)
             
         if not text.strip():
-            raise HTTPException(status_code=400, detail="Could not extract text from the provided file.")
+            return templates.TemplateResponse("index.html", {"request": request, "error": "Could not extract text from the provided file."})
             
         skills = extract_skills(text)
         analysis_results = analyze_resume_against_market(skills, db)
         
-        return {
-            "status": "success",
+        return templates.TemplateResponse("results.html", {
+            "request": request,
             "filename": file.filename,
             "extracted_skills": skills,
             "analysis": analysis_results
-        }
+        })
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        return templates.TemplateResponse("index.html", {"request": request, "error": str(e)})
