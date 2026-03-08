@@ -2,10 +2,22 @@
 
 {% block content %}
 <div class="container" style="max-width: 1200px; margin-top: 2rem;">
-    <div class="results-header">
-        <h2 style="margin:0; font-size: 1.5rem;">Analysis Results for: <span
-                style="font-weight: 500; color: var(--text-secondary);">{{ filename }}</span></h2>
-        <a href="/" class="btn btn-secondary">Upload Another Resume</a>
+    <div class="results-header"
+        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <div>
+            {% if is_historical %}
+            <div
+                style="display: inline-block; background: rgba(14, 165, 233, 0.1); color: var(--accent); padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; margin-bottom: 8px; border: 1px solid rgba(14, 165, 233, 0.2);">
+                HISTORICAL REPORT
+            </div>
+            {% endif %}
+            <h2 style="margin:0; font-size: 1.8rem; font-weight: 800;">Analysis Results for: <span
+                    style="font-weight: 500; color: var(--text-secondary);">{{ filename }}</span></h2>
+        </div>
+        <div style="display: flex; gap: 12px;">
+            <a href="/dashboard" class="btn btn-secondary" style="padding: 10px 20px;">Back to Dashboard</a>
+            <a href="/" class="btn" style="padding: 10px 20px;">New Scan</a>
+        </div>
     </div>
 
     <div class="results-grid">
@@ -16,6 +28,11 @@
                 <input type="hidden" name="extracted_skills" value="{{ extracted_skills | join(',') }}">
                 <input type="hidden" name="education" value="{{ education }}">
                 <input type="hidden" name="experience" value="{{ experience }}">
+                <input type="hidden" name="email" value="{{ personal_info.email if personal_info else 'None' }}">
+                <input type="hidden" name="phone" value="{{ personal_info.phone if personal_info else 'None' }}">
+                <input type="hidden" name="internships" value="{{ 'True' if internships else 'False' }}">
+                <input type="hidden" name="certificates" value="{{ 'True' if certificates else 'False' }}">
+                <input type="hidden" name="projects" value="{{ 'True' if projects else 'False' }}">
 
                 <h3
                     style="margin-top: 0; font-size: 1.1rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 1.5rem;">
@@ -103,54 +120,154 @@
             </div>
 
             <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed var(--border-color);">
-                <h3 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Extracted Education</h3>
+                <h3 style="font-size: 1rem; margin-bottom: 0.5rem; color: var(--text-primary);">Personal Info</h3>
+                <div style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+                    <strong>Email:</strong> {{ personal_info.email if personal_info else 'Not Found' }}<br>
+                    <strong>Phone:</strong> {{ personal_info.phone if personal_info else 'Not Found' }}
+                </div>
+
+                <h3 style="font-size: 1rem; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--text-primary);">
+                    Extracted Education</h3>
                 <span class="badge" style="background: #f1f5f9;">{{ education }}</span>
 
                 <h3 style="font-size: 1rem; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--text-primary);">
                     Extracted Experience Level</h3>
                 <span class="badge" style="background: #f1f5f9;">{{ experience }}</span>
+
+                <h3 style="font-size: 1rem; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--text-primary);">
+                    Additional Profile Data</h3>
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    {% if internships %}
+                    <span class="badge" style="background: #e0f2fe; color: #0284c7;">Internships</span>
+                    {% endif %}
+                    {% if certificates %}
+                    <span class="badge" style="background: #e0f2fe; color: #0284c7;">Certificates</span>
+                    {% endif %}
+                    {% if projects %}
+                    <span class="badge" style="background: #e0f2fe; color: #0284c7;">Projects</span>
+                    {% endif %}
+                    {% if not internships and not certificates and not projects %}
+                    <span style="font-size: 0.85rem; color: var(--text-secondary);">No additional data extracted
+                        (internships, certificates, projects).</span>
+                    {% endif %}
+                </div>
             </div>
+
+            <!-- Skill Gap Radar Chart -->
+            {% if chart_data and chart_data.radar_labels %}
+            <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px dashed var(--border-color);">
+                <h3 style="font-size: 1rem; margin-bottom: 1rem; color: var(--text-primary);">Skill Gap Analysis</h3>
+                <div
+                    style="background: var(--bg-color); border-radius: 8px; padding: 1rem; border: 1px solid var(--border-color);">
+                    <canvas id="skillRadarChart" width="100" height="100"></canvas>
+                </div>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.5rem; text-align: center;">
+                    Comparing your skills vs. the top matched roles.
+                </p>
+            </div>
+            {% endif %}
         </div>
 
         <!-- Main Content: Job Matches -->
         <div>
-            <h2 style="margin-bottom: 1.5rem; display:flex; align-items:center; gap: 8px;">
-                <svg class="icon" viewBox="0 0 24 24" style="color: var(--accent);">
-                    <path
-                        d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
-                </svg>
-                Top Job Recommendations
-            </h2>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                <h2 style="margin: 0; display:flex; align-items:center; gap: 8px;">
+                    <svg class="icon" viewBox="0 0 24 24" style="color: var(--accent);">
+                        <path
+                            d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
+                    </svg>
+                    Top Job Recommendations
+                </h2>
+
+                <div class="view-toggle"
+                    style="display: flex; gap: 8px; background: var(--panel-bg); padding: 4px; border-radius: 8px; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(12px);">
+                    <button id="listViewBtn" title="List View"
+                        style="background: var(--bg-color); border: 1px solid var(--border-color); padding: 6px; border-radius: 6px; cursor: pointer; color: var(--text-primary); display: flex; transition: 0.2s;">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path
+                                d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z" />
+                        </svg>
+                    </button>
+                    <button id="gridViewBtn" title="Grid View"
+                        style="background: transparent; border: 1px solid transparent; padding: 6px; border-radius: 6px; cursor: pointer; color: var(--text-secondary); display: flex; transition: 0.2s;">
+                        <svg class="icon" viewBox="0 0 24 24">
+                            <path
+                                d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Salary Distribution Chart -->
+            {% if chart_data and chart_data.salary_labels %}
+            <div class="card" style="margin-bottom: 2rem; padding: 1rem 1.5rem;">
+                <h3
+                    style="font-size: 1rem; margin-top: 0; margin-bottom: 1rem; color: var(--text-primary); display: flex; justify-content: space-between; align-items: center;">
+                    Salary Distribution (LPA)
+                    <span style="font-size: 0.8rem; font-weight: normal; color: var(--text-secondary);">Top 20
+                        Matches</span>
+                </h3>
+                <div style="height: 120px; width: 100%;">
+                    <canvas id="salaryBarChart"></canvas>
+                </div>
+            </div>
+            {% endif %}
 
             <ul class="jobs-list">
                 {% for match in analysis %}
                 <li class="job-item">
                     <div class="job-header">
                         <div style="display: flex; gap: 1rem; align-items: flex-start;">
-                            <img src="https://logo.clearbit.com/{{ match.company | lower | replace(' ', '') }}.com"
+                            <img src="https://www.google.com/s2/favicons?domain={{ match.company | lower | replace(' ', '') }}.com&sz=128"
                                 onerror="this.src='https://ui-avatars.com/api/?name={{ match.company | urlencode }}&background=0f8b8d&color=fff&size=64'"
-                                alt="{{ match.company }} logo" class="company-logo">
+                                alt="{{ match.company }} logo" class="company-logo"
+                                style="width: 48px; height: 48px; border-radius: 6px; object-fit: contain; background: white; padding: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
                             <div>
-                                <h3 class="job-title">{{ match.role }}</h3>
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <h3 class="job-title">{{ match.role }}</h3>
+                                    {% if match.trend_score and match.trend_score > 85 %}
+                                    <span
+                                        style="background: #fff0f0; color: #e11d48; border: 1px solid #fecdd3; padding: 2px 8px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; display: flex; align-items: center; gap: 4px; box-shadow: 0 2px 4px rgba(225,29,72,0.1);">
+                                        <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                            <path
+                                                d="M19.48,13.03C19.48,13.03 19.48,13.03 19.48,13.03C19.48,14.6 18.25,16.58 16.32,18.06C14.39,19.54 11.9,20.45 9.4,20.45C6.9,20.45 4.41,19.54 2.48,18.06C0.55,16.58 -0.68,14.6 -0.68,13.03C-0.68,11.45 0.55,9.47 2.48,8C4.41,6.52 6.9,5.61 9.4,5.61C11.9,5.61 14.39,6.52 16.32,8C18.25,9.47 19.48,11.45 19.48,13.03Z"
+                                                opacity="0.2" />
+                                            <path
+                                                d="M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66-1.33-1.33-1.89-3.23-1.54-5.06.06-.32-.26-.58-.55-.42-1.93 1.05-3.32 2.87-3.9 4.96-.13.47-.22.95-.27 1.44-.06.5.15.99.55 1.28.33.24.77.29 1.15.2.35-.09.68-.25.96-.46.33-.24.62-.51.87-.81.42-.51.78-1.08 1.13-1.63-.09.34-.23.67-.42.97-.24.39-.54.74-.88 1.05-.33.31-.7.58-1.09.81-.39.23-.8.41-1.22.54-.42.13-.86.22-1.3.26-.44.04-.89.04-1.34 0-.44-.04-.88-.13-1.3-.26-.42-.14-.83-.32-1.22-.55-.39-.23-.76-.51-1.09-.81-.34-.31-.64-.66-.88-1.05-.24-.39-.44-.81-.59-1.25-.15-.44-.26-.9-.31-1.36-.05-.46-.06-.93-.02-1.4.04-.47.14-.93.28-1.38C3.06 6.13 2.16 7.42 1.62 8.87c-.54 1.45-.73 3.03-.54 4.59.19 1.56.78 3.05 1.7 4.31.92 1.26 2.15 2.25 3.58 2.88 1.43.63 3 .95 4.59.95 1.59 0 3.16-.32 4.59-.95 1.43-.63 2.66-1.62 3.58-2.88.92-1.26 1.51-2.75 1.7-4.31.19-1.56 0-3.14-.54-4.59-.1-.28-.22-.56-.35-.83z" />
+                                        </svg>
+                                        Hot Job
+                                    </span>
+                                    {% endif %}
+                                </div>
                                 <div class="company-name">{{ match.company }}</div>
                             </div>
                         </div>
-                        <div class="match-score-pill">
-                            <svg class="icon" viewBox="0 0 24 24">
-                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                            </svg>
-                            {{ match.match_percentage }}% Match
-                            {{ match.match_percentage }}% Match
+                        <div class="match-score-pill"
+                            title="Score Breakdown:&#10;Skills: {{ match.sub_scores.skills }}/50&#10;Experience: {{ match.sub_scores.experience }}/15&#10;Education: {{ match.sub_scores.education }}/10&#10;Internships: {{ match.sub_scores.internships }}/5&#10;Certificates: {{ match.sub_scores.certificates }}/10&#10;Projects: {{ match.sub_scores.projects }}/10"
+                            style="background: transparent; padding:0; box-shadow: none; position: relative; cursor: help;">
+                            <div style="display: flex; flex-direction: column; align-items: center; gap: 4px;">
+                                <div
+                                    style="width: 60px; height: 60px; border-radius: 50%; background: conic-gradient(var(--success) {{ match.match_percentage }}%, #e2e8f0 0); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);">
+                                    <div
+                                        style="width: 46px; height: 46px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; color: var(--success);">
+                                        {{ match.match_percentage }}%
+                                    </div>
+                                </div>
+                                <span
+                                    style="font-size: 0.7rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px;">Match</span>
+                            </div>
                         </div>
                     </div>
 
                     <div
-                        style="margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-secondary); display: flex; gap: 1rem;">
-                        <span><strong style="color:var(--text-primary)">Req. Education:</strong> {{ match.education
+                        style="margin-bottom: 1.5rem; font-size: 0.85rem; color: var(--text-secondary); display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                        <span><strong style="color:var(--text-primary)">Qualifications:</strong> {{ match.education
                             }}</span>
-                        <span><strong style="color:var(--text-primary)">Req. Experience:</strong> {{
-                            match.experience_level
-                            }}</span>
+                        <span><strong style="color:var(--text-primary)">Salary:</strong> {% if match.salary_lpa and
+                            match.salary_lpa != 'None' and match.salary_lpa|trim != '' %}₹{{
+                            match.salary_lpa|replace('LPA', '')|trim }} LPA{% else %}Not Specified{% endif %}</span>
+                        <span><strong style="color:var(--text-primary)">Contact:</strong> {{ match.phone_number if
+                            match.phone_number and match.phone_number != 'None' else 'Not Available' }}</span>
                     </div>
 
                     <div>
@@ -159,7 +276,18 @@
                             {% for have in match.matched_skills %}
                             <span class="badge have">{{ have | capitalize }}</span>
                             {% endfor %}
-                            {% if not match.matched_skills %}
+
+                            {% if current_filters.internships == 'True' or internships %}
+                            <span class="badge have"
+                                style="background: #e0f2fe; color: #0284c7; border: 1px solid #bae6fd;">Internships</span>
+                            {% endif %}
+
+                            {% if current_filters.certificates == 'True' or certificates %}
+                            <span class="badge have"
+                                style="background: #e0f2fe; color: #0284c7; border: 1px solid #bae6fd;">Certificates</span>
+                            {% endif %}
+
+                            {% if not match.matched_skills and not internships and not certificates %}
                             <span style="font-size: 0.85rem; color: var(--text-secondary);">None</span>
                             {% endif %}
                         </div>
@@ -186,9 +314,41 @@
                         {% endif %}
                     </div>
 
-                    <div class="job-actions">
-                        <button class="btn-apply">1-Click Apply</button>
-                        <button class="btn-save">
+                    <div class="score-bars"
+                        style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px dashed var(--border-color); display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem;">
+                        {% set max_scores = {'skills': 50, 'experience': 15, 'education': 10, 'internships': 5,
+                        'certificates': 10, 'projects': 10} %}
+                        {% for category, score in match.sub_scores.items() %}
+                        <div class="score-bar-container">
+                            <div
+                                style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 6px; color: var(--text-secondary);">
+                                <span style="text-transform: capitalize; font-weight: 500;">{{ category }}</span>
+                                <span style="font-weight: 700;">{{ score }}/{{ max_scores[category] }}</span>
+                            </div>
+                            <div
+                                style="width: 100%; height: 6px; background: #e2e8f0; border-radius: 3px; overflow: hidden;">
+                                <div class="animated-bar"
+                                    style="height: 100%; background: var(--accent); width: 0%; border-radius: 3px; transition: width 1.5s cubic-bezier(0.1, 0.9, 0.2, 1);"
+                                    data-target-width="{{ (score / max_scores[category] * 100) | round if max_scores[category] > 0 else 0 }}%">
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="job-actions" style="display: flex; gap: 8px;">
+                        <a href="https://www.google.com/search?q=apply+for+{{ match.role | urlencode }}+at+{{ match.company | urlencode }}"
+                            target="_blank" class="btn-save"
+                            style="background-color: var(--accent); color: white; text-align: center; text-decoration: none; flex: 1;">
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Apply Now
+                        </a>
+                        <button class="btn-save" style="flex: 1;" onclick="saveJob('{{ match.id }}', this)">
                             <svg class="icon" viewBox="0 0 24 24">
                                 <path
                                     d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z" />
@@ -205,7 +365,227 @@
                 </li>
                 {% endif %}
             </ul>
+            <!-- Desktop action button for PDF export -->
+            <button id="downloadPdfBtn"
+                style="position: fixed; bottom: 2rem; right: 2rem; background: var(--accent); color: white; border: none; padding: 12px 24px; border-radius: 30px; font-weight: 600; font-family: 'Inter', sans-serif; cursor: pointer; box-shadow: 0 4px 12px rgba(15, 139, 141, 0.3); display: flex; align-items: center; gap: 8px; z-index: 100; transition: transform 0.2s, background 0.2s;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Export Report
+            </button>
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // --- View Toggle Logic ---
+        const listViewBtn = document.getElementById('listViewBtn');
+        const gridViewBtn = document.getElementById('gridViewBtn');
+        const jobsList = document.querySelector('.jobs-list');
+
+        // Active/inactive button styles
+        const activeBg = 'var(--bg-color)';
+        const activeBorder = 'var(--border-color)';
+        const activeColor = 'var(--text-primary)';
+
+        const inactiveBg = 'transparent';
+        const inactiveBorder = 'transparent';
+        const inactiveColor = 'var(--text-secondary)';
+
+        function setListView() {
+            if (!jobsList) return;
+            jobsList.classList.remove('grid-view');
+
+            listViewBtn.style.background = activeBg;
+            listViewBtn.style.borderColor = activeBorder;
+            listViewBtn.style.color = activeColor;
+
+            gridViewBtn.style.background = inactiveBg;
+            gridViewBtn.style.borderColor = inactiveBorder;
+            gridViewBtn.style.color = inactiveColor;
+
+            localStorage.setItem('preferredView', 'list');
+        }
+
+        function setGridView() {
+            if (!jobsList) return;
+            jobsList.classList.add('grid-view');
+
+            gridViewBtn.style.background = activeBg;
+            gridViewBtn.style.borderColor = activeBorder;
+            gridViewBtn.style.color = activeColor;
+
+            listViewBtn.style.background = inactiveBg;
+            listViewBtn.style.borderColor = inactiveBorder;
+            listViewBtn.style.color = inactiveColor;
+
+            localStorage.setItem('preferredView', 'grid');
+        }
+
+        if (listViewBtn && gridViewBtn) {
+            listViewBtn.addEventListener('click', setListView);
+            gridViewBtn.addEventListener('click', setGridView);
+
+            // Load preference
+            if (localStorage.getItem('preferredView') === 'grid') {
+                setGridView();
+            }
+        }
+
+        // --- Animate Progress Bars Logic ---
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bar = entry.target;
+                    bar.style.width = bar.getAttribute('data-target-width');
+                    observer.unobserve(bar);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animated-bar').forEach(bar => {
+            observer.observe(bar);
+        });
+
+        // --- Chart.js Initializations ---
+        {% if chart_data %}
+
+        // Setup CSS variables for charts
+        const rootStyles = getComputedStyle(document.documentElement);
+        const textColor = rootStyles.getPropertyValue('--text-primary').trim() || '#1e263c';
+        const gridColor = rootStyles.getPropertyValue('--border-color').trim() || '#e4e7ea';
+        const accentColor = rootStyles.getPropertyValue('--accent').trim() || '#0f8b8d';
+
+        // 1. Skill Gap Radar Chart
+        const radarCtx = document.getElementById('skillRadarChart');
+        if (radarCtx) {
+            new Chart(radarCtx, {
+                type: 'radar',
+                data: {
+                    labels: {{ chart_data.radar_labels | safe }},
+        datasets: [{
+            label: 'Market Demand',
+            data: {{ chart_data.radar_market | safe }},
+        backgroundColor: 'rgba(100, 116, 139, 0.2)',
+        borderColor: 'rgba(100, 116, 139, 0.8)',
+        pointBackgroundColor: 'rgba(100, 116, 139, 1)',
+        borderWidth: 2,
+                    }, {
+            label: 'Your Resume',
+            data: {{ chart_data.radar_user | safe }},
+        backgroundColor: 'rgba(15, 139, 141, 0.4)',
+        borderColor: accentColor,
+        pointBackgroundColor: accentColor,
+        borderWidth: 2,
+                    }]
+                },
+        options: {
+        responsive: true,
+        scales: {
+            r: {
+                angleLines: { color: gridColor },
+                grid: { color: gridColor },
+                pointLabels: { color: textColor, font: { size: 10, family: 'Inter' } },
+                ticks: { display: false, max: Math.max(...{{ chart_data.radar_market | safe }}) + 1 }
+                        }
+                    },
+    plugins: {
+        legend: { position: 'bottom', labels: { color: textColor, font: { size: 10, family: 'Inter' }, usePointStyle: true, boxWidth: 8 } }
+    }
+                }
+            });
+        }
+
+    // 2. Salary Distribution Bar Chart
+    const barCtx = document.getElementById('salaryBarChart');
+    if (barCtx) {
+        new Chart(barCtx, {
+            type: 'bar',
+            data: {
+                labels: {{ chart_data.salary_labels | safe }},
+    datasets: [{
+        label: 'Number of Jobs',
+        data: {{ chart_data.salary_data | safe }},
+        backgroundColor: accentColor,
+        borderRadius: 4,
+        barPercentage: 0.6
+                    }]
+                },
+    options: {
+        responsive: true,
+            maintainAspectRatio: false,
+                scales: {
+            x: { grid: { display: false }, ticks: { color: textColor, font: { family: 'Inter' } } },
+            y: { grid: { color: gridColor }, ticks: { stepSize: 1, color: textColor, font: { family: 'Inter' } }, beginAtZero: true }
+        },
+        plugins: {
+            legend: { display: false }
+        }
+    }
+            });
+        }
+
+    {% endif %}
+
+    // --- PDF Export Logic ---
+    const downloadBtn = document.getElementById('downloadPdfBtn');
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', function () {
+            // Add a temporary class to format for PDF if needed
+            document.body.classList.add('exporting-pdf');
+            const originalText = downloadBtn.innerHTML;
+            downloadBtn.innerHTML = 'Generating...';
+
+            // Hide view toggle during export
+            const viewToggle = document.querySelector('.view-toggle');
+            if (viewToggle) viewToggle.style.display = 'none';
+
+            const element = document.querySelector('.main-content');
+
+            const opt = {
+                margin: [0.5, 0.5, 0.5, 0.5],
+                filename: 'job_analytics_report.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, useCORS: true, logging: false },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+
+            html2pdf().set(opt).from(element).save().then(() => {
+                document.body.classList.remove('exporting-pdf');
+                downloadBtn.innerHTML = originalText;
+                if (viewToggle) viewToggle.style.display = 'flex';
+            });
+        });
+    }
+
+    // --- Save Job Logic ---
+    window.saveJob = function (jobId, btn) {
+        fetch('/save_job/' + jobId, { method: 'POST' })
+            .then(res => {
+                if (res.status === 401) {
+                    alert('Please login to save jobs.');
+                    window.location.href = '/login';
+                    return;
+                }
+                return res.json();
+            })
+            .then(data => {
+                if (data && (data.status === 'success' || data.status === 'already_saved')) {
+                    btn.innerHTML = '✓ Saved';
+                    btn.style.backgroundColor = '#e2e8f0';
+                    btn.style.color = 'var(--text-secondary)';
+                    btn.style.borderColor = '#cbd5e1';
+                    btn.disabled = true;
+                    btn.style.cursor = 'default';
+                }
+            })
+            .catch(err => console.error('Error saving job:', err));
+    };
+});
+</script>
 {% endblock %}
+```

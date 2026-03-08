@@ -51,7 +51,7 @@ def extract_resume_data(text: str) -> dict:
     elif re.search(r'\b(bachelor\'?s?|bs|b\.?s\.?|ba|b\.?a\.?)\b', text_lower):
         education_level = "Bachelor's"
         
-    # Simple heuristic for Years of Experience
+    # Simple heuristic for Experience Level
     experience_level = "Entry Level" # Default
     # Look for patterns like "5 years of experience", "5+ years", etc.
     exp_matches = re.findall(r'(\d+)\+?\s*years?', text_lower)
@@ -63,8 +63,35 @@ def extract_resume_data(text: str) -> dict:
         elif max_years >= 2:
             experience_level = "Mid Level"
             
+    # Extract Email
+    email_match = re.search(r'[\w\.-]+@[\w\.-]+\.\w+', text)
+    email = email_match.group(0) if email_match else "None"
+
+    # Extract Phone Number (Common formats)
+    phone_match = re.search(r'\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}', text)
+    phone = phone_match.group(0) if phone_match else "None"
+
+    # Extract Internships (Simple heuristic)
+    has_internship = False
+    if re.search(r'\b(intern|internship)\b', text_lower):
+        has_internship = True
+
+    # Extract Certificates (Simple heuristic)
+    has_certificate = False
+    if re.search(r'\b(certif|coursera|udemy|edx)\b', text_lower):
+        has_certificate = True
+
+    # Extract Projects (Simple heuristic)
+    has_project = False
+    if re.search(r'\b(project|github|developed|created)\b', text_lower):
+        has_project = True
+
     return {
+        "personal_info": {"email": email, "phone": phone},
         "skills": list(found_skills),
         "education": education_level,
-        "experience": experience_level
+        "experience": experience_level,
+        "internships": has_internship,
+        "certificates": has_certificate,
+        "projects": has_project
     }

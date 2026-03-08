@@ -1,26 +1,77 @@
 from sqlalchemy.orm import Session
 from models.job import Job
 
-def calculate_match(resume_skills: list[str], job_skills: list[str]) -> dict:
+def calculate_match(resume_data: dict, job: Job) -> dict:
     """
-    Compares the skills extracted from the resume against the required skills for a job.
-    Returns the match percentage and missing skills.
+    Compares the full resume data against the job requirements.
+    Weights: 
+      - Skills Match: 50%
+      - Experience Level Match: 15%
+      - Education Match: 10%
+      - Internships Present: 5%
+      - Certificates Present: 10%
+      - Projects Present: 10%
     """
-    resume_skills_set = set(s.lower() for s in resume_skills)
-    job_skills_set = set(s.lower() for s in job_skills)
+    
+    # 1. Skills (50%)
+    resume_skills_set = set(s.lower() for s in resume_data.get("skills", []))
+    job_skills_list = [s.strip() for s in job.required_skills.split(",")] if job.required_skills else []
+    job_skills_set = set(s.lower() for s in job_skills_list)
     
     if not job_skills_set:
-        return {"match_percentage": 0, "matched_skills": [], "missing_skills": []}
+        skill_score = 50.0  # Perfect score if no skills required
+        matched_skills = []
+        missing_skills = []
+    else:
+        matched_skills = list(resume_skills_set.intersection(job_skills_set))
+        missing_skills = list(job_skills_set.difference(resume_skills_set))
+        skill_score = (len(matched_skills) / len(job_skills_set)) * 50.0
 
-    matched_skills = list(resume_skills_set.intersection(job_skills_set))
-    missing_skills = list(job_skills_set.difference(resume_skills_set))
+    # 2. Experience Level (15%)
+    exp_weights = {"Entry Level": 1, "Mid Level": 2, "Senior": 3}
+    res_exp_val = exp_weights.get(resume_data.get("experience"), 1)
+    job_exp_val = exp_weights.get(job.experience_level, 1)
     
-    match_percentage = round((len(matched_skills) / len(job_skills_set)) * 100, 2)
+    if res_exp_val >= job_exp_val:
+        exp_score = 15.0  # Meets or exceeds
+    elif job_exp_val - res_exp_val == 1:
+        exp_score = 7.5   # One level below
+    else:
+        exp_score = 0.0   # Two levels below
+        
+    # 3. Education Match (10%)
+    edu_weights = {"High School": 1, "Bachelor's": 2, "Master's": 3, "Ph.D.": 4, "Not Specified": 0}
+    res_edu_val = edu_weights.get(resume_data.get("education"), 0)
+    job_edu_val = edu_weights.get(job.education, 0)
     
+    if res_edu_val >= job_edu_val or job_edu_val == 0:
+        edu_score = 10.0
+    else:
+        edu_score = 5.0 # Give partial credit
+
+    # 4. Internships Present (5%)
+    intern_score = 5.0 if resume_data.get("internships", False) else 0.0
+    
+    # 5. Certificates Present (10%)
+    cert_score = 10.0 if resume_data.get("certificates", False) else 0.0
+    
+    # 6. Projects Present (10%)
+    proj_score = 10.0 if resume_data.get("projects", False) else 0.0
+
+    match_percentage = round(skill_score + exp_score + edu_score + intern_score + cert_score + proj_score, 1)
+
     return {
         "match_percentage": match_percentage,
         "matched_skills": matched_skills,
         "missing_skills": missing_skills,
+        "sub_scores": {
+            "skills": round(skill_score, 1),
+            "experience": round(exp_score, 1),
+            "education": round(edu_score, 1),
+            "internships": round(intern_score, 1),
+            "certificates": round(cert_score, 1),
+            "projects": round(proj_score, 1)
+        },
         "recommendations": generate_recommendations(missing_skills)
     }
 
@@ -306,7 +357,7 @@ MOCK_JOB_DATA = [
     }
 ]
 
-def analyze_resume_against_market(resume_skills: list[str], db: Session, filters: dict = None) -> list[dict]:
+def analyze_resume_against_market(resume_data: dict, db: Session, filters: dict = None) -> list[dict]:
     results = []
     
     query = db.query(Job)
@@ -337,14 +388,17 @@ def analyze_resume_against_market(resume_skills: list[str], db: Session, filters
     jobs = query.all()
     
     for job in jobs:
-        # Convert comma separated string to list
-        required_skills = [s.strip() for s in job.required_skills.split(",")] if job.required_skills else []
-        
-        match_info = calculate_match(resume_skills, required_skills)
+        match_info = calculate_match(resume_data, job)
         results.append({
             "job_id": job.id,
             "role": job.role,
             "company": job.company,
+            "location": job.location,
+            "employment_type": job.employment_type,
+            "experience_level": job.experience_level,
+            "education": job.education,
+            "salary_lpa": job.salary_lpa,
+            "phone_number": job.phone_number,
             "trend_score": job.trend_score,
             **match_info
         })
