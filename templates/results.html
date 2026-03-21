@@ -47,21 +47,6 @@
                 </div>
 
                 <div class="filter-group">
-                    <label>Job Type</label>
-                    <select class="filter-select" name="employment_type"
-                        onchange="document.getElementById('filterForm').submit();">
-                        <option value="Any" {% if not current_filters or current_filters.employment_type=='Any'
-                            %}selected{% endif %}>Any Type</option>
-                        <option value="Full-Time" {% if current_filters and current_filters.employment_type=='Full-Time'
-                            %}selected{% endif %}>Full-Time</option>
-                        <option value="Contract" {% if current_filters and current_filters.employment_type=='Contract'
-                            %}selected{% endif %}>Contract</option>
-                        <option value="Part-time" {% if current_filters and current_filters.employment_type=='Part-time'
-                            %}selected{% endif %}>Part-time</option>
-                    </select>
-                </div>
-
-                <div class="filter-group">
                     <label>Location Preference</label>
                     <select class="filter-select" name="location"
                         onchange="document.getElementById('filterForm').submit();">
@@ -73,19 +58,6 @@
                             endif %}>Hybrid</option>
                         <option value="On-site" {% if current_filters and current_filters.location=='On-site'
                             %}selected{% endif %}>On-site</option>
-                    </select>
-                </div>
-
-                <div class="filter-group">
-                    <label>Date Posted</label>
-                    <select class="filter-select" name="date_posted"
-                        onchange="document.getElementById('filterForm').submit();">
-                        <option value="Any" {% if not current_filters or current_filters.date_posted=='Any' %}selected{%
-                            endif %}>Any Time</option>
-                        <option value="Past 24 Hours" {% if current_filters and
-                            current_filters.date_posted=='Past 24 Hours' %}selected{% endif %}>Past 24 Hours</option>
-                        <option value="Past Week" {% if current_filters and current_filters.date_posted=='Past Week'
-                            %}selected{% endif %}>Past Week</option>
                     </select>
                 </div>
 
