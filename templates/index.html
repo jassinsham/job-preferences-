@@ -1,78 +1,83 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="hero-banner animate-fade"
-    style="background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(79, 70, 229, 0.85)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80') center/cover; padding: 8rem 2rem 14rem 2rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+<div class="hero-banner" style="padding-bottom: 12rem;">
+    <video autoplay loop muted playsinline class="hero-video">
+        <source
+            src="https://assets.mixkit.co/videos/preview/mixkit-business-people-having-a-meeting-in-a-modern-office-4601-large.mp4"
+            type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-        <h1
-            style="font-size: 4rem; letter-spacing: -0.02em; font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; background: linear-gradient(to right, #ffffff, #a5b4fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-            Unlock your true career potential.</h1>
-        <p
-            style="font-size: 1.35rem; color: #e2e8f0; font-weight: 500; max-width: 650px; margin: 0 auto; line-height: 1.6;">
-            Upload your resume to instantly see which roles match your exact skills and experience.</p>
+        <h1>Find the job that's right for you.</h1>
+        <p>Upload your resume to instantly see which roles match your exact skills and experience.</p>
     </div>
 </div>
 
 <div class="container upload-overlap" style="margin-top: -10rem;">
-    <div class="features-grid" style="margin-bottom: 3rem;">
-        <div class="feature-card animate-slide"
-            style="animation-delay: 0.1s; border: 1px solid var(--border-color); border-radius: 20px; box-shadow: var(--glass-shadow); overflow: hidden;">
-            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
-                alt="Tech Resume" class="feature-img" style="height: 180px;">
-            <div class="feature-content"
-                style="padding: 1.5rem; background: var(--panel-bg); backdrop-filter: blur(10px);">
-                <h3 style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Instant Missing Skills
-                    Analysis</h3>
-                <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Upload your resume and
-                    instantly see which critical keywords you are missing for the roles you want.</p>
+    <div class="features-grid" style="margin-bottom: 2rem;">
+        <div class="feature-card animate-slide" style="animation-delay: 0.1s;">
+            <video autoplay loop muted playsinline class="feature-img">
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-code-4563-large.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="feature-content">
+                <h3>Instant Missing Skills Analysis</h3>
+                <p>Upload your resume and instantly see which critical keywords you are missing for the roles you want.
+                </p>
             </div>
         </div>
-        <div class="feature-card animate-slide"
-            style="animation-delay: 0.2s; border: 1px solid var(--border-color); border-radius: 20px; box-shadow: var(--glass-shadow); overflow: hidden;">
-            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
-                alt="Team Collaboration" class="feature-img" style="height: 180px;">
-            <div class="feature-content"
-                style="padding: 1.5rem; background: var(--panel-bg); backdrop-filter: blur(10px);">
-                <h3 style="font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">1-Click Role Matching
-                </h3>
-                <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Stop guessing. We'll show
-                    you exactly which jobs in our database you are most qualified for based on your background.</p>
+        <div class="feature-card animate-slide" style="animation-delay: 0.2s;">
+            <video autoplay loop muted playsinline class="feature-img">
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-startup-team-discussing-something-on-a-laptop-4485-large.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="feature-content">
+                <h3>1-Click Role Matching</h3>
+                <p>Stop guessing. We'll show you exactly which jobs in our database you are most qualified for based on
+                    your background.</p>
+            </div>
+        </div>
+        <div class="feature-card animate-slide" style="animation-delay: 0.3s;">
+            <video autoplay loop muted playsinline class="feature-img">
+                <source
+                    src="https://assets.mixkit.co/videos/preview/mixkit-young-professionals-working-on-a-laptop-4559-large.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="feature-content">
+                <h3>Perfect for Freshers</h3>
+                <p>Launch your career with confidence. We identify entry-level roles that precisely value your academic
+                    projects and raw talent.</p>
             </div>
         </div>
     </div>
 
-    <div class="upload-card animate-scale"
-        style="border: 1px solid rgba(255, 255, 255, 0.15); background: var(--panel-bg); backdrop-filter: blur(24px); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); border-radius: 32px; padding: 4rem 3rem; text-align: center;">
+    <div class="upload-card">
         <form action="/upload_resume" method="post" enctype="multipart/form-data">
-            <label for="fileUpload" class="upload-area"
-                style="border: 2px dashed rgba(79, 70, 229, 0.3); background: rgba(79, 70, 229, 0.02); border-radius: 20px; padding: 4rem 2rem; transition: all 0.3s ease; display: block; margin-bottom: 2rem; cursor: pointer;">
+            <label for="fileUpload" class="upload-area">
                 <svg class="icon" viewBox="0 0 24 24"
-                    style="width: 56px; height: 56px; color: var(--accent); margin-bottom: 1rem; filter: drop-shadow(0 4px 6px rgba(79, 70, 229, 0.3));">
+                    style="width: 48px; height: 48px; color: var(--accent); margin-bottom: 1rem;">
                     <path
                         d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z" />
                 </svg>
-                <h3 style="margin:0 0 8px 0; font-weight: 700; font-size: 1.25rem; color: var(--text-primary);">Drag and
-                    drop your resume here</h3>
-                <span style="color: var(--text-secondary); font-size: 0.95rem;">Supports PDF and DOCX files up to
+                <h3 style="margin:0 0 8px 0;">Drag and drop your resume here</h3>
+                <span style="color: var(--text-secondary); font-size: 0.9rem;">Supports PDF and DOCX files up to
                     10MB</span>
                 <div class="file-input-wrapper" style="margin-top: 2rem; display:block;">
                     <input type="file" id="fileUpload" name="file" accept=".pdf,.docx" required>
-                    <span class="btn btn-secondary"
-                        style="border-radius: 10px; font-weight: 600; padding: 10px 24px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">Browse
-                        Files</span>
+                    <span class="btn btn-secondary">Browse Files</span>
                 </div>
             </label>
 
             <button type="submit" class="btn"
-                style="width: 100%; padding: 18px; font-size: 1.15rem; margin-top: 1rem; border-radius: 16px; font-weight: 700; background: var(--accent-gradient); text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.4); border: none; transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s;">
-                Analyze My Resume
-            </button>
+                style="width: 100%; padding: 16px; font-size: 1.15rem; margin-top: 1rem;">Analyze My Resume</button>
         </form>
 
         {% if error %}
-        <div class="error-message"
-            style="margin-top: 1.5rem; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); color: #ef4444; border-radius: 12px; padding: 12px; font-weight: 600; display: flex; align-items: center; justify-content: center;">
-            <svg class="icon" viewBox="0 0 24 24" style="margin-right:8px; width: 20px; height: 20px;">
+        <div class="error-message">
+            <svg class="icon" viewBox="0 0 24 24" style="margin-right:8px;">
                 <path
                     d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
             </svg>
