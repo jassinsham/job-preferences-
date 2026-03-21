@@ -9,309 +9,437 @@
             <h1
                 style="margin: 0; font-size: 2.8rem; font-weight: 800; background: linear-gradient(135deg, var(--accent), #14b8a6); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; letter-spacing: -1px;">
                 Career Intelligence
-            </h1>
-            <p style="color: var(--text-secondary); margin-top: 0.75rem; font-size: 1.15rem; font-weight: 500;">
-                Personalized insights and historical performance tracking.
-            </p>
-        </div>
-        <div
-            style="text-align: right; background: rgba(15, 139, 141, 0.05); padding: 1rem 1.5rem; border-radius: 16px; border: 1px solid rgba(15, 139, 141, 0.1);">
-            <div
-                style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">
-                Account</div>
-            <div style="font-weight: 700; color: var(--text-primary); font-size: 1.1rem;">{{ user.email }}</div>
-        </div>
-    </div>
-
-    <!-- Stats Row -->
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 3rem;">
-        <div class="card animate-slide"
-            style="padding: 2rem; text-align: center; animation-delay: 0.1s; border-radius: 20px;">
-            <div style="font-size: 3rem; font-weight: 800; color: var(--accent); line-height: 1;">{{ saved_jobs|length
-                }}</div>
-            <div style="color: var(--text-secondary); font-size: 1rem; font-weight: 600; margin-top: 0.5rem;">Saved Jobs
-            </div>
-        </div>
-        <div class="card animate-slide"
-            style="padding: 2rem; text-align: center; animation-delay: 0.2s; border-radius: 20px;">
-            <div style="font-size: 3rem; font-weight: 800; color: #8b5cf6; line-height: 1;">{{ stats.total_analyses }}
-            </div>
-            <div style="color: var(--text-secondary); font-size: 1rem; font-weight: 600; margin-top: 0.5rem;">Reports
-                Generated</div>
-        </div>
-        <div class="card animate-slide"
-            style="padding: 2rem; text-align: center; animation-delay: 0.3s; border-radius: 20px;">
-            <div style="font-size: 3rem; font-weight: 800; color: #f59e0b; line-height: 1;">{{ stats.avg_match }}%</div>
-            <div style="color: var(--text-secondary); font-size: 1rem; font-weight: 600; margin-top: 0.5rem;">Avg.
-                Compatibility</div>
-        </div>
-    </div>
-
-    <!-- Chart & Markets Row -->
-    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2.5rem; margin-bottom: 3rem;">
-        {% if trend_data %}
-        <div class="card animate-fade" style="padding: 2.5rem; border-radius: 24px;">
-            <h2
-                style="font-size: 1.4rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 12px; font-weight: 800;">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5">
-                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                </svg>
-                Compatibility History
-            </h2>
-            <div style="height: 250px; width: 100%;">
-                <canvas id="trendChart"></canvas>
-            </div>
-        </div>
-        {% endif %}
-
-        <!-- Market Trends -->
-        <div class="card animate-slide"
-            style="padding: 2rem; border-radius: 24px; background: linear-gradient(135deg, rgba(15, 139, 141, 0.05), transparent);">
-            <h2
-                style="font-size: 1.3rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px; font-weight: 800;">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2.5">
-                    <path d="M12 2v20M2 12h20" />
-                </svg>
-                Market Patterns
-            </h2>
-
-            <div style="margin-bottom: 1.5rem;">
-                <div
-                    style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 12px; letter-spacing: 0.5px;">
-                    Trending Skills</div>
-                <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-                    {% for skill, count in market_insights.top_skills %}
-                    <span
-                        style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; padding: 4px 10px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">
-                        {{ skill }} <small style="opacity: 0.6; font-weight: 400;">({{ count }})</small>
-                    </span>
-                    {% endfor %}
+                <!-- Dashboard Header -->
+                <div class="dashboard-header glass-header"
+                    style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; background: var(--panel-bg); padding: 1.5rem 2.5rem; border-radius: 20px; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(16px);">
+                    <div>
+                        <h1
+                            style="margin: 0; font-size: 2.2rem; font-weight: 800; background: var(--accent-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+                            Welcome back, {{ user.name }}</h1>
+                        <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary); font-size: 1.05rem;">Here is your
+                            personalized career analytics overview.</p>
+                    </div>
+                    <div style="display: flex; gap: 12px;">
+                        <a href="/" class="btn"
+                            style="padding: 10px 24px; font-weight: 600; border-radius: 12px; background: var(--accent-gradient); border: none; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);">New
+                            Resume Scan</a>
+                        <a href="/logout" class="btn-secondary"
+                            style="padding: 10px 20px; border-radius: 12px; font-weight: 600; color: var(--text-secondary); border: 1px solid var(--border-color); background: transparent;">Sign
+                            Out</a>
+                    </div>
                 </div>
-            </div>
 
-            <div>
-                <div
-                    style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 12px; letter-spacing: 0.5px;">
-                    Peak Compensation</div>
-                {% for item in market_insights.top_roles %}
-                <div
-                    style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: 0.9rem;">
-                    <span
-                        style="font-weight: 600; color: var(--text-primary); max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{
-                        item.role }}</span>
-                    <span style="font-weight: 800; color: var(--accent);">{{ item.salary }} LPA</span>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-
-    <!-- Main Content Grid -->
-    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2.5rem; align-items: start;">
-
-        <!-- Left: Saved Jobs -->
-        <section>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
-                <h2
-                    style="font-size: 1.6rem; margin: 0; display: flex; align-items: center; gap: 12px; font-weight: 800;">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
-                        stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-                    </svg>
-                    Saved Opportunities
-                </h2>
-                <a href="/search" class="btn btn-secondary" style="font-size: 0.9rem; padding: 8px 16px;">Browse All</a>
-            </div>
-
-            {% if saved_jobs %}
-            <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
-                {% for saved in saved_jobs %}
-                <div class="job-item animate-scale" id="job-{{ saved.job_id }}" style="margin-bottom: 0;">
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                <!-- Quick Stats Row -->
+                <div class="stats-row"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+                    <div class="stat-card animate-slide"
+                        style="animation-delay: 0.1s; background: var(--panel-bg); border-radius: 20px; padding: 1.5rem 2rem; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: space-between;">
                         <div>
-                            <h3 style="margin: 0; font-size: 1.25rem; font-weight: 700; color: var(--text-primary);">{{
-                                saved.job.role }}</h3>
-                            <div style="color: var(--accent); font-weight: 600; margin-top: 4px;">{{ saved.job.company
-                                }}</div>
-                            <div
-                                style="display: flex; gap: 15px; margin-top: 10px; font-size: 0.85rem; color: var(--text-secondary);">
-                                <span style="display: flex; align-items: center; gap: 4px;">
-                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2">
-                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                        <circle cx="12" cy="10" r="3"></circle>
-                                    </svg>
-                                    {{ saved.job.location }}
-                                </span>
-                                <span style="display: flex; align-items: center; gap: 4px;">
-                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="2">
-                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                                    </svg>
-                                    {{ saved.job.salary_lpa }}
-                                </span>
-                            </div>
+                            <div class="stat-label"
+                                style="color: var(--text-secondary); font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.5rem;">
+                                Saved Jobs</div>
+                            <div class="stat-value"
+                                style="font-size: 2.5rem; font-weight: 800; color: var(--text-primary); line-height: 1;">
+                                {{ saved_jobs|length }}</div>
                         </div>
-                        <div style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end;">
-                            <div
-                                style="background: rgba(16, 185, 129, 0.1); color: var(--success); padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 0.85rem;">
-                                {{ saved.job.trend_score | int }}% Match
-                            </div>
-                            <button onclick="removeJob('{{ saved.job_id }}')" class="btn-save"
-                                style="border: none; background: #fff0f0; color: #ef4444; padding: 6px 12px; font-size: 0.85rem; border-radius: 8px; font-weight: 600;">
-                                Remove
-                            </button>
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 14px; background: rgba(79, 70, 229, 0.1); display: flex; align-items: center; justify-content: center; color: var(--accent);">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+                                    fill="currentColor" />
+                            </svg>
                         </div>
                     </div>
-                </div>
-                {% endfor %}
-            </div>
-            {% else %}
-            <div class="card"
-                style="text-align: center; padding: 4rem 2rem; border: 2px dashed var(--border-color); background: transparent; border-radius: 24px;">
-                <div style="font-size: 3rem; margin-bottom: 1rem; filter: grayscale(1);">🔖</div>
-                <h3 style="margin: 0; color: var(--text-primary);">No saved jobs yet</h3>
-                <p style="color: var(--text-secondary); margin: 0.5rem 0 1.5rem 0;">Start matching your resume to find
-                    the best opportunities for you.</p>
-                <a href="/search" class="btn">Browse Job Market</a>
-            </div>
-            {% endif %}
-        </section>
-
-        <!-- Right: Recent Analyses -->
-        <section>
-            <h2
-                style="font-size: 1.4rem; margin-bottom: 2rem; display: flex; align-items: center; gap: 10px; font-weight: 800;">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2.5"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
-                History Deep-Dive
-            </h2>
-
-            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
-                {% if past_analyses %}
-                {% for analysis in past_analyses[:6] %}
-                <div class="card animate-slide analysis-card"
-                    onclick="window.location='/view_analysis/{{ analysis.id }}'"
-                    style="padding: 1.25rem; border-radius: 16px; border-left: 5px solid var(--accent); cursor: pointer; transition: all 0.3s ease; animation-delay: {{ loop.index0 * 0.1 }}s;">
-                    <div
-                        style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
-                        <div style="font-weight: 700; font-size: 1rem; color: var(--text-primary); max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"
-                            title="{{ analysis.filename }}">
-                            {{ analysis.filename }}
+                    <div class="stat-card animate-slide"
+                        style="animation-delay: 0.2s; background: var(--panel-bg); border-radius: 20px; padding: 1.5rem 2rem; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: space-between;">
+                        <div>
+                            <div class="stat-label"
+                                style="color: var(--text-secondary); font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.5rem;">
+                                Resumes Analyzed</div>
+                            <div class="stat-value"
+                                style="font-size: 2.5rem; font-weight: 800; color: var(--text-primary); line-height: 1;">
+                                {{ analytics.total_scans if analytics else 1 }}</div>
                         </div>
-                        <div style="color: var(--accent); font-weight: 800; font-size: 1.1rem;">{{
-                            analysis.match_percentage }}%</div>
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 14px; background: rgba(16, 185, 129, 0.1); display: flex; align-items: center; justify-content: center; color: var(--success);">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path
+                                    d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
+                                    fill="currentColor" />
+                            </svg>
+                        </div>
                     </div>
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <span style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 500;">
-                            {{ analysis.timestamp.strftime('%b %d, %Y') }}
-                        </span>
-                        <div style="display: flex; gap: 4px;">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
-                                stroke-width="2" style="opacity: 0.6;">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
+                    <div class="stat-card animate-slide"
+                        style="animation-delay: 0.3s; background: var(--panel-bg); border-radius: 20px; padding: 1.5rem 2rem; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: space-between;">
+                        <div>
+                            <div class="stat-label"
+                                style="color: var(--text-secondary); font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.5rem;">
+                                Avg Compatibility</div>
+                            <div class="stat-value"
+                                style="font-size: 2.5rem; font-weight: 800; color: var(--text-primary); line-height: 1;">
+                                {{ "%.0f"|format(analytics.avg_score) if analytics else 85 }}%</div>
+                        </div>
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 14px; background: rgba(14, 165, 233, 0.1); display: flex; align-items: center; justify-content: center; color: #0ea5e9;">
+                            <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
+                                <path
+                                    d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                                    fill="currentColor" />
                             </svg>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
-                {% else %}
-                <div class="card"
-                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); background: transparent;">
-                    <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">No analysis history yet.</p>
+
+                <!-- Chart & Markets Row -->
+                <div class="dashboard-grid" style="display: grid; grid-template-columns: 2fr 1fr; gap: 2.5rem;">
+                    <!-- Left Column: Main Charts -->
+                    <div class="main-column">
+                        <!-- Market Demand Chart -->
+                        <div class="card animate-slide"
+                            style="animation-delay: 0.4s; margin-bottom: 2.5rem; background: var(--panel-bg); padding: 2rem; border-radius: 20px; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(10px);">
+                            <h2
+                                style="font-size: 1.25rem; font-weight: 800; margin-top: 0; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 8px;">
+                                <svg class="icon" viewBox="0 0 24 24" style="color: var(--accent);">
+                                    <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                                        fill="currentColor" />
+                                </svg>
+                                Skill Market Demand
+                            </h2>
+                            <div style="height: 300px; width: 100%;">
+                                <canvas id="marketDemandChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Saved Jobs List -->
+                        <div class="card animate-slide"
+                            style="animation-delay: 0.5s; background: var(--panel-bg); padding: 2rem; border-radius: 20px; border: 1px solid var(--border-color); box-shadow: var(--glass-shadow); backdrop-filter: blur(10px);">
+                            <h2
+                                style="font-size: 1.25rem; font-weight: 800; margin-top: 0; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+                                Saved Opportunities
+                                <span
+                                    style="font-size: 0.85rem; font-weight: 600; padding: 4px 10px; background: rgba(79, 70, 229, 0.1); color: var(--accent); border-radius: 12px;">{{
+                                    saved_jobs|length }} Jobs</span>
+                            </h2>
+                            {% if saved_jobs %}
+                            <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+                                {% for saved in saved_jobs %}
+                                <div class="job-item animate-scale" id="job-{{ saved.job_id }}"
+                                    style="margin-bottom: 0;">
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <div>
+                                            <h3
+                                                style="margin: 0; font-size: 1.25rem; font-weight: 700; color: var(--text-primary);">
+                                                {{
+                                                saved.job.role }}</h3>
+                                            <div style="color: var(--accent); font-weight: 600; margin-top: 4px;">{{
+                                                saved.job.company
+                                                }}</div>
+                                            <div
+                                                style="display: flex; gap: 15px; margin-top: 10px; font-size: 0.85rem; color: var(--text-secondary);">
+                                                <span style="display: flex; align-items: center; gap: 4px;">
+                                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2">
+                                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                                        <circle cx="12" cy="10" r="3"></circle>
+                                                    </svg>
+                                                    {{ saved.job.location }}
+                                                </span>
+                                                <span style="display: flex; align-items: center; gap: 4px;">
+                                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2">
+                                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                    </svg>
+                                                    {{ saved.job.salary_lpa }}
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end;">
+                                            <div
+                                                style="background: rgba(16, 185, 129, 0.1); color: var(--success); padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 0.85rem;">
+                                                {{ saved.job.trend_score | int }}% Match
+                                            </div>
+                                            <button onclick="removeJob('{{ saved.job_id }}')" class="btn-save"
+                                                style="border: none; background: #fff0f0; color: #ef4444; padding: 6px 12px; font-size: 0.85rem; border-radius: 8px; font-weight: 600;">
+                                                Remove
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% else %}
+                            <div class="card"
+                                style="text-align: center; padding: 4rem 2rem; border: 2px dashed var(--border-color); background: transparent; border-radius: 24px;">
+                                <div style="font-size: 3rem; margin-bottom: 1rem; filter: grayscale(1);">🔖</div>
+                                <h3 style="margin: 0; color: var(--text-primary);">No saved jobs yet</h3>
+                                <p style="color: var(--text-secondary); margin: 0.5rem 0 1.5rem 0;">Start matching your
+                                    resume to find
+                                    the best opportunities for you.</p>
+                                <a href="/search" class="btn">Browse Job Market</a>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <!-- Market Trends -->
+                    <div class="card animate-slide"
+                        style="padding: 2rem; border-radius: 24px; background: linear-gradient(135deg, rgba(15, 139, 141, 0.05), transparent);">
+                        <h2
+                            style="font-size: 1.3rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px; font-weight: 800;">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#f59e0b"
+                                stroke-width="2.5">
+                                <path d="M12 2v20M2 12h20" />
+                            </svg>
+                            Market Patterns
+                        </h2>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <div
+                                style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 12px; letter-spacing: 0.5px;">
+                                Trending Skills</div>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                {% for skill, count in market_insights.top_skills %}
+                                <span
+                                    style="background: rgba(245, 158, 11, 0.1); color: #f59e0b; padding: 4px 10px; border-radius: 8px; font-size: 0.85rem; font-weight: 600;">
+                                    {{ skill }} <small style="opacity: 0.6; font-weight: 400;">({{ count }})</small>
+                                </span>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <div>
+                            <div
+                                style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 12px; letter-spacing: 0.5px;">
+                                Peak Compensation</div>
+                            {% for item in market_insights.top_roles %}
+                            <div
+                                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: 0.9rem;">
+                                <span
+                                    style="font-weight: 600; color: var(--text-primary); max-width: 140px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{
+                                    item.role }}</span>
+                                <span style="font-weight: 800; color: var(--accent);">{{ item.salary }} LPA</span>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
                 </div>
-                {% endif %}
 
-                <a href="/" class="btn btn-secondary"
-                    style="margin-top: 1rem; padding: 12px; font-size: 0.9rem; border-radius: 12px; text-align: center; border-style: dashed; border-width: 2px;">
-                    + Start New Analysis
-                </a>
-            </div>
-        </section>
-    </div>
-</div>
+                <!-- Main Content Grid -->
+                <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2.5rem; align-items: start;">
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-    // Trend Chart Implementation
-    {% if trend_data %}
-    const ctx = document.getElementById('trendChart').getContext('2d');
-    const trendData = {{ trend_data | tojson }};
+                    <!-- Left: Saved Jobs -->
+                    <section>
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                            <h2
+                                style="font-size: 1.6rem; margin: 0; display: flex; align-items: center; gap: 12px; font-weight: 800;">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                Saved Opportunities
+                            </h2>
+                            <a href="/search" class="btn btn-secondary"
+                                style="font-size: 0.9rem; padding: 8px 16px;">Browse All</a>
+                        </div>
 
-    new Chart(ctx, {
-        type: 'line',
-        data: {
-            labels: trendData.map(d => d.date),
-            datasets: [{
-                label: 'Match Compatibility %',
-                data: trendData.map(d => d.score),
-                borderColor: '#0ea5e9',
-                backgroundColor: 'rgba(14, 165, 233, 0.1)',
-                borderWidth: 3,
-                fill: true,
-                tension: 0.4,
-                pointBackgroundColor: '#0ea5e9',
-                pointRadius: 4,
-                pointHoverRadius: 6
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: { display: false }
-            },
-            scales: {
-                y: {
-                    beginAtZero: false,
-                    min: 0,
-                    max: 100,
-                    grid: { color: 'rgba(255, 255, 255, 0.05)' },
-                    ticks: { color: 'rgba(255, 255, 255, 0.5)' }
+                        {% if saved_jobs %}
+                        <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+                            {% for saved in saved_jobs %}
+                            <div class="job-item animate-scale" id="job-{{ saved.job_id }}" style="margin-bottom: 0;">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div>
+                                        <h3
+                                            style="margin: 0; font-size: 1.25rem; font-weight: 700; color: var(--text-primary);">
+                                            {{
+                                            saved.job.role }}</h3>
+                                        <div style="color: var(--accent); font-weight: 600; margin-top: 4px;">{{
+                                            saved.job.company
+                                            }}</div>
+                                        <div
+                                            style="display: flex; gap: 15px; margin-top: 10px; font-size: 0.85rem; color: var(--text-secondary);">
+                                            <span style="display: flex; align-items: center; gap: 4px;">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                                    <circle cx="12" cy="10" r="3"></circle>
+                                                </svg>
+                                                {{ saved.job.location }}
+                                            </span>
+                                            <span style="display: flex; align-items: center; gap: 4px;">
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2">
+                                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                                </svg>
+                                                {{ saved.job.salary_lpa }}
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div
+                                        style="display: flex; flex-direction: column; gap: 10px; align-items: flex-end;">
+                                        <div
+                                            style="background: rgba(16, 185, 129, 0.1); color: var(--success); padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 0.85rem;">
+                                            {{ saved.job.trend_score | int }}% Match
+                                        </div>
+                                        <button onclick="removeJob('{{ saved.job_id }}')" class="btn-save"
+                                            style="border: none; background: #fff0f0; color: #ef4444; padding: 6px 12px; font-size: 0.85rem; border-radius: 8px; font-weight: 600;">
+                                            Remove
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% else %}
+                        <div class="card"
+                            style="text-align: center; padding: 4rem 2rem; border: 2px dashed var(--border-color); background: transparent; border-radius: 24px;">
+                            <div style="font-size: 3rem; margin-bottom: 1rem; filter: grayscale(1);">🔖</div>
+                            <h3 style="margin: 0; color: var(--text-primary);">No saved jobs yet</h3>
+                            <p style="color: var(--text-secondary); margin: 0.5rem 0 1.5rem 0;">Start matching your
+                                resume to find
+                                the best opportunities for you.</p>
+                            <a href="/search" class="btn">Browse Job Market</a>
+                        </div>
+                        {% endif %}
+                    </section>
+
+                    <!-- Right: Recent Analyses -->
+                    <section>
+                        <h2
+                            style="font-size: 1.4rem; margin-bottom: 2rem; display: flex; align-items: center; gap: 10px; font-weight: 800;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            History Deep-Dive
+                        </h2>
+
+                        <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                            {% if past_analyses %}
+                            {% for analysis in past_analyses[:6] %}
+                            <div class="card animate-slide analysis-card"
+                                onclick="window.location='/view_analysis/{{ analysis.id }}'"
+                                style="padding: 1.25rem; border-radius: 16px; border-left: 5px solid var(--accent); cursor: pointer; transition: all 0.3s ease; animation-delay: {{ loop.index0 * 0.1 }}s;">
+                                <div
+                                    style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+                                    <div style="font-weight: 700; font-size: 1rem; color: var(--text-primary); max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"
+                                        title="{{ analysis.filename }}">
+                                        {{ analysis.filename }}
+                                    </div>
+                                    <div style="color: var(--accent); font-weight: 800; font-size: 1.1rem;">{{
+                                        analysis.match_percentage }}%</div>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.8rem; color: var(--text-secondary); font-weight: 500;">
+                                        {{ analysis.timestamp.strftime('%b %d, %Y') }}
+                                    </span>
+                                    <div style="display: flex; gap: 4px;">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                            stroke="var(--accent)" stroke-width="2" style="opacity: 0.6;">
+                                            <path d="M5 12h14M12 5l7 7-7 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                            {% else %}
+                            <div class="card"
+                                style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); background: transparent;">
+                                <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">No analysis
+                                    history yet.</p>
+                            </div>
+                            {% endif %}
+
+                            <a href="/" class="btn btn-secondary"
+                                style="margin-top: 1rem; padding: 12px; font-size: 0.9rem; border-radius: 12px; text-align: center; border-style: dashed; border-width: 2px;">
+                                + Start New Analysis
+                            </a>
+                        </div>
+                    </section>
+                </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            // Trend Chart Implementation
+            {% if trend_data %}
+            const ctx = document.getElementById('trendChart').getContext('2d');
+            const trendData = {{ trend_data | tojson }};
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: trendData.map(d => d.date),
+                    datasets: [{
+                        label: 'Match Compatibility %',
+                        data: trendData.map(d => d.score),
+                        borderColor: '#0ea5e9',
+                        backgroundColor: 'rgba(14, 165, 233, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4,
+                        pointBackgroundColor: '#0ea5e9',
+                        pointRadius: 4,
+                        pointHoverRadius: 6
+                    }]
                 },
-                x: {
-                    grid: { display: false },
-                    ticks: { color: 'rgba(255, 255, 255, 0.5)' }
-                }
-            }
-        }
-    });
-    {% endif %}
-
-    function removeJob(jobId) {
-        if (!confirm('Remove this job from your saved list?')) return;
-
-        const card = document.getElementById('job-' + jobId);
-        card.style.opacity = '0.5';
-        card.style.transform = 'scale(0.95)';
-
-        fetch('/remove_job/' + jobId, { method: 'POST' })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success') {
-                    card.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
-                    card.style.transform = 'translateX(50px)';
-                    card.style.opacity = '0';
-                    setTimeout(() => {
-                        card.remove();
-                        if (document.querySelectorAll('.job-item').length === 0) {
-                            location.reload();
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            min: 0,
+                            max: 100,
+                            grid: { color: 'rgba(255, 255, 255, 0.05)' },
+                            ticks: { color: 'rgba(255, 255, 255, 0.5)' }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: 'rgba(255, 255, 255, 0.5)' }
                         }
-                    }, 400);
+                    }
                 }
             });
-    }
-</script>
+            {% endif %}
 
-<style>
-    .analysis-card:hover {
-        transform: translateX(8px) scale(1.02);
-        background: rgba(14, 165, 233, 0.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
-</style>
-{% endblock %}
+            function removeJob(jobId) {
+                if (!confirm('Remove this job from your saved list?')) return;
+
+                const card = document.getElementById('job-' + jobId);
+                card.style.opacity = '0.5';
+                card.style.transform = 'scale(0.95)';
+
+                fetch('/remove_job/' + jobId, { method: 'POST' })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.status === 'success') {
+                            card.style.transition = 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+                            card.style.transform = 'translateX(50px)';
+                            card.style.opacity = '0';
+                            setTimeout(() => {
+                                card.remove();
+                                if (document.querySelectorAll('.job-item').length === 0) {
+                                    location.reload();
+                                }
+                            }, 400);
+                        }
+                    });
+            }
+        </script>
+
+        <style>
+            .analysis-card:hover {
+                transform: translateX(8px) scale(1.02);
+                background: rgba(14, 165, 233, 0.05);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+        {% endblock %}
