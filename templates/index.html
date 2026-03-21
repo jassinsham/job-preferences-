@@ -1,90 +1,81 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="hero-banner"
-    style="background-image: linear-gradient(rgba(15, 139, 141, 0.85), rgba(12, 113, 115, 0.85)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=60'); padding-bottom: 12rem;">
-    <div class="hero-content">
-        <h1>Find the job that's right for you.</h1>
-        <p>Upload your resume to instantly see which roles match your exact skills and experience.</p>
+<!-- Premium Hero Section -->
+<div class="premium-hero">
+    <!-- Top badge -->
+    <div class="hero-badge animate-fade">
+        <span class="badge-label">Site of the Day</span>
+        <span class="badge-date">{{ 'Mar 21, 2026' }}</span>
+        <span class="badge-score">Score 9.9 of 10</span>
+    </div>
+
+    <!-- Massive Typography -->
+    <h1 class="hero-title animate-slide">JOBNODE</h1>
+
+    <!-- Profiles/Creators -->
+    <div class="hero-creators animate-slide" style="animation-delay: 0.1s;">
+        <div class="creator">
+            <img src="https://ui-avatars.com/api/?name=AI&background=0f8b8d&color=fff" alt="AI">
+            <span>Machine Learning</span>
+        </div>
+        <div class="creator">
+            <img src="https://ui-avatars.com/api/?name=DB&background=8b5cf6&color=fff" alt="Data">
+            <span>Market Analytics</span>
+        </div>
     </div>
 </div>
 
-<div class="container upload-overlap" style="margin-top: -10rem;">
-    <div class="features-grid" style="margin-bottom: 2rem;">
-        <div class="feature-card">
-            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
-                alt="Tech Resume" class="feature-img">
-            <div class="feature-content">
-                <h3>Instant Missing Skills Analysis</h3>
-                <p>Upload your resume and instantly see which critical keywords you are missing for the roles you want.
-                </p>
-            </div>
-        </div>
-        <div class="feature-card">
-            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=60"
-                alt="Team Collaboration" class="feature-img">
-            <div class="feature-content">
-                <h3>1-Click Role Matching</h3>
-                <p>Stop guessing. We'll show you exactly which jobs in our database you are most qualified for based on
-                    your background.</p>
-            </div>
-        </div>
-    </div>
+<!-- Immersive Visual Section with Floating Action Bar -->
+<div class="immersive-section animate-scale" style="animation-delay: 0.2s;">
+    <!-- Deep dramatic Red glow similar to reference -->
+    <div class="immersive-bg"
+        style="background-image: linear-gradient(180deg, rgba(30,0,0,0.4) 0%, rgba(10,0,0,0.9) 100%), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80'); background-color: #0c0000; box-shadow: inset 0 0 100px rgba(255,0,0,0.1);">
 
-    <div class="upload-card">
-        <form action="/upload_resume" method="post" enctype="multipart/form-data">
-            <label for="fileUpload" class="upload-area">
-                <svg class="icon" viewBox="0 0 24 24"
-                    style="width: 48px; height: 48px; color: var(--accent); margin-bottom: 1rem;">
-                    <path
-                        d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z" />
-                </svg>
-                <h3 style="margin:0 0 8px 0;">Drag and drop your resume here</h3>
-                <span style="color: var(--text-secondary); font-size: 0.9rem;">Supports PDF and DOCX files up to
-                    10MB</span>
-                <div class="file-input-wrapper" style="margin-top: 2rem; display:block;">
-                    <input type="file" id="fileUpload" name="file" accept=".pdf,.docx" required>
-                    <span class="btn btn-secondary">Browse Files</span>
-                </div>
-            </label>
-
-            <button type="submit" class="btn"
-                style="width: 100%; padding: 16px; font-size: 1.15rem; margin-top: 1rem;">Analyze My Resume</button>
-        </form>
+        <!-- The Floating Pill Navigation/Action Bar -->
+        <div class="floating-action-bar">
+            <span class="w-logo">J.</span>
+            <a href="/search" class="action-link">Explore Markets</a>
+            <a href="/dashboard" class="action-link">Dashboards</a>
+            <a href="/salary_insights" class="action-link">Analytics</a>
+            <a href="#" class="action-link" style="opacity:0.5; cursor:not-allowed;">Nominees</a>
+            <form action="/upload_resume" method="post" enctype="multipart/form-data" class="action-upload">
+                <input type="file" title="Upload Resume PDF/DOCX" id="pillFileUpload" name="file" accept=".pdf,.docx"
+                    onchange="this.form.submit()" required>
+                <label for="pillFileUpload" class="btn-sotd">Upload Resume.</label>
+            </form>
+        </div>
 
         {% if error %}
-        <div class="error-message">
-            <svg class="icon" viewBox="0 0 24 24" style="margin-right:8px;">
-                <path
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
-            </svg>
+        <div class="error-toast animate-fade">
             {{ error }}
         </div>
         {% endif %}
+
+        <!-- Content inside immersive -->
+        <div class="immersive-content">
+            <h2 class="sub-heading">Upload to match limits.</h2>
+            <p style="opacity: 0.8; font-size: 1.1rem; max-width: 500px;">Our AI automatically extracts elements of your
+                resume and targets top-tier enterprise jobs mapped to real-time market shortages.</p>
+        </div>
     </div>
 </div>
 
-<!-- How It Works Section -->
-<div class="how-it-works">
+<!-- Features section below the fold, kept clean -->
+<div class="minimal-features">
     <div class="container">
-        <h2 class="section-title">How it works</h2>
-        <div class="steps-container">
-            <div class="step-box">
-                <div class="step-num">1</div>
-                <h3>Upload</h3>
-                <p>Drop in your PDF or Word Doc resume. Our system extracts your skills using NLP.</p>
+        <div class="features-grid">
+            <div class="feature-minimal" style="padding-right: 2rem;">
+                <h3 style="font-size:1.5rem; font-weight:800; margin-bottom:1rem; color:var(--text-primary);"><span
+                        style="color:var(--accent);">01 —</span> Gap Analysis</h3>
+                <p style="font-size:1.05rem; color:var(--text-secondary); line-height:1.6;">Upload your resume and
+                    instantly see which critical keywords you lack for elite roles.</p>
             </div>
-            <div class="step-divider"></div>
-            <div class="step-box">
-                <div class="step-num">2</div>
-                <h3>Analyze</h3>
-                <p>We compare your profile against thousands of real active job listings.</p>
-            </div>
-            <div class="step-divider"></div>
-            <div class="step-box">
-                <div class="step-num">3</div>
-                <h3>Match</h3>
-                <p>Get a personalized dashboard mapping your perfect jobs and bridging your skill gaps.</p>
+            <div class="feature-minimal" style="padding-left: 2rem; border-left: 1px solid var(--border-color);">
+                <h3 style="font-size:1.5rem; font-weight:800; margin-bottom:1rem; color:var(--text-primary);"><span
+                        style="color:var(--accent);">02 —</span> Data Matching</h3>
+                <p style="font-size:1.05rem; color:var(--text-secondary); line-height:1.6;">Stop guessing. We'll deploy
+                    analytical matching based strictly on market conditions.</p>
             </div>
         </div>
     </div>
