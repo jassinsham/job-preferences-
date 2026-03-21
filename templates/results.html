@@ -47,6 +47,23 @@
                 </div>
 
                 <div class="filter-group">
+                    <label>Job Type</label>
+                    <select class="filter-select" name="employment_type"
+                        onchange="document.getElementById('filterForm').submit();">
+                        <option value="Any" {% if not current_filters or current_filters.employment_type=='Any'
+                            %}selected{% endif %}>Any Type</option>
+                        <option value="Full-Time" {% if current_filters and current_filters.employment_type=='Full-Time'
+                            %}selected{% endif %}>Full-Time</option>
+                        <option value="Part-Time" {% if current_filters and current_filters.employment_type=='Part-Time'
+                            %}selected{% endif %}>Part-Time</option>
+                        <option value="Contract" {% if current_filters and current_filters.employment_type=='Contract'
+                            %}selected{% endif %}>Contract</option>
+                        <option value="Internship" {% if current_filters and
+                            current_filters.employment_type=='Internship' %}selected{% endif %}>Internship</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
                     <label>Location Preference</label>
                     <select class="filter-select" name="location"
                         onchange="document.getElementById('filterForm').submit();">
