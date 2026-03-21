@@ -50,10 +50,10 @@
                     <label>Job Type</label>
                     <select class="filter-select" name="employment_type"
                         onchange="document.getElementById('filterForm').submit();">
-                        <option value="Any" {% if current_filters and current_filters.employment_type=='Any'
+                        <option value="Any" {% if not current_filters or current_filters.employment_type=='Any'
                             %}selected{% endif %}>Any Type</option>
-                        <option value="Full-Time" {% if not current_filters or
-                            current_filters.employment_type=='Full-Time' %}selected{% endif %}>Full-Time</option>
+                        <option value="Full-Time" {% if current_filters and current_filters.employment_type=='Full-Time'
+                            %}selected{% endif %}>Full-Time</option>
                         <option value="Contract" {% if current_filters and current_filters.employment_type=='Contract'
                             %}selected{% endif %}>Contract</option>
                         <option value="Part-time" {% if current_filters and current_filters.employment_type=='Part-time'
@@ -65,10 +65,10 @@
                     <label>Location Preference</label>
                     <select class="filter-select" name="location"
                         onchange="document.getElementById('filterForm').submit();">
-                        <option value="Any" {% if current_filters and current_filters.location=='Any' %}selected{% endif
-                            %}>Any Location</option>
-                        <option value="Remote" {% if not current_filters or current_filters.location=='Remote'
-                            %}selected{% endif %}>Remote Only</option>
+                        <option value="Any" {% if not current_filters or current_filters.location=='Any' %}selected{%
+                            endif %}>Any Location</option>
+                        <option value="Remote" {% if current_filters and current_filters.location=='Remote' %}selected{%
+                            endif %}>Remote Only</option>
                         <option value="Hybrid" {% if current_filters and current_filters.location=='Hybrid' %}selected{%
                             endif %}>Hybrid</option>
                         <option value="On-site" {% if current_filters and current_filters.location=='On-site'
