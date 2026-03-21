@@ -1,78 +1,108 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="hero-banner" style="padding-bottom: 12rem;">
-    <video autoplay loop muted playsinline class="hero-video">
-        <source
-            src="https://assets.mixkit.co/videos/preview/mixkit-business-people-having-a-meeting-in-a-modern-office-4601-large.mp4"
-            type="video/mp4">
-    </video>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-        <h1>Find the job that's right for you.</h1>
-        <p>Upload your resume to instantly see which roles match your exact skills and experience.</p>
+<div class="hero-banner mesh-gradient-bg"
+    style="padding-bottom: 14rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+    <div class="hero-content"
+        style="position: relative; z-index: 2; max-width: 900px; margin: 0 auto; padding-top: 2rem;">
+        <h1 style="font-size: 4.5rem; line-height: 1.15; margin-bottom: 1.5rem; letter-spacing: -1px;">Find the job
+            that's <br><span class="text-gradient">right for you.</span></h1>
+        <p
+            style="font-size: 1.35rem; color: rgba(255,255,255,0.85); margin-bottom: 3rem; font-weight: 500; max-width: 700px; margin-left: auto; margin-right: auto;">
+            Upload your resume to instantly see which roles match your exact skills and experience using our AI
+            competency mapping.</p>
+        <a href="#upload-section" class="btn-glow"
+            onclick="document.getElementById('upload-section').scrollIntoView({behavior: 'smooth'})">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                style="width: 24px; height: 24px;">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="17 8 12 3 7 8"></polyline>
+                <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            Analyze My Resume — It's Free
+        </a>
     </div>
 </div>
 
-<div class="container upload-overlap" style="margin-top: -10rem;">
-    <div class="features-grid" style="margin-bottom: 2rem;">
-        <div class="feature-card animate-slide" style="animation-delay: 0.1s;">
-            <video autoplay loop muted playsinline class="feature-img">
-                <source
-                    src="https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-code-4563-large.mp4"
-                    type="video/mp4">
-            </video>
-            <div class="feature-content">
-                <h3>Instant Missing Skills Analysis</h3>
-                <p>Upload your resume and instantly see which critical keywords you are missing for the roles you want.
-                </p>
+<div class="container upload-overlap" style="margin-top: -8rem; position: relative; z-index: 10;">
+    <div class="features-grid" style="margin-bottom: 3rem;">
+        <div class="glass-card feature-card">
+            <div class="abstract-ui-block">
+                <!-- Abstract radar chart SVG -->
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M100 20L170 65V135L100 180L30 135V65L100 20Z" stroke="url(#paint0_linear)" stroke-width="4"
+                        fill="rgba(20, 184, 166, 0.15)" />
+                    <path d="M100 50L145 80V120L100 150L55 120V80L100 50Z" stroke="url(#paint1_linear)" stroke-width="3"
+                        fill="rgba(59, 130, 246, 0.3)" />
+                    <circle cx="100" cy="100" r="4" fill="white" />
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="30" y1="20" x2="170" y2="180"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#14B8A6" />
+                            <stop offset="1" stop-color="#3B82F6" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="55" y1="50" x2="145" y2="150"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#3B82F6" />
+                            <stop offset="1" stop-color="#14B8A6" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="feature-content" style="padding: 0; text-align: left;">
+                <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">Instant Missing Skills Analysis
+                </h3>
+                <p style="font-size: 1rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">Upload your
+                    resume and instantly see which critical keywords you are missing for the roles you want.</p>
             </div>
         </div>
-        <div class="feature-card animate-slide" style="animation-delay: 0.2s;">
-            <video autoplay loop muted playsinline class="feature-img">
-                <source
-                    src="https://assets.mixkit.co/videos/preview/mixkit-startup-team-discussing-something-on-a-laptop-4485-large.mp4"
-                    type="video/mp4">
-            </video>
-            <div class="feature-content">
-                <h3>1-Click Role Matching</h3>
-                <p>Stop guessing. We'll show you exactly which jobs in our database you are most qualified for based on
-                    your background.</p>
+        <div class="glass-card feature-card">
+            <div class="abstract-ui-block">
+                <!-- Abstract matching UI SVG -->
+                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="40" y="40" width="120" height="30" rx="8" fill="rgba(255,255,255,0.1)" />
+                    <rect x="50" y="50" width="60" height="10" rx="5" fill="#3B82F6" />
+                    <circle cx="140" cy="55" r="8" fill="#10B981" />
+
+                    <rect x="40" y="85" width="120" height="30" rx="8" fill="rgba(255,255,255,0.1)" />
+                    <rect x="50" y="95" width="80" height="10" rx="5" fill="#14B8A6" />
+                    <circle cx="140" cy="100" r="8" fill="#10B981" />
+
+                    <rect x="40" y="130" width="120" height="30" rx="8" fill="rgba(255,255,255,0.1)" />
+                    <rect x="50" y="140" width="40" height="10" rx="5" fill="#8B5CF6" />
+                    <circle cx="140" cy="145" r="8" fill="#F59E0B" />
+                </svg>
             </div>
-        </div>
-        <div class="feature-card animate-slide" style="animation-delay: 0.3s;">
-            <video autoplay loop muted playsinline class="feature-img">
-                <source
-                    src="https://assets.mixkit.co/videos/preview/mixkit-young-professionals-working-on-a-laptop-4559-large.mp4"
-                    type="video/mp4">
-            </video>
-            <div class="feature-content">
-                <h3>Perfect for Freshers</h3>
-                <p>Launch your career with confidence. We identify entry-level roles that precisely value your academic
-                    projects and raw talent.</p>
+            <div class="feature-content" style="padding: 0; text-align: left;">
+                <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 0.75rem;">1-Click Role Matching</h3>
+                <p style="font-size: 1rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">Stop guessing.
+                    We'll show you exactly which jobs in our database you are most qualified for based on your
+                    background.</p>
             </div>
         </div>
     </div>
 
-    <div class="upload-card">
+    <div id="upload-section" class="glass-card upload-card" style="padding: 3rem;">
         <form action="/upload_resume" method="post" enctype="multipart/form-data">
-            <label for="fileUpload" class="upload-area">
+            <label for="fileUpload" class="upload-area"
+                style="background: rgba(255,255,255,0.02); border-color: rgba(255,255,255,0.1);">
                 <svg class="icon" viewBox="0 0 24 24"
                     style="width: 48px; height: 48px; color: var(--accent); margin-bottom: 1rem;">
                     <path
                         d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z" />
                 </svg>
-                <h3 style="margin:0 0 8px 0;">Drag and drop your resume here</h3>
+                <h3 style="margin:0 0 8px 0; color: var(--text-primary);">Drag and drop your resume here</h3>
                 <span style="color: var(--text-secondary); font-size: 0.9rem;">Supports PDF and DOCX files up to
                     10MB</span>
                 <div class="file-input-wrapper" style="margin-top: 2rem; display:block;">
                     <input type="file" id="fileUpload" name="file" accept=".pdf,.docx" required>
-                    <span class="btn btn-secondary">Browse Files</span>
+                    <span class="btn btn-secondary"
+                        style="border-color: rgba(255,255,255,0.2); background: transparent;">Browse Files</span>
                 </div>
             </label>
 
-            <button type="submit" class="btn"
-                style="width: 100%; padding: 16px; font-size: 1.15rem; margin-top: 1rem;">Analyze My Resume</button>
+            <button type="submit" class="btn-glow"
+                style="width: 100%; justify-content: center; margin-top: 1rem;">Analyze My Resume</button>
         </form>
 
         {% if error %}
