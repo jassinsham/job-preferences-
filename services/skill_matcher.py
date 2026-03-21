@@ -368,11 +368,11 @@ def analyze_resume_against_market(resume_data: dict, db: Session, filters: dict 
             
         if filters.get("location") and filters["location"] != "Any":
             if filters["location"] == "Remote":
-                query = query.filter(Job.location.ilike("%remote%"))
+                query = query.filter(Job.remote_type.ilike("%remote%"))
             elif filters["location"] == "Hybrid":
-                query = query.filter(Job.location.ilike("%hybrid%"))
+                query = query.filter(Job.remote_type.ilike("%hybrid%"))
             elif filters["location"] == "On-site":
-                query = query.filter(~Job.location.ilike("%remote%"), ~Job.location.ilike("%hybrid%"))
+                query = query.filter(~Job.remote_type.ilike("%remote%"), ~Job.remote_type.ilike("%hybrid%"))
                 
         if filters.get("date_posted") and filters["date_posted"] != "Any":
             if filters["date_posted"] == "Past 24 Hours":
