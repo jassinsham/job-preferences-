@@ -14,6 +14,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Download spaCy model during build (prevents startup timeout on Render)
+RUN python -m spacy download en_core_web_sm
+
 # Final stage
 FROM python:3.11-slim
 
