@@ -1,0 +1,1001 @@
+Job_ID,Job_Role,Company,Location,Phone_Number,Employment_Type,Experience_Required,Education_Level,Industry,Remote_Type,Skills_Required,Salary_LPA,Company_Rating,Applicants_Count,Post_Days_Ago
+4001,Cloud Engineer,IBM,Mumbai,7342929482,Part-Time,3-5 years,Bachelors,E-commerce,Remote,"Node.js, React, JavaScript, TensorFlow",34,4.7,158,4
+4002,AI Engineer,Microsoft,Ahmedabad,8975336783,Contract,1-3 years,PhD,E-commerce,Remote,"Node.js, SQL, Pandas, Machine Learning",35,4.6,119,15
+4003,Backend Developer,IBM,Noida,9849428709,Internship,5-8 years,PhD,Cloud,Remote,"Docker, AWS, Python, Machine Learning",7,4.1,27,5
+4004,Product Manager,Amazon,Bangalore,6218473855,Full-Time,3-5 years,Bachelors,Healthcare,On-site,"Power BI, Docker, PyTorch, SQL",35,3.7,648,18
+4005,AI Engineer,SAP,Pune,6167137559,Full-Time,8+ years,Bachelors,Cloud,Hybrid,"Machine Learning, TensorFlow, Python, PyTorch",14,3.8,112,13
+4006,DevOps Engineer,Capgemini,Mumbai,6576528387,Full-Time,3-5 years,Masters,E-commerce,Hybrid,"TensorFlow, Power BI, Java, JavaScript",17,4.5,211,8
+4007,Business Analyst,TCS,Noida,8505518322,Full-Time,0-1 years,Bachelors,AI,Hybrid,"Java, React, SQL, Tableau",38,3.6,271,21
+4008,Frontend Developer,IBM,Bangalore,6859286987,Internship,0-1 years,PhD,IT Services,Hybrid,"Power BI, Kubernetes, Machine Learning, Tableau",7,4.5,166,2
+4009,Cloud Engineer,Microsoft,Noida,6449923040,Internship,5-8 years,Bachelors,FinTech,Hybrid,"Python, Docker, Node.js, Power BI",14,4.3,173,8
+4010,Data Scientist,Oracle,Coimbatore,6806025969,Contract,8+ years,Masters,Software,On-site,"Kubernetes, React, Power BI, Machine Learning",35,4.7,672,1
+4011,Full Stack Developer,Zoho,Ahmedabad,9537983796,Contract,1-3 years,Masters,E-commerce,Hybrid,"SQL, React, Python, Power BI",9,4.6,538,16
+4012,Business Analyst,Freshworks,Delhi,7385593597,Full-Time,8+ years,PhD,Healthcare,On-site,"Pandas, Python, Node.js, SQL",29,4.4,785,21
+4013,Frontend Developer,Infosys,Bangalore,7730288930,Part-Time,1-3 years,Masters,Healthcare,Hybrid,"Power BI, Kubernetes, Python, Pandas",10,4.1,682,16
+4014,Data Scientist,Cognizant,Chennai,6193578322,Full-Time,3-5 years,PhD,E-commerce,Remote,"Kubernetes, TensorFlow, Tableau, SQL",36,4.8,701,16
+4015,DevOps Engineer,Accenture,Ahmedabad,7654994591,Full-Time,1-3 years,PhD,IT Services,Hybrid,"TensorFlow, SQL, Tableau, React",9,3.3,420,23
+4016,Product Manager,Infosys,Chennai,7131563515,Contract,0-1 years,PhD,E-commerce,Hybrid,"AWS, React, Docker, SQL",5,4.6,294,20
+4017,AI Engineer,IBM,Bangalore,7965479971,Full-Time,0-1 years,Bachelors,Software,On-site,"Power BI, AWS, Machine Learning, SQL",32,3.9,413,6
+4018,DevOps Engineer,Zoho,Kolkata,8307007327,Full-Time,3-5 years,PhD,AI,Remote,"Tableau, Java, Pandas, SQL",10,3.6,65,7
+4019,Backend Developer,Capgemini,Hyderabad,8260758904,Contract,1-3 years,Bachelors,IT Services,Hybrid,"Python, Power BI, Docker, Tableau",34,4.1,454,18
+4020,Cloud Engineer,Freshworks,Bangalore,9152282823,Full-Time,8+ years,PhD,FinTech,On-site,"Pandas, Power BI, React, JavaScript",15,4.0,131,4
+4021,Cloud Engineer,SAP,Bangalore,9318554295,Internship,5-8 years,Bachelors,Cloud,Remote,"React, AWS, JavaScript, Machine Learning",34,4.5,75,7
+4022,Backend Developer,Wipro,Hyderabad,9281977111,Contract,5-8 years,Bachelors,Software,Hybrid,"PyTorch, Kubernetes, TensorFlow, Tableau",26,4.9,96,18
+4023,AI Engineer,IBM,Coimbatore,9824304782,Internship,5-8 years,Bachelors,Software,On-site,"React, TensorFlow, AWS, Kubernetes",39,3.9,681,11
+4024,Backend Developer,Microsoft,Pune,7871817237,Internship,5-8 years,Bachelors,FinTech,Hybrid,"Docker, Pandas, JavaScript, React",40,3.8,152,26
+4025,Frontend Developer,Accenture,Delhi,9240578795,Contract,5-8 years,Bachelors,E-commerce,Remote,"Pandas, Machine Learning, Python, SQL",27,4.5,579,17
+4026,Backend Developer,Flipkart,Bangalore,6931893151,Internship,8+ years,Bachelors,Software,Remote,"AWS, Machine Learning, React, Java",25,3.5,586,12
+4027,Frontend Developer,Zoho,Bangalore,6817021195,Internship,0-1 years,Bachelors,Cloud,Hybrid,"Machine Learning, TensorFlow, AWS, Docker",15,4.8,597,12
+4028,Backend Developer,Cognizant,Chennai,8516222124,Internship,8+ years,PhD,FinTech,On-site,"Machine Learning, SQL, Node.js, Python",25,4.5,328,7
+4029,Frontend Developer,Zoho,Chennai,6460012914,Full-Time,5-8 years,Masters,Software,Hybrid,"React, Java, SQL, Power BI",38,3.4,26,13
+4030,Frontend Developer,IBM,Gurgaon,7328651371,Full-Time,1-3 years,Bachelors,Software,Hybrid,"React, Machine Learning, Python, Node.js",25,3.9,199,6
+4031,Full Stack Developer,Amazon,Hyderabad,6414189732,Contract,3-5 years,Bachelors,AI,Remote,"Java, Tableau, PyTorch, JavaScript",36,4.6,297,1
+4032,Cloud Engineer,Infosys,Delhi,9815093574,Part-Time,8+ years,Masters,Healthcare,Hybrid,"Tableau, PyTorch, JavaScript, Java",33,3.5,216,6
+4033,Data Analyst,SAP,Noida,7817719624,Part-Time,0-1 years,PhD,Cloud,Hybrid,"AWS, PyTorch, Pandas, React",31,3.8,313,19
+4034,AI Engineer,Accenture,Coimbatore,9716248625,Full-Time,0-1 years,PhD,Cloud,Remote,"SQL, React, Java, JavaScript",11,4.8,41,30
+4035,DevOps Engineer,Infosys,Ahmedabad,7816304588,Part-Time,0-1 years,Masters,Cloud,Hybrid,"Power BI, React, Machine Learning, JavaScript",39,4.8,768,13
+4036,Software Engineer,Cognizant,Gurgaon,6402219467,Contract,0-1 years,PhD,Software,Remote,"Tableau, PyTorch, Machine Learning, Python",38,4.2,272,5
+4037,DevOps Engineer,IBM,Gurgaon,7656244241,Full-Time,1-3 years,Bachelors,Healthcare,Remote,"PyTorch, TensorFlow, Tableau, Pandas",18,3.2,136,13
+4038,Frontend Developer,Oracle,Mumbai,8389617222,Contract,1-3 years,PhD,E-commerce,On-site,"Docker, TensorFlow, Machine Learning, Node.js",19,4.5,37,1
+4039,Backend Developer,Oracle,Hyderabad,8395374874,Internship,5-8 years,PhD,FinTech,Remote,"Power BI, AWS, Python, Docker",35,4.8,483,27
+4040,Machine Learning Engineer,TCS,Kolkata,8149954426,Internship,5-8 years,Bachelors,FinTech,Remote,"Power BI, Kubernetes, AWS, Docker",18,3.9,360,4
+4041,Software Engineer,Accenture,Mumbai,6460378620,Internship,5-8 years,Masters,FinTech,On-site,"Machine Learning, PyTorch, Kubernetes, AWS",23,3.1,52,21
+4042,Data Scientist,Infosys,Mumbai,9159931205,Full-Time,8+ years,PhD,FinTech,Remote,"PyTorch, AWS, TensorFlow, React",4,3.7,117,26
+4043,Backend Developer,Cognizant,Noida,6258688738,Part-Time,0-1 years,PhD,E-commerce,Remote,"PyTorch, AWS, JavaScript, Java",11,3.9,542,4
+4044,Business Analyst,Capgemini,Chennai,9661644241,Internship,0-1 years,PhD,AI,Hybrid,"Java, Python, Node.js, Tableau",8,3.9,430,28
+4045,Data Scientist,Cognizant,Kolkata,6496311456,Contract,8+ years,Masters,E-commerce,On-site,"React, Python, Power BI, PyTorch",38,3.9,416,19
+4046,Frontend Developer,Freshworks,Delhi,8230589666,Part-Time,0-1 years,Bachelors,FinTech,Remote,"Node.js, React, TensorFlow, Tableau",27,4.2,733,15
+4047,Full Stack Developer,Microsoft,Ahmedabad,8949458390,Full-Time,3-5 years,Bachelors,Cloud,On-site,"Node.js, JavaScript, TensorFlow, Docker",5,4.7,54,6
+4048,AI Engineer,Accenture,Noida,9808569958,Full-Time,8+ years,Masters,AI,Remote,"Machine Learning, Docker, Node.js, PyTorch",27,5.0,535,9
+4049,Data Scientist,Microsoft,Pune,6013809176,Full-Time,5-8 years,Bachelors,Software,Hybrid,"JavaScript, React, Machine Learning, Power BI",37,3.9,762,9
+4050,Data Analyst,Zoho,Chennai,6952331100,Full-Time,3-5 years,PhD,IT Services,Hybrid,"Tableau, Kubernetes, Machine Learning, PyTorch",24,3.5,142,6
+4051,Data Scientist,Wipro,Coimbatore,9629205178,Contract,5-8 years,Bachelors,Software,Remote,"Kubernetes, Node.js, Python, PyTorch",10,4.9,222,2
+4052,Frontend Developer,Freshworks,Delhi,8000413381,Contract,3-5 years,Masters,E-commerce,Hybrid,"SQL, React, PyTorch, TensorFlow",23,4.7,473,11
+4053,Backend Developer,SAP,Ahmedabad,6289970588,Internship,8+ years,Masters,IT Services,On-site,"Java, React, AWS, PyTorch",31,5.0,138,2
+4054,Cloud Engineer,Cognizant,Pune,8655824640,Internship,5-8 years,Masters,IT Services,On-site,"TensorFlow, PyTorch, Java, SQL",21,4.3,356,4
+4055,AI Engineer,Wipro,Hyderabad,6035839263,Part-Time,0-1 years,PhD,AI,On-site,"Java, Node.js, SQL, Tableau",18,4.0,719,19
+4056,DevOps Engineer,IBM,Noida,8157416253,Full-Time,5-8 years,Masters,Healthcare,On-site,"Tableau, TensorFlow, Pandas, PyTorch",8,4.9,329,27
+4057,Data Analyst,Amazon,Delhi,7258489585,Full-Time,8+ years,Bachelors,FinTech,Hybrid,"Node.js, Java, Power BI, TensorFlow",38,3.7,766,8
+4058,Machine Learning Engineer,IBM,Coimbatore,6600814712,Contract,8+ years,Masters,IT Services,Remote,"PyTorch, SQL, AWS, Tableau",5,3.3,681,15
+4059,Data Analyst,Capgemini,Coimbatore,9110590613,Contract,8+ years,Masters,E-commerce,Hybrid,"AWS, Pandas, React, Power BI",12,3.4,366,11
+4060,Business Analyst,SAP,Mumbai,7534583632,Full-Time,3-5 years,PhD,FinTech,On-site,"JavaScript, TensorFlow, Java, Tableau",23,3.6,232,26
+4061,DevOps Engineer,Microsoft,Ahmedabad,6813112471,Full-Time,3-5 years,PhD,Healthcare,Remote,"JavaScript, React, Kubernetes, Power BI",8,4.7,160,19
+4062,Business Analyst,Flipkart,Mumbai,9485455250,Contract,1-3 years,Bachelors,AI,Remote,"Tableau, TensorFlow, JavaScript, Node.js",12,3.1,370,28
+4063,Backend Developer,Infosys,Bangalore,8105174007,Internship,5-8 years,Bachelors,Healthcare,On-site,"React, Tableau, Pandas, JavaScript",11,3.1,239,24
+4064,Backend Developer,Microsoft,Bangalore,6143875703,Part-Time,5-8 years,PhD,AI,Hybrid,"AWS, Power BI, PyTorch, Tableau",35,3.6,349,3
+4065,Software Engineer,Infosys,Bangalore,8463624760,Part-Time,5-8 years,Bachelors,FinTech,Hybrid,"Tableau, Pandas, TensorFlow, SQL",6,3.5,173,15
+4066,DevOps Engineer,Infosys,Hyderabad,6945565966,Part-Time,8+ years,Bachelors,FinTech,Remote,"Power BI, Docker, PyTorch, React",13,4.6,729,7
+4067,Backend Developer,Amazon,Chennai,9715711997,Internship,8+ years,Masters,Cloud,Remote,"Docker, Pandas, PyTorch, Java",24,4.7,772,8
+4068,Product Manager,Amazon,Pune,6201809804,Part-Time,0-1 years,PhD,IT Services,Remote,"SQL, AWS, Power BI, PyTorch",36,4.1,147,14
+4069,AI Engineer,IBM,Hyderabad,7584721514,Internship,0-1 years,Masters,IT Services,Remote,"React, AWS, PyTorch, Python",6,4.0,570,30
+4070,Frontend Developer,Freshworks,Noida,8715972518,Internship,8+ years,Masters,IT Services,Remote,"TensorFlow, Machine Learning, Python, Tableau",36,3.3,780,12
+4071,AI Engineer,Cognizant,Ahmedabad,6879886041,Full-Time,8+ years,PhD,Healthcare,Hybrid,"Docker, AWS, Kubernetes, Java",31,3.4,642,1
+4072,Data Scientist,Oracle,Mumbai,7731949301,Contract,3-5 years,Masters,E-commerce,Hybrid,"Node.js, React, Kubernetes, Pandas",16,3.2,345,5
+4073,Business Analyst,Flipkart,Mumbai,9241393580,Contract,8+ years,PhD,Cloud,Remote,"Java, Tableau, Machine Learning, Kubernetes",23,4.3,497,21
+4074,AI Engineer,Microsoft,Coimbatore,9657524685,Contract,0-1 years,Bachelors,Cloud,Hybrid,"Tableau, Kubernetes, React, Docker",31,4.7,174,19
+4075,Software Engineer,Amazon,Coimbatore,8500389929,Full-Time,5-8 years,Bachelors,Software,On-site,"Pandas, Node.js, JavaScript, Machine Learning",15,3.3,190,19
+4076,Business Analyst,Cognizant,Mumbai,8799178648,Internship,1-3 years,Masters,Healthcare,Hybrid,"PyTorch, Java, SQL, JavaScript",38,3.7,666,26
+4077,Product Manager,Infosys,Chennai,8171143381,Internship,8+ years,PhD,Software,Hybrid,"TensorFlow, AWS, Tableau, PyTorch",21,4.3,699,20
+4078,Full Stack Developer,Capgemini,Hyderabad,8325975090,Contract,0-1 years,Bachelors,Software,Hybrid,"JavaScript, Tableau, Machine Learning, TensorFlow",23,3.2,121,14
+4079,Data Analyst,Cognizant,Delhi,8201786906,Contract,3-5 years,Masters,Healthcare,Remote,"JavaScript, Tableau, Node.js, Power BI",37,4.0,449,9
+4080,Software Engineer,TCS,Kolkata,9294560272,Internship,8+ years,PhD,AI,On-site,"Kubernetes, AWS, React, Tableau",22,4.8,781,12
+4081,DevOps Engineer,Infosys,Ahmedabad,7722688983,Contract,0-1 years,Bachelors,Software,Hybrid,"Tableau, Docker, Pandas, AWS",30,4.3,166,10
+4082,Software Engineer,TCS,Gurgaon,6746054981,Part-Time,0-1 years,Bachelors,Healthcare,On-site,"Node.js, PyTorch, Docker, Python",36,4.1,159,28
+4083,Software Engineer,SAP,Delhi,7800787645,Full-Time,5-8 years,Bachelors,IT Services,On-site,"Power BI, Node.js, Docker, PyTorch",19,5.0,545,28
+4084,Data Analyst,Accenture,Noida,7149067456,Internship,8+ years,Masters,Software,Hybrid,"Machine Learning, React, Python, AWS",18,3.1,447,21
+4085,AI Engineer,Infosys,Ahmedabad,9289878698,Part-Time,0-1 years,Bachelors,FinTech,On-site,"React, Python, TensorFlow, Pandas",30,3.6,45,5
+4086,Cloud Engineer,Accenture,Coimbatore,6644393079,Full-Time,8+ years,Masters,Software,On-site,"Pandas, Kubernetes, Python, Java",17,4.3,702,5
+4087,Data Scientist,IBM,Mumbai,7753877992,Internship,3-5 years,Masters,Healthcare,Remote,"Java, Python, SQL, React",19,4.4,43,2
+4088,Software Engineer,Flipkart,Delhi,6410323516,Contract,8+ years,Bachelors,Healthcare,Hybrid,"SQL, Java, Node.js, Tableau",34,3.2,34,7
+4089,Product Manager,SAP,Gurgaon,7647748060,Contract,3-5 years,Bachelors,Healthcare,Remote,"Python, Java, AWS, Pandas",25,3.1,96,7
+4090,Backend Developer,TCS,Gurgaon,7731142024,Internship,8+ years,Masters,Software,Hybrid,"Docker, React, Pandas, Machine Learning",24,3.5,471,22
+4091,Backend Developer,Amazon,Mumbai,6146046500,Contract,1-3 years,Masters,Cloud,Hybrid,"SQL, Kubernetes, Docker, Power BI",21,3.6,103,25
+4092,Data Scientist,Wipro,Noida,6383442705,Contract,5-8 years,Bachelors,Software,Remote,"Tableau, Power BI, Docker, AWS",14,4.8,488,2
+4093,Frontend Developer,Wipro,Mumbai,9423299754,Internship,3-5 years,Masters,AI,Remote,"JavaScript, PyTorch, TensorFlow, Docker",32,4.5,197,14
+4094,Full Stack Developer,Amazon,Coimbatore,6156880881,Contract,5-8 years,PhD,IT Services,On-site,"Kubernetes, TensorFlow, Node.js, Python",19,3.1,222,7
+4095,Data Analyst,Wipro,Chennai,8770413978,Full-Time,3-5 years,Bachelors,E-commerce,Remote,"Docker, Tableau, Machine Learning, JavaScript",8,4.0,132,29
+4096,Data Analyst,Google,Kolkata,8270249212,Internship,8+ years,Masters,Healthcare,Hybrid,"TensorFlow, Python, PyTorch, Power BI",34,4.1,554,14
+4097,Backend Developer,Cognizant,Coimbatore,9311495295,Contract,1-3 years,Bachelors,Software,Hybrid,"Kubernetes, Docker, Pandas, Java",20,3.9,327,27
+4098,AI Engineer,IBM,Gurgaon,6093298595,Part-Time,5-8 years,PhD,AI,Hybrid,"Node.js, SQL, Docker, React",27,3.5,648,23
+4099,Backend Developer,Wipro,Ahmedabad,8596089723,Contract,5-8 years,Bachelors,FinTech,On-site,"Java, SQL, React, Machine Learning",20,4.3,273,27
+4100,Business Analyst,Oracle,Mumbai,6520089688,Internship,5-8 years,PhD,AI,Remote,"SQL, Java, AWS, PyTorch",4,3.7,82,26
+4101,AI Engineer,Wipro,Ahmedabad,8276824883,Contract,0-1 years,Masters,Healthcare,Remote,"React, PyTorch, Kubernetes, TensorFlow",10,3.4,568,29
+4102,Business Analyst,Infosys,Hyderabad,9044076077,Internship,1-3 years,Masters,AI,Hybrid,"Tableau, Pandas, Node.js, Machine Learning",33,3.9,528,15
+4103,Software Engineer,Freshworks,Pune,9066321417,Contract,1-3 years,Masters,Healthcare,Remote,"Tableau, SQL, Python, Node.js",29,4.9,544,21
+4104,Data Scientist,Freshworks,Pune,9029311278,Part-Time,8+ years,Bachelors,E-commerce,Hybrid,"React, Python, PyTorch, JavaScript",34,4.1,759,10
+4105,AI Engineer,TCS,Coimbatore,8116485664,Contract,1-3 years,Bachelors,AI,Remote,"Power BI, PyTorch, Kubernetes, JavaScript",32,3.1,400,28
+4106,Business Analyst,Zoho,Chennai,9095423090,Part-Time,5-8 years,PhD,E-commerce,Hybrid,"Docker, Python, Tableau, SQL",36,4.6,112,4
+4107,Full Stack Developer,TCS,Noida,9300971707,Contract,3-5 years,Masters,AI,Remote,"Machine Learning, Pandas, Kubernetes, Java",28,3.9,618,29
+4108,Backend Developer,Zoho,Noida,9378304142,Contract,1-3 years,PhD,Cloud,Hybrid,"Pandas, Kubernetes, Machine Learning, TensorFlow",26,5.0,675,19
+4109,Backend Developer,Freshworks,Pune,9928065776,Full-Time,8+ years,Bachelors,Software,Remote,"PyTorch, Kubernetes, React, SQL",26,4.7,13,13
+4110,Software Engineer,Zoho,Kolkata,8089951192,Full-Time,3-5 years,Masters,FinTech,Hybrid,"Power BI, Kubernetes, Docker, Tableau",38,4.9,176,8
+4111,AI Engineer,Accenture,Coimbatore,7220290368,Internship,5-8 years,Masters,AI,Remote,"TensorFlow, SQL, Machine Learning, JavaScript",10,3.8,139,15
+4112,Backend Developer,SAP,Pune,7784927029,Full-Time,5-8 years,PhD,Cloud,Remote,"Machine Learning, SQL, Pandas, JavaScript",31,4.5,208,11
+4113,Frontend Developer,Zoho,Pune,8271254438,Part-Time,5-8 years,Bachelors,IT Services,Hybrid,"Java, Machine Learning, Docker, Tableau",24,3.4,362,22
+4114,Data Analyst,TCS,Mumbai,9115051215,Internship,3-5 years,Bachelors,IT Services,Hybrid,"Python, Docker, Machine Learning, JavaScript",26,4.0,249,8
+4115,Full Stack Developer,Oracle,Coimbatore,9530779252,Full-Time,1-3 years,PhD,Software,On-site,"Node.js, Tableau, PyTorch, React",19,3.9,227,25
+4116,Frontend Developer,Accenture,Noida,6907395831,Full-Time,1-3 years,Bachelors,Healthcare,Remote,"PyTorch, Power BI, AWS, Python",8,3.8,295,22
+4117,Data Scientist,Freshworks,Coimbatore,9189222113,Full-Time,5-8 years,Bachelors,AI,On-site,"Pandas, Kubernetes, Java, Docker",11,3.7,45,19
+4118,Data Analyst,Freshworks,Bangalore,6495179726,Contract,8+ years,Bachelors,FinTech,Remote,"Machine Learning, Java, AWS, Pandas",17,3.3,306,2
+4119,Data Analyst,Infosys,Bangalore,8571931215,Full-Time,5-8 years,PhD,Software,Hybrid,"Power BI, TensorFlow, SQL, AWS",13,4.1,193,7
+4120,Business Analyst,Infosys,Kolkata,9096493253,Full-Time,3-5 years,Masters,FinTech,On-site,"PyTorch, React, Machine Learning, AWS",12,4.7,444,25
+4121,AI Engineer,Microsoft,Noida,8378486896,Full-Time,0-1 years,Bachelors,Cloud,Hybrid,"SQL, React, TensorFlow, Docker",33,3.1,699,26
+4122,Cloud Engineer,Microsoft,Kolkata,7918784229,Full-Time,3-5 years,Bachelors,IT Services,Hybrid,"Node.js, JavaScript, React, Kubernetes",12,3.7,11,20
+4123,Software Engineer,Zoho,Delhi,8184968843,Contract,8+ years,Masters,Software,On-site,"PyTorch, Kubernetes, Python, AWS",17,3.3,767,13
+4124,Business Analyst,Wipro,Mumbai,7687954538,Part-Time,3-5 years,PhD,E-commerce,On-site,"Python, TensorFlow, Docker, Tableau",24,3.4,793,8
+4125,Frontend Developer,Freshworks,Pune,7600249376,Contract,0-1 years,Bachelors,Cloud,Hybrid,"AWS, Machine Learning, Docker, Kubernetes",7,3.0,126,28
+4126,AI Engineer,Zoho,Bangalore,6370249803,Full-Time,3-5 years,Bachelors,IT Services,Remote,"Java, Tableau, Kubernetes, Node.js",39,3.3,376,26
+4127,Machine Learning Engineer,SAP,Chennai,9154322132,Full-Time,3-5 years,Bachelors,Software,Remote,"SQL, Power BI, Pandas, Kubernetes",25,5.0,594,22
+4128,Cloud Engineer,Infosys,Delhi,9959738238,Contract,8+ years,Bachelors,Software,Hybrid,"Node.js, Docker, Power BI, Pandas",23,3.1,277,26
+4129,Frontend Developer,Wipro,Chennai,6848049069,Full-Time,8+ years,Masters,FinTech,On-site,"PyTorch, Docker, Machine Learning, Java",10,4.6,539,30
+4130,AI Engineer,Infosys,Mumbai,6972517675,Contract,3-5 years,Masters,Software,Remote,"Tableau, SQL, Python, Machine Learning",31,3.3,395,11
+4131,Backend Developer,Microsoft,Mumbai,8176843713,Contract,8+ years,Masters,Cloud,On-site,"Pandas, Docker, Java, Power BI",15,3.3,644,1
+4132,Business Analyst,Oracle,Noida,6415868312,Part-Time,0-1 years,PhD,AI,Remote,"Power BI, Python, AWS, Tableau",31,3.3,133,18
+4133,Data Scientist,Microsoft,Hyderabad,7283055087,Internship,1-3 years,Masters,Healthcare,On-site,"Node.js, Kubernetes, Tableau, SQL",26,3.6,97,22
+4134,Machine Learning Engineer,Microsoft,Kolkata,8283673576,Part-Time,8+ years,Bachelors,Software,Hybrid,"Pandas, Docker, Java, React",38,4.1,572,15
+4135,Data Analyst,Infosys,Mumbai,8293452185,Internship,1-3 years,Bachelors,IT Services,On-site,"Docker, PyTorch, Pandas, SQL",19,3.3,614,1
+4136,Business Analyst,Flipkart,Chennai,8498414422,Contract,8+ years,Bachelors,Healthcare,On-site,"PyTorch, SQL, Pandas, Power BI",9,4.7,651,7
+4137,Software Engineer,Cognizant,Bangalore,7241749576,Contract,1-3 years,Bachelors,Cloud,On-site,"Docker, JavaScript, Python, TensorFlow",18,4.3,445,25
+4138,Software Engineer,Accenture,Noida,8195936923,Full-Time,8+ years,Masters,AI,Remote,"Python, React, JavaScript, TensorFlow",4,3.3,284,29
+4139,Frontend Developer,Microsoft,Kolkata,9647947155,Part-Time,3-5 years,Bachelors,AI,On-site,"Kubernetes, Java, SQL, JavaScript",22,3.6,552,16
+4140,Product Manager,Accenture,Bangalore,8633091202,Full-Time,0-1 years,Masters,IT Services,Hybrid,"Pandas, Node.js, Docker, AWS",5,3.1,99,29
+4141,AI Engineer,Wipro,Hyderabad,7919414282,Part-Time,3-5 years,Bachelors,AI,Remote,"Docker, Machine Learning, React, Power BI",33,4.8,156,27
+4142,Frontend Developer,TCS,Hyderabad,9628901991,Internship,1-3 years,PhD,IT Services,On-site,"Power BI, TensorFlow, JavaScript, Node.js",14,4.9,238,20
+4143,Full Stack Developer,SAP,Chennai,6884362266,Part-Time,1-3 years,PhD,Cloud,On-site,"PyTorch, TensorFlow, JavaScript, Java",15,4.9,585,17
+4144,AI Engineer,Capgemini,Pune,7438763473,Contract,1-3 years,Masters,Software,Remote,"Node.js, SQL, Power BI, AWS",19,3.1,205,14
+4145,Product Manager,Wipro,Chennai,7671381879,Internship,0-1 years,Bachelors,IT Services,Hybrid,"Python, TensorFlow, Docker, React",38,4.8,94,27
+4146,Machine Learning Engineer,Oracle,Chennai,7684610417,Internship,1-3 years,Bachelors,Healthcare,On-site,"AWS, PyTorch, Kubernetes, React",29,3.4,785,27
+4147,Cloud Engineer,Google,Ahmedabad,7693476725,Internship,5-8 years,Masters,Cloud,Hybrid,"Power BI, JavaScript, Docker, Machine Learning",40,3.4,73,25
+4148,Data Analyst,SAP,Noida,7118700262,Contract,1-3 years,Masters,E-commerce,Hybrid,"Power BI, Pandas, Node.js, Python",37,3.7,218,11
+4149,Software Engineer,Zoho,Hyderabad,7859809783,Full-Time,5-8 years,Masters,Software,Remote,"PyTorch, TensorFlow, Node.js, Python",13,4.2,322,23
+4150,Software Engineer,Freshworks,Pune,7675951976,Internship,3-5 years,Masters,AI,On-site,"Kubernetes, AWS, Machine Learning, Python",36,4.5,711,17
+4151,Software Engineer,Microsoft,Bangalore,9180768579,Contract,5-8 years,Bachelors,E-commerce,Hybrid,"PyTorch, Java, SQL, Kubernetes",37,4.3,715,2
+4152,Frontend Developer,Freshworks,Ahmedabad,7637971423,Internship,5-8 years,PhD,Software,On-site,"Power BI, Machine Learning, PyTorch, Tableau",25,3.5,343,8
+4153,DevOps Engineer,Infosys,Hyderabad,6408909978,Full-Time,1-3 years,Bachelors,Software,Remote,"Docker, Java, AWS, Kubernetes",31,3.7,70,15
+4154,Cloud Engineer,Cognizant,Pune,7539576104,Internship,8+ years,Masters,AI,On-site,"PyTorch, SQL, JavaScript, Machine Learning",17,4.1,238,20
+4155,Business Analyst,TCS,Kolkata,9413486797,Internship,1-3 years,Bachelors,E-commerce,Remote,"Machine Learning, Docker, SQL, AWS",38,3.1,227,1
+4156,Data Scientist,TCS,Mumbai,9225821151,Part-Time,5-8 years,Masters,AI,Hybrid,"Pandas, Tableau, TensorFlow, Power BI",29,4.1,743,5
+4157,Business Analyst,IBM,Mumbai,7065878284,Contract,8+ years,Bachelors,FinTech,Hybrid,"Python, Machine Learning, Tableau, Power BI",36,4.9,287,18
+4158,Data Scientist,Zoho,Hyderabad,7460277434,Full-Time,8+ years,PhD,Cloud,Remote,"React, Pandas, JavaScript, AWS",9,4.9,368,23
+4159,Cloud Engineer,Oracle,Coimbatore,6843969999,Internship,0-1 years,Bachelors,Cloud,Hybrid,"Python, Power BI, Java, Node.js",21,4.5,776,18
+4160,AI Engineer,Amazon,Noida,9651532179,Part-Time,0-1 years,PhD,Cloud,On-site,"Tableau, Python, Java, Node.js",27,3.9,630,12
+4161,Business Analyst,Flipkart,Noida,9262525581,Contract,0-1 years,Bachelors,E-commerce,Remote,"JavaScript, AWS, SQL, Node.js",21,4.9,239,30
+4162,Full Stack Developer,Accenture,Noida,8014580532,Internship,8+ years,PhD,E-commerce,Hybrid,"Node.js, PyTorch, Pandas, AWS",34,3.4,106,16
+4163,Data Scientist,Flipkart,Gurgaon,7049656634,Part-Time,8+ years,PhD,Software,On-site,"JavaScript, Docker, Kubernetes, Pandas",34,3.6,326,10
+4164,Data Scientist,Freshworks,Ahmedabad,6528385554,Full-Time,0-1 years,PhD,Healthcare,Remote,"Java, Python, Docker, React",27,4.7,601,4
+4165,Cloud Engineer,Zoho,Gurgaon,6304566029,Internship,0-1 years,Masters,Cloud,Remote,"Java, TensorFlow, SQL, JavaScript",26,3.4,651,22
+4166,DevOps Engineer,Microsoft,Hyderabad,7982882656,Internship,0-1 years,Bachelors,FinTech,Hybrid,"Python, Pandas, Machine Learning, JavaScript",27,4.7,456,30
+4167,Data Analyst,Microsoft,Pune,7199927265,Internship,0-1 years,Bachelors,E-commerce,Remote,"Machine Learning, PyTorch, AWS, React",23,3.9,736,27
+4168,Data Analyst,SAP,Mumbai,8027954201,Contract,1-3 years,Masters,Healthcare,Hybrid,"TensorFlow, Machine Learning, Kubernetes, Pandas",13,4.1,261,13
+4169,AI Engineer,Accenture,Delhi,6006023554,Part-Time,0-1 years,Masters,Cloud,Remote,"React, Kubernetes, PyTorch, Docker",8,3.8,488,22
+4170,Data Scientist,Flipkart,Gurgaon,6675221503,Contract,8+ years,Bachelors,AI,Hybrid,"Machine Learning, Kubernetes, JavaScript, Power BI",18,4.1,407,25
+4171,Business Analyst,IBM,Gurgaon,8955760124,Part-Time,1-3 years,Masters,IT Services,Hybrid,"AWS, React, Python, Kubernetes",28,4.4,100,8
+4172,Software Engineer,Cognizant,Pune,7340175472,Part-Time,0-1 years,Masters,Cloud,Hybrid,"Machine Learning, PyTorch, Pandas, Java",37,4.1,221,3
+4173,Data Scientist,Cognizant,Pune,9537676237,Part-Time,3-5 years,PhD,FinTech,Hybrid,"Node.js, Kubernetes, Tableau, AWS",30,5.0,209,10
+4174,Frontend Developer,SAP,Bangalore,7768164142,Part-Time,1-3 years,Bachelors,E-commerce,Remote,"TensorFlow, SQL, Power BI, Node.js",6,4.1,658,11
+4175,Business Analyst,Capgemini,Mumbai,6951884591,Part-Time,0-1 years,Bachelors,Cloud,On-site,"AWS, Tableau, PyTorch, Node.js",11,3.8,625,18
+4176,Product Manager,Oracle,Delhi,7735624843,Part-Time,0-1 years,Masters,Cloud,On-site,"Tableau, Python, SQL, JavaScript",38,3.5,285,10
+4177,Frontend Developer,Google,Delhi,9600843861,Full-Time,3-5 years,PhD,Software,On-site,"Tableau, Kubernetes, Python, Node.js",33,3.7,200,24
+4178,Backend Developer,Flipkart,Coimbatore,7319669683,Part-Time,0-1 years,Masters,Software,On-site,"SQL, Power BI, Java, AWS",34,4.9,104,3
+4179,Backend Developer,Freshworks,Chennai,9779847568,Internship,0-1 years,Bachelors,AI,On-site,"AWS, Machine Learning, PyTorch, Python",8,3.9,95,11
+4180,Data Analyst,Google,Gurgaon,8046128417,Part-Time,1-3 years,PhD,IT Services,On-site,"Power BI, Machine Learning, Python, PyTorch",32,4.7,516,27
+4181,Frontend Developer,Amazon,Delhi,6970726366,Part-Time,5-8 years,Masters,Healthcare,Remote,"React, AWS, Python, Java",30,4.2,525,27
+4182,DevOps Engineer,Google,Ahmedabad,7495928386,Part-Time,5-8 years,Masters,Software,Hybrid,"Docker, SQL, Pandas, PyTorch",9,4.1,231,28
+4183,Machine Learning Engineer,Infosys,Hyderabad,7793634852,Part-Time,8+ years,Masters,AI,Remote,"Node.js, Tableau, Java, Kubernetes",16,3.3,734,22
+4184,Data Analyst,IBM,Noida,8734010392,Part-Time,1-3 years,Bachelors,IT Services,Hybrid,"Docker, PyTorch, JavaScript, Pandas",21,3.6,130,18
+4185,Business Analyst,Freshworks,Coimbatore,7618139487,Contract,1-3 years,Masters,FinTech,Remote,"Machine Learning, Pandas, React, Kubernetes",27,3.8,200,20
+4186,Full Stack Developer,Infosys,Bangalore,6823413071,Full-Time,1-3 years,PhD,IT Services,On-site,"Pandas, Kubernetes, SQL, PyTorch",38,3.8,599,10
+4187,DevOps Engineer,Zoho,Ahmedabad,7214634740,Part-Time,0-1 years,Masters,Software,On-site,"Pandas, SQL, Python, Docker",5,3.3,314,24
+4188,Machine Learning Engineer,Freshworks,Kolkata,8242859781,Internship,0-1 years,Bachelors,IT Services,Remote,"SQL, Kubernetes, Java, AWS",7,4.2,711,9
+4189,Data Analyst,Accenture,Chennai,9908463653,Full-Time,8+ years,PhD,AI,On-site,"Python, Docker, TensorFlow, Machine Learning",22,4.5,279,11
+4190,Cloud Engineer,SAP,Kolkata,9561920810,Part-Time,8+ years,Bachelors,FinTech,Hybrid,"AWS, PyTorch, Python, Java",10,3.6,22,16
+4191,AI Engineer,Wipro,Gurgaon,6633030285,Part-Time,1-3 years,Bachelors,FinTech,On-site,"TensorFlow, SQL, React, Java",7,4.4,294,9
+4192,Full Stack Developer,Flipkart,Kolkata,9654093493,Contract,3-5 years,Masters,Software,Remote,"PyTorch, Java, SQL, Docker",11,5.0,116,11
+4193,Cloud Engineer,Freshworks,Noida,7239930807,Part-Time,1-3 years,Masters,Software,Hybrid,"SQL, Kubernetes, AWS, PyTorch",33,3.2,511,29
+4194,Machine Learning Engineer,Amazon,Chennai,9793820834,Full-Time,0-1 years,Bachelors,AI,Remote,"AWS, Tableau, TensorFlow, JavaScript",32,4.3,341,30
+4195,Full Stack Developer,Flipkart,Chennai,6427543353,Part-Time,1-3 years,Bachelors,Healthcare,On-site,"Tableau, PyTorch, Node.js, React",32,3.7,324,25
+4196,Business Analyst,Wipro,Pune,8686513822,Contract,8+ years,PhD,AI,Remote,"Python, Power BI, Tableau, SQL",13,3.7,526,22
+4197,Frontend Developer,Microsoft,Delhi,7010832457,Full-Time,3-5 years,PhD,FinTech,On-site,"SQL, TensorFlow, PyTorch, Node.js",38,4.4,377,4
+4198,AI Engineer,Wipro,Ahmedabad,8233267447,Part-Time,8+ years,PhD,Cloud,Hybrid,"TensorFlow, Node.js, SQL, Power BI",30,4.6,692,3
+4199,Full Stack Developer,Microsoft,Delhi,9898899211,Internship,3-5 years,Masters,Healthcare,Remote,"Machine Learning, Power BI, Tableau, Kubernetes",35,4.4,83,14
+4200,Product Manager,Zoho,Mumbai,7449378502,Contract,8+ years,PhD,Software,On-site,"Pandas, TensorFlow, Python, PyTorch",24,3.9,395,24
+4201,Machine Learning Engineer,Flipkart,Hyderabad,8782084840,Internship,0-1 years,PhD,Software,Hybrid,"Tableau, Machine Learning, Python, JavaScript",26,4.2,343,6
+4202,Machine Learning Engineer,Accenture,Delhi,8899351860,Contract,5-8 years,PhD,Healthcare,On-site,"Kubernetes, Java, Node.js, Machine Learning",38,3.4,172,29
+4203,Frontend Developer,Microsoft,Noida,6846128721,Contract,3-5 years,Masters,Cloud,On-site,"PyTorch, Pandas, AWS, SQL",39,4.6,135,28
+4204,Backend Developer,TCS,Mumbai,6848918606,Part-Time,3-5 years,Bachelors,FinTech,Hybrid,"Machine Learning, JavaScript, Docker, Kubernetes",19,4.9,468,17
+4205,Data Analyst,Wipro,Noida,6423045766,Full-Time,0-1 years,Masters,Software,Remote,"PyTorch, Python, AWS, React",18,4.6,247,6
+4206,Frontend Developer,Oracle,Hyderabad,7594272849,Full-Time,3-5 years,Masters,IT Services,Remote,"JavaScript, Pandas, Kubernetes, Node.js",10,3.1,589,20
+4207,Backend Developer,Google,Bangalore,9438508523,Full-Time,5-8 years,Bachelors,FinTech,Remote,"SQL, AWS, React, JavaScript",29,3.7,647,3
+4208,DevOps Engineer,Infosys,Chennai,6582631016,Internship,3-5 years,Bachelors,Healthcare,Hybrid,"SQL, Docker, Pandas, AWS",8,4.7,456,12
+4209,DevOps Engineer,Infosys,Mumbai,8150059428,Internship,8+ years,PhD,AI,On-site,"Node.js, Java, Docker, Pandas",33,3.3,454,6
+4210,Machine Learning Engineer,Capgemini,Gurgaon,6452920617,Part-Time,0-1 years,Masters,Software,On-site,"Java, AWS, Node.js, Python",40,5.0,177,9
+4211,Product Manager,IBM,Pune,6514371358,Full-Time,1-3 years,PhD,AI,Hybrid,"Kubernetes, Java, JavaScript, React",31,4.3,22,20
+4212,AI Engineer,SAP,Noida,6612939135,Internship,8+ years,Bachelors,Software,Hybrid,"Power BI, PyTorch, Python, React",22,3.1,246,21
+4213,Frontend Developer,Amazon,Mumbai,6640694527,Full-Time,5-8 years,Bachelors,Software,Hybrid,"Kubernetes, React, SQL, Pandas",30,3.7,198,25
+4214,Data Scientist,SAP,Noida,7076869370,Full-Time,5-8 years,Masters,IT Services,On-site,"PyTorch, Pandas, Machine Learning, Power BI",9,3.3,768,28
+4215,Machine Learning Engineer,Infosys,Ahmedabad,7324595874,Contract,3-5 years,Bachelors,AI,On-site,"Pandas, Docker, Tableau, Node.js",39,4.1,151,28
+4216,Cloud Engineer,Capgemini,Pune,8826720450,Internship,8+ years,Bachelors,Cloud,On-site,"PyTorch, SQL, Power BI, Python",32,3.4,392,17
+4217,Backend Developer,Google,Chennai,8714454443,Internship,3-5 years,PhD,IT Services,Remote,"PyTorch, TensorFlow, Node.js, Machine Learning",34,3.1,671,1
+4218,Data Scientist,Amazon,Hyderabad,8940201516,Part-Time,5-8 years,Bachelors,Cloud,Hybrid,"PyTorch, TensorFlow, Tableau, Docker",31,4.6,170,20
+4219,Data Analyst,Flipkart,Kolkata,9738414686,Internship,0-1 years,Masters,IT Services,On-site,"Java, Machine Learning, SQL, Docker",17,4.8,98,26
+4220,Machine Learning Engineer,Zoho,Pune,7123971827,Part-Time,3-5 years,Bachelors,Healthcare,Hybrid,"Docker, React, Pandas, TensorFlow",19,3.3,147,30
+4221,Product Manager,Google,Gurgaon,6464300557,Contract,1-3 years,Masters,FinTech,Remote,"TensorFlow, React, Python, Docker",34,4.9,565,30
+4222,Product Manager,SAP,Chennai,6931986404,Internship,5-8 years,Masters,FinTech,Hybrid,"Docker, Power BI, TensorFlow, Pandas",14,4.0,686,20
+4223,Cloud Engineer,Accenture,Pune,8879274168,Internship,0-1 years,Bachelors,Healthcare,Hybrid,"Power BI, Docker, Pandas, Node.js",18,4.1,682,24
+4224,Full Stack Developer,SAP,Delhi,8431405154,Internship,3-5 years,PhD,IT Services,Hybrid,"Docker, Pandas, TensorFlow, SQL",32,3.7,337,17
+4225,Cloud Engineer,Infosys,Gurgaon,7765818599,Internship,1-3 years,Masters,FinTech,Remote,"Python, Power BI, PyTorch, Java",5,4.9,206,21
+4226,Software Engineer,Microsoft,Gurgaon,9105985771,Internship,1-3 years,PhD,Healthcare,Remote,"Node.js, PyTorch, AWS, Kubernetes",18,3.7,468,7
+4227,Backend Developer,Freshworks,Hyderabad,9788699944,Internship,5-8 years,Masters,Healthcare,On-site,"Power BI, React, Tableau, SQL",31,3.0,553,5
+4228,Business Analyst,Infosys,Hyderabad,6866304484,Internship,8+ years,PhD,Healthcare,On-site,"TensorFlow, JavaScript, Machine Learning, React",7,4.6,185,16
+4229,Software Engineer,Oracle,Bangalore,7116575841,Part-Time,1-3 years,Bachelors,FinTech,On-site,"Pandas, Java, JavaScript, Machine Learning",23,3.8,691,4
+4230,Product Manager,Freshworks,Gurgaon,6493123510,Full-Time,8+ years,Masters,IT Services,Hybrid,"React, JavaScript, Python, AWS",5,4.0,789,21
+4231,Full Stack Developer,Accenture,Hyderabad,9219038079,Contract,0-1 years,Masters,Cloud,Hybrid,"SQL, Kubernetes, Node.js, Docker",38,4.2,269,12
+4232,Business Analyst,Zoho,Delhi,8701615112,Full-Time,5-8 years,PhD,AI,Remote,"TensorFlow, Machine Learning, Python, SQL",30,4.1,68,15
+4233,Software Engineer,Flipkart,Kolkata,8659599130,Full-Time,0-1 years,Masters,Cloud,Remote,"TensorFlow, Tableau, Kubernetes, Power BI",15,3.2,194,13
+4234,AI Engineer,Cognizant,Delhi,6964038730,Part-Time,0-1 years,PhD,Healthcare,Hybrid,"Pandas, AWS, Docker, Python",27,4.8,685,2
+4235,Machine Learning Engineer,Freshworks,Noida,7280738949,Full-Time,5-8 years,PhD,AI,Remote,"Tableau, Machine Learning, PyTorch, Python",11,3.1,377,26
+4236,Full Stack Developer,Microsoft,Ahmedabad,6404352396,Contract,0-1 years,Masters,FinTech,Hybrid,"Python, React, TensorFlow, PyTorch",25,4.6,771,16
+4237,Machine Learning Engineer,Wipro,Pune,8630617663,Internship,0-1 years,Masters,AI,Remote,"AWS, Java, Kubernetes, Tableau",34,3.3,275,20
+4238,Machine Learning Engineer,Accenture,Hyderabad,9592252938,Internship,5-8 years,PhD,FinTech,On-site,"JavaScript, Tableau, AWS, Node.js",17,4.8,115,30
+4239,Machine Learning Engineer,Capgemini,Bangalore,6918272579,Full-Time,5-8 years,PhD,Software,Hybrid,"JavaScript, Pandas, SQL, PyTorch",22,3.3,220,21
+4240,Product Manager,Oracle,Ahmedabad,9154618478,Full-Time,3-5 years,Masters,IT Services,Remote,"Node.js, Kubernetes, SQL, React",14,4.3,484,12
+4241,Cloud Engineer,Capgemini,Ahmedabad,6683073858,Internship,5-8 years,PhD,AI,Remote,"Pandas, Machine Learning, Node.js, PyTorch",22,4.5,257,6
+4242,Backend Developer,Google,Gurgaon,6771725588,Part-Time,0-1 years,PhD,Healthcare,Hybrid,"TensorFlow, Docker, AWS, Java",30,3.9,408,20
+4243,Software Engineer,Amazon,Pune,7352676198,Part-Time,0-1 years,Masters,Healthcare,Remote,"Docker, Power BI, JavaScript, Kubernetes",16,4.3,226,15
+4244,Data Scientist,Oracle,Ahmedabad,7590909390,Part-Time,1-3 years,Masters,Healthcare,Remote,"Python, Node.js, Java, PyTorch",5,3.4,544,14
+4245,Full Stack Developer,IBM,Chennai,9993586861,Internship,3-5 years,PhD,FinTech,Hybrid,"Kubernetes, PyTorch, Pandas, TensorFlow",11,4.6,224,2
+4246,Data Analyst,Zoho,Delhi,8231067253,Internship,8+ years,Masters,FinTech,Remote,"TensorFlow, PyTorch, Node.js, AWS",22,3.0,643,4
+4247,Data Analyst,Capgemini,Bangalore,6113768499,Contract,0-1 years,Masters,Cloud,Remote,"React, AWS, Tableau, Node.js",39,4.1,605,26
+4248,Backend Developer,Infosys,Coimbatore,9301208025,Part-Time,1-3 years,PhD,Healthcare,On-site,"React, PyTorch, Kubernetes, Docker",6,4.4,567,26
+4249,Full Stack Developer,Capgemini,Gurgaon,8877954654,Part-Time,5-8 years,Bachelors,Healthcare,Remote,"React, Java, Tableau, Python",4,3.2,279,20
+4250,Data Analyst,Oracle,Kolkata,8290916026,Part-Time,5-8 years,Bachelors,IT Services,Hybrid,"PyTorch, JavaScript, SQL, Java",35,4.8,584,25
+4251,Cloud Engineer,Cognizant,Coimbatore,8727247138,Full-Time,5-8 years,Masters,Healthcare,On-site,"TensorFlow, Kubernetes, Python, Docker",17,3.7,394,17
+4252,Data Analyst,Accenture,Delhi,6050664578,Full-Time,3-5 years,Masters,E-commerce,Remote,"Kubernetes, React, Power BI, Java",28,4.1,441,10
+4253,Product Manager,Microsoft,Delhi,8639085011,Internship,0-1 years,Bachelors,IT Services,Remote,"PyTorch, React, Python, AWS",39,3.3,553,8
+4254,Product Manager,TCS,Gurgaon,7170970861,Part-Time,0-1 years,PhD,AI,On-site,"JavaScript, Pandas, TensorFlow, Python",32,3.8,146,7
+4255,Full Stack Developer,TCS,Delhi,7587265915,Full-Time,3-5 years,Masters,IT Services,Hybrid,"Pandas, SQL, Docker, AWS",14,3.6,538,1
+4256,Backend Developer,Amazon,Noida,8889431761,Part-Time,3-5 years,PhD,E-commerce,Remote,"TensorFlow, Kubernetes, Java, Docker",9,3.0,514,15
+4257,Backend Developer,Oracle,Ahmedabad,9390183131,Full-Time,1-3 years,Bachelors,E-commerce,Remote,"Tableau, PyTorch, SQL, Power BI",19,4.8,681,2
+4258,Product Manager,Capgemini,Pune,6542864600,Contract,3-5 years,PhD,Software,On-site,"SQL, TensorFlow, JavaScript, Tableau",17,4.4,444,19
+4259,Software Engineer,Oracle,Pune,9015202028,Contract,8+ years,Masters,FinTech,On-site,"React, Docker, Kubernetes, Java",27,3.5,214,30
+4260,DevOps Engineer,IBM,Noida,7028245215,Part-Time,3-5 years,Masters,Software,On-site,"Python, React, PyTorch, Docker",8,3.6,766,16
+4261,Machine Learning Engineer,Amazon,Kolkata,9576442103,Contract,3-5 years,Bachelors,IT Services,Remote,"Pandas, PyTorch, AWS, Machine Learning",15,4.7,287,17
+4262,Software Engineer,Cognizant,Delhi,9602143025,Part-Time,1-3 years,Masters,Software,On-site,"JavaScript, Pandas, Python, Docker",6,4.7,530,10
+4263,DevOps Engineer,Flipkart,Kolkata,9725869141,Full-Time,8+ years,Bachelors,Cloud,Hybrid,"Java, Docker, Machine Learning, Tableau",20,4.6,280,28
+4264,Cloud Engineer,Freshworks,Coimbatore,6581734778,Contract,8+ years,PhD,IT Services,Hybrid,"Kubernetes, SQL, Python, Java",34,3.6,570,12
+4265,AI Engineer,Microsoft,Kolkata,6497638080,Full-Time,0-1 years,Masters,Software,On-site,"Docker, Power BI, TensorFlow, SQL",21,5.0,272,15
+4266,DevOps Engineer,Wipro,Gurgaon,8053227207,Internship,3-5 years,Masters,IT Services,Hybrid,"Tableau, AWS, PyTorch, JavaScript",19,3.9,411,5
+4267,DevOps Engineer,SAP,Kolkata,6929263464,Contract,3-5 years,Masters,Healthcare,Hybrid,"Power BI, Docker, Java, PyTorch",24,4.7,474,26
+4268,Data Scientist,Zoho,Coimbatore,9986128062,Contract,5-8 years,PhD,IT Services,On-site,"React, JavaScript, Kubernetes, Pandas",36,4.1,374,2
+4269,Data Analyst,TCS,Chennai,8786532657,Full-Time,3-5 years,Bachelors,IT Services,Remote,"TensorFlow, AWS, Power BI, JavaScript",23,3.7,396,12
+4270,Software Engineer,IBM,Mumbai,9973460347,Internship,5-8 years,Masters,FinTech,Hybrid,"Machine Learning, React, Node.js, Pandas",34,4.8,711,11
+4271,DevOps Engineer,Wipro,Noida,9436646254,Contract,1-3 years,Masters,Software,On-site,"Node.js, Docker, TensorFlow, Tableau",33,4.5,613,24
+4272,Software Engineer,Amazon,Gurgaon,7842789368,Part-Time,3-5 years,Bachelors,AI,Hybrid,"TensorFlow, JavaScript, Pandas, Node.js",9,3.6,617,12
+4273,AI Engineer,Freshworks,Pune,8046560681,Part-Time,5-8 years,Bachelors,E-commerce,Hybrid,"Python, Node.js, PyTorch, SQL",8,4.8,617,17
+4274,Backend Developer,Amazon,Kolkata,9585668782,Part-Time,3-5 years,Bachelors,IT Services,On-site,"JavaScript, Java, Python, Docker",26,4.5,782,18
+4275,Software Engineer,SAP,Noida,6278909327,Internship,5-8 years,PhD,Healthcare,Remote,"TensorFlow, Power BI, Tableau, React",36,4.4,706,1
+4276,Frontend Developer,Oracle,Coimbatore,8649566765,Contract,3-5 years,Masters,E-commerce,On-site,"Kubernetes, Java, Python, SQL",34,3.1,307,19
+4277,AI Engineer,Microsoft,Ahmedabad,6171616782,Full-Time,0-1 years,Bachelors,IT Services,On-site,"JavaScript, Python, Machine Learning, TensorFlow",29,4.5,188,5
+4278,Data Scientist,TCS,Chennai,7564850185,Part-Time,3-5 years,PhD,AI,On-site,"AWS, Python, Docker, TensorFlow",13,3.7,431,3
+4279,Product Manager,Google,Mumbai,8036930505,Full-Time,1-3 years,Bachelors,IT Services,Hybrid,"Java, Power BI, JavaScript, Docker",20,3.8,778,4
+4280,Cloud Engineer,Flipkart,Hyderabad,9706296578,Full-Time,3-5 years,PhD,FinTech,Remote,"Power BI, Java, Pandas, Docker",26,4.6,674,7
+4281,Backend Developer,TCS,Noida,8693759126,Internship,1-3 years,Masters,Software,Remote,"Python, AWS, Machine Learning, PyTorch",10,4.5,352,20
+4282,Software Engineer,Oracle,Coimbatore,6399686161,Contract,5-8 years,Bachelors,FinTech,Hybrid,"SQL, TensorFlow, AWS, React",23,3.7,217,24
+4283,Machine Learning Engineer,Amazon,Chennai,9912733736,Part-Time,5-8 years,Bachelors,IT Services,Remote,"AWS, JavaScript, Kubernetes, SQL",14,3.1,35,14
+4284,Full Stack Developer,Google,Pune,9242631220,Part-Time,5-8 years,PhD,Cloud,Hybrid,"Power BI, TensorFlow, Pandas, Python",18,4.3,645,15
+4285,DevOps Engineer,Capgemini,Bangalore,7501753472,Part-Time,5-8 years,Masters,Healthcare,On-site,"Tableau, SQL, Python, Kubernetes",5,3.1,709,21
+4286,Cloud Engineer,Infosys,Kolkata,9616096842,Internship,3-5 years,Bachelors,FinTech,Hybrid,"Python, Tableau, Kubernetes, Machine Learning",24,4.4,426,21
+4287,Full Stack Developer,IBM,Delhi,6419332882,Part-Time,8+ years,Masters,IT Services,On-site,"AWS, React, Python, TensorFlow",25,3.8,300,23
+4288,AI Engineer,Oracle,Ahmedabad,7992091497,Internship,1-3 years,PhD,E-commerce,On-site,"Pandas, Python, Power BI, Java",36,4.6,195,29
+4289,Data Scientist,Capgemini,Mumbai,7745428180,Internship,1-3 years,Masters,E-commerce,Hybrid,"Docker, Tableau, Power BI, JavaScript",29,3.8,93,30
+4290,Frontend Developer,Infosys,Kolkata,9299984982,Part-Time,8+ years,Masters,AI,Hybrid,"React, JavaScript, Python, PyTorch",34,3.6,346,3
+4291,Backend Developer,Google,Coimbatore,7317767764,Part-Time,0-1 years,Masters,Software,Hybrid,"React, JavaScript, Node.js, AWS",40,4.7,67,20
+4292,Full Stack Developer,Freshworks,Mumbai,6136813682,Part-Time,8+ years,PhD,Cloud,Remote,"SQL, Pandas, TensorFlow, Power BI",37,4.9,246,26
+4293,Data Scientist,Wipro,Delhi,8190725039,Full-Time,5-8 years,PhD,Software,Remote,"AWS, Power BI, SQL, JavaScript",36,4.8,795,7
+4294,Cloud Engineer,Accenture,Delhi,8778961397,Part-Time,1-3 years,PhD,IT Services,Hybrid,"Machine Learning, AWS, Node.js, SQL",31,3.8,408,8
+4295,Frontend Developer,Google,Mumbai,6154735057,Part-Time,5-8 years,PhD,E-commerce,Remote,"Node.js, PyTorch, Kubernetes, React",17,4.7,639,5
+4296,Data Analyst,Flipkart,Chennai,6349028260,Full-Time,5-8 years,Masters,Software,Hybrid,"Node.js, SQL, React, Java",17,4.7,71,5
+4297,Frontend Developer,Amazon,Kolkata,6817901310,Internship,1-3 years,Masters,FinTech,Hybrid,"AWS, JavaScript, Pandas, React",19,4.4,23,27
+4298,Data Analyst,Freshworks,Delhi,8479434992,Full-Time,1-3 years,Masters,Cloud,Remote,"AWS, Pandas, Power BI, Java",37,3.6,736,5
+4299,Machine Learning Engineer,TCS,Kolkata,9854387195,Part-Time,8+ years,PhD,FinTech,Hybrid,"AWS, JavaScript, PyTorch, Java",4,4.1,416,17
+4300,DevOps Engineer,Oracle,Bangalore,9743621443,Internship,1-3 years,Bachelors,IT Services,On-site,"Tableau, Node.js, PyTorch, Pandas",26,4.7,795,26
+4301,Data Scientist,Accenture,Bangalore,6658282073,Internship,5-8 years,Bachelors,FinTech,On-site,"Java, React, Tableau, TensorFlow",4,3.0,687,30
+4302,Software Engineer,Wipro,Kolkata,6178027385,Full-Time,0-1 years,PhD,FinTech,On-site,"React, PyTorch, JavaScript, Node.js",19,3.1,67,1
+4303,DevOps Engineer,SAP,Kolkata,7127780352,Internship,5-8 years,Masters,FinTech,Hybrid,"Kubernetes, Node.js, Docker, JavaScript",34,3.5,166,20
+4304,Frontend Developer,Capgemini,Coimbatore,9252630863,Internship,0-1 years,PhD,AI,On-site,"Tableau, Pandas, JavaScript, Machine Learning",40,3.0,371,23
+4305,Software Engineer,Microsoft,Kolkata,7458888644,Full-Time,8+ years,Masters,E-commerce,Remote,"JavaScript, Tableau, Kubernetes, Power BI",34,3.7,563,27
+4306,Backend Developer,Freshworks,Mumbai,9085923930,Part-Time,3-5 years,Masters,Cloud,Remote,"Docker, Pandas, JavaScript, Machine Learning",6,4.5,30,27
+4307,Backend Developer,Wipro,Delhi,9031587186,Contract,0-1 years,PhD,IT Services,Hybrid,"Power BI, TensorFlow, React, Pandas",5,3.1,758,25
+4308,Cloud Engineer,Wipro,Gurgaon,8213857824,Part-Time,5-8 years,Masters,FinTech,Hybrid,"Machine Learning, SQL, Docker, Node.js",14,4.6,241,17
+4309,DevOps Engineer,Zoho,Gurgaon,6847596754,Contract,8+ years,Masters,Cloud,On-site,"Machine Learning, Pandas, Node.js, Kubernetes",11,4.3,502,2
+4310,Data Scientist,TCS,Noida,7414149083,Contract,3-5 years,PhD,AI,On-site,"Tableau, Java, PyTorch, Docker",36,3.7,524,26
+4311,DevOps Engineer,Cognizant,Hyderabad,9298839743,Internship,5-8 years,PhD,AI,Remote,"Power BI, Java, PyTorch, Tableau",34,4.9,43,10
+4312,Data Analyst,Amazon,Chennai,7464562954,Full-Time,5-8 years,Masters,Software,On-site,"Machine Learning, Pandas, Docker, AWS",31,4.8,602,27
+4313,Machine Learning Engineer,Capgemini,Gurgaon,7038342076,Contract,5-8 years,PhD,Healthcare,On-site,"TensorFlow, Power BI, Node.js, SQL",40,4.0,46,26
+4314,Full Stack Developer,Oracle,Chennai,7164277212,Internship,0-1 years,PhD,IT Services,Hybrid,"Pandas, Node.js, TensorFlow, SQL",10,3.8,109,20
+4315,Frontend Developer,Microsoft,Hyderabad,9294018788,Part-Time,3-5 years,Masters,AI,On-site,"Pandas, JavaScript, AWS, Kubernetes",32,3.3,163,5
+4316,Software Engineer,Amazon,Chennai,9891825091,Internship,3-5 years,Bachelors,FinTech,On-site,"Pandas, Java, Python, Machine Learning",27,4.4,249,20
+4317,Full Stack Developer,Freshworks,Kolkata,7173087833,Contract,3-5 years,Masters,Healthcare,Hybrid,"Python, JavaScript, Kubernetes, Power BI",37,3.5,443,4
+4318,DevOps Engineer,Wipro,Ahmedabad,7070753025,Internship,1-3 years,PhD,Cloud,On-site,"PyTorch, Python, SQL, Node.js",12,4.6,756,19
+4319,Data Analyst,Cognizant,Mumbai,6377899220,Part-Time,0-1 years,PhD,E-commerce,Hybrid,"Docker, Python, Java, React",40,3.9,707,22
+4320,Cloud Engineer,Oracle,Noida,9793575467,Full-Time,1-3 years,Masters,Software,Hybrid,"Docker, PyTorch, Java, Tableau",38,3.4,268,9
+4321,Backend Developer,Freshworks,Delhi,9007063524,Internship,0-1 years,Masters,Cloud,On-site,"Machine Learning, AWS, Node.js, JavaScript",30,3.7,799,17
+4322,Full Stack Developer,IBM,Kolkata,9677977679,Full-Time,1-3 years,PhD,E-commerce,Hybrid,"React, JavaScript, Kubernetes, Power BI",29,3.9,392,17
+4323,Full Stack Developer,Google,Mumbai,8597283237,Contract,5-8 years,PhD,FinTech,Hybrid,"Kubernetes, Java, Docker, Tableau",40,4.0,301,3
+4324,Product Manager,Freshworks,Ahmedabad,9139414872,Part-Time,3-5 years,Bachelors,Healthcare,On-site,"Java, SQL, React, Tableau",28,3.5,67,4
+4325,Product Manager,Wipro,Pune,9757158940,Contract,5-8 years,Masters,Software,Hybrid,"Python, AWS, Pandas, Power BI",35,3.3,93,15
+4326,Data Analyst,IBM,Delhi,8611020258,Part-Time,8+ years,Bachelors,E-commerce,Hybrid,"Pandas, AWS, TensorFlow, JavaScript",35,4.3,556,25
+4327,AI Engineer,IBM,Delhi,8022658554,Full-Time,5-8 years,Bachelors,IT Services,Hybrid,"React, Node.js, PyTorch, Docker",28,4.9,764,29
+4328,Software Engineer,Freshworks,Kolkata,7661086250,Contract,0-1 years,Masters,Cloud,Remote,"Docker, JavaScript, Python, Kubernetes",19,4.9,295,25
+4329,Backend Developer,Cognizant,Bangalore,8467586754,Contract,3-5 years,PhD,Healthcare,On-site,"Tableau, Power BI, TensorFlow, Python",15,4.8,645,11
+4330,Data Scientist,Infosys,Bangalore,6694236561,Full-Time,0-1 years,Masters,Cloud,Remote,"Python, Kubernetes, Pandas, Tableau",19,3.4,365,15
+4331,Product Manager,Amazon,Pune,8323113147,Part-Time,8+ years,PhD,AI,Hybrid,"Node.js, AWS, Machine Learning, Power BI",5,3.2,565,18
+4332,Full Stack Developer,TCS,Noida,6643940572,Full-Time,0-1 years,Bachelors,Cloud,Remote,"JavaScript, TensorFlow, Machine Learning, PyTorch",37,4.8,136,29
+4333,AI Engineer,Accenture,Bangalore,7621661076,Internship,8+ years,Masters,FinTech,On-site,"Python, Pandas, PyTorch, SQL",22,4.8,776,24
+4334,Frontend Developer,Cognizant,Kolkata,6789734227,Contract,5-8 years,PhD,Software,Remote,"React, Tableau, PyTorch, Docker",10,4.7,127,17
+4335,Data Scientist,Oracle,Chennai,7463498218,Internship,5-8 years,PhD,FinTech,Remote,"Machine Learning, React, Pandas, AWS",29,4.0,215,15
+4336,Data Scientist,Wipro,Mumbai,8696043967,Internship,8+ years,PhD,AI,Remote,"Python, PyTorch, JavaScript, TensorFlow",8,3.8,795,1
+4337,Cloud Engineer,Freshworks,Pune,7239475112,Full-Time,1-3 years,Bachelors,Cloud,On-site,"Kubernetes, Tableau, Node.js, TensorFlow",15,3.3,599,9
+4338,Product Manager,TCS,Bangalore,6774307287,Internship,3-5 years,Masters,E-commerce,Remote,"Tableau, TensorFlow, Pandas, React",19,3.4,535,1
+4339,Cloud Engineer,TCS,Hyderabad,6962260130,Part-Time,0-1 years,Bachelors,FinTech,On-site,"TensorFlow, Kubernetes, Machine Learning, SQL",22,4.6,370,11
+4340,Software Engineer,Zoho,Noida,6867015649,Contract,5-8 years,Bachelors,IT Services,Remote,"Tableau, PyTorch, TensorFlow, AWS",37,3.8,402,15
+4341,DevOps Engineer,Microsoft,Mumbai,7676262475,Full-Time,8+ years,Masters,Cloud,On-site,"Machine Learning, SQL, Java, Python",24,5.0,720,8
+4342,Data Analyst,Flipkart,Chennai,8902427669,Contract,5-8 years,Bachelors,Healthcare,On-site,"Power BI, PyTorch, SQL, Tableau",27,3.3,417,14
+4343,Backend Developer,Freshworks,Gurgaon,9250026466,Contract,5-8 years,PhD,IT Services,Hybrid,"Power BI, Kubernetes, AWS, Docker",15,3.6,454,20
+4344,DevOps Engineer,Freshworks,Chennai,7330095235,Part-Time,3-5 years,Masters,E-commerce,On-site,"Python, AWS, JavaScript, Java",37,4.1,551,8
+4345,Software Engineer,IBM,Coimbatore,8111365708,Part-Time,5-8 years,Bachelors,E-commerce,Hybrid,"Node.js, React, Docker, Machine Learning",38,3.5,740,25
+4346,Data Analyst,Amazon,Delhi,7375246328,Contract,0-1 years,Bachelors,IT Services,Hybrid,"Pandas, PyTorch, SQL, React",33,3.4,574,4
+4347,Business Analyst,SAP,Hyderabad,8581905286,Internship,5-8 years,PhD,FinTech,Hybrid,"Kubernetes, Docker, PyTorch, Node.js",38,3.4,481,17
+4348,Product Manager,SAP,Mumbai,9065455471,Full-Time,1-3 years,Bachelors,IT Services,On-site,"Java, JavaScript, Docker, Machine Learning",35,3.2,223,22
+4349,Product Manager,Capgemini,Pune,6942500634,Part-Time,8+ years,Bachelors,E-commerce,Hybrid,"Java, React, SQL, Power BI",13,4.3,426,10
+4350,Frontend Developer,Flipkart,Hyderabad,6942671686,Contract,0-1 years,Bachelors,IT Services,On-site,"AWS, Power BI, Tableau, Machine Learning",11,4.2,30,1
+4351,Frontend Developer,SAP,Coimbatore,9624889035,Part-Time,5-8 years,PhD,FinTech,On-site,"Power BI, Docker, SQL, React",17,3.5,66,7
+4352,Cloud Engineer,Cognizant,Pune,9738034121,Full-Time,8+ years,Masters,IT Services,Remote,"React, TensorFlow, SQL, Pandas",30,4.1,535,26
+4353,Data Scientist,Freshworks,Pune,8639225746,Internship,5-8 years,PhD,Software,On-site,"Machine Learning, React, Java, Docker",18,4.2,508,13
+4354,Cloud Engineer,Cognizant,Ahmedabad,7336674383,Full-Time,8+ years,Masters,Software,Remote,"Power BI, Java, Kubernetes, TensorFlow",27,3.6,644,8
+4355,AI Engineer,Accenture,Coimbatore,6793651667,Full-Time,5-8 years,Bachelors,E-commerce,Remote,"Node.js, Java, AWS, Kubernetes",33,4.3,411,25
+4356,Backend Developer,Wipro,Delhi,6992004245,Internship,1-3 years,Bachelors,IT Services,On-site,"TensorFlow, PyTorch, Node.js, Python",12,4.7,518,1
+4357,Backend Developer,Google,Noida,6651155001,Part-Time,3-5 years,PhD,IT Services,On-site,"JavaScript, Pandas, Java, React",38,4.2,528,7
+4358,Business Analyst,Flipkart,Delhi,6801981835,Contract,5-8 years,Bachelors,Software,Hybrid,"Docker, TensorFlow, Pandas, Tableau",27,3.6,134,23
+4359,Full Stack Developer,Google,Pune,8479432799,Internship,8+ years,PhD,FinTech,Remote,"Machine Learning, Pandas, AWS, Docker",26,4.2,584,11
+4360,Backend Developer,Flipkart,Noida,6733464954,Contract,5-8 years,PhD,Cloud,Hybrid,"Java, Tableau, Power BI, Docker",4,4.5,535,5
+4361,Full Stack Developer,Amazon,Chennai,8159483818,Internship,5-8 years,Bachelors,FinTech,On-site,"SQL, Power BI, PyTorch, React",30,4.8,792,15
+4362,Cloud Engineer,Zoho,Chennai,7124074733,Full-Time,5-8 years,Masters,Healthcare,Hybrid,"PyTorch, Machine Learning, Pandas, AWS",35,4.7,145,28
+4363,Machine Learning Engineer,TCS,Pune,7236544871,Part-Time,1-3 years,PhD,Cloud,On-site,"JavaScript, Node.js, Machine Learning, PyTorch",36,4.1,319,23
+4364,Product Manager,TCS,Chennai,7918059258,Full-Time,1-3 years,PhD,FinTech,Remote,"Machine Learning, Pandas, Kubernetes, Python",32,4.4,406,14
+4365,AI Engineer,Cognizant,Ahmedabad,6613367389,Full-Time,0-1 years,Masters,Cloud,Remote,"AWS, JavaScript, Python, Node.js",29,3.4,588,30
+4366,Full Stack Developer,Amazon,Ahmedabad,6792329649,Internship,8+ years,PhD,Cloud,On-site,"PyTorch, Kubernetes, JavaScript, TensorFlow",32,4.0,317,30
+4367,Data Analyst,Google,Pune,8590680094,Full-Time,3-5 years,PhD,E-commerce,Hybrid,"Java, Kubernetes, PyTorch, Tableau",15,3.6,293,24
+4368,Machine Learning Engineer,Flipkart,Mumbai,9043324779,Full-Time,3-5 years,PhD,Software,On-site,"Power BI, PyTorch, SQL, React",19,3.5,457,23
+4369,DevOps Engineer,SAP,Gurgaon,8028352284,Part-Time,8+ years,Bachelors,Healthcare,Remote,"JavaScript, TensorFlow, AWS, Tableau",10,4.4,330,3
+4370,Frontend Developer,Cognizant,Noida,7733359881,Contract,1-3 years,Bachelors,FinTech,Remote,"SQL, Tableau, Python, PyTorch",38,4.6,760,17
+4371,Frontend Developer,Flipkart,Delhi,9919728869,Internship,8+ years,PhD,Software,Hybrid,"TensorFlow, Kubernetes, AWS, Node.js",18,3.4,165,8
+4372,Backend Developer,SAP,Delhi,8874378582,Part-Time,3-5 years,Bachelors,Healthcare,Hybrid,"TensorFlow, Docker, JavaScript, Java",33,3.6,183,27
+4373,Data Scientist,SAP,Gurgaon,8538516093,Full-Time,3-5 years,Masters,FinTech,Remote,"Node.js, TensorFlow, Power BI, Python",35,3.7,54,16
+4374,Backend Developer,Wipro,Gurgaon,6454062749,Part-Time,0-1 years,Bachelors,IT Services,On-site,"Docker, Power BI, Node.js, SQL",36,5.0,358,22
+4375,Software Engineer,Google,Kolkata,6601870728,Internship,8+ years,Bachelors,FinTech,Remote,"Tableau, SQL, Java, Kubernetes",14,4.5,672,1
+4376,Data Analyst,Microsoft,Chennai,6733195365,Internship,8+ years,Masters,Cloud,Hybrid,"React, Kubernetes, Pandas, JavaScript",35,4.8,181,29
+4377,AI Engineer,Flipkart,Ahmedabad,6340324836,Contract,8+ years,PhD,AI,Remote,"Kubernetes, Tableau, JavaScript, Python",40,4.8,556,12
+4378,Full Stack Developer,Capgemini,Mumbai,9134464232,Contract,3-5 years,PhD,IT Services,Hybrid,"React, Machine Learning, Docker, Java",38,3.0,737,30
+4379,Data Analyst,Zoho,Chennai,6945973408,Part-Time,3-5 years,Masters,Healthcare,Remote,"Python, AWS, Pandas, React",16,3.5,417,22
+4380,DevOps Engineer,Google,Bangalore,7315296268,Part-Time,5-8 years,Masters,FinTech,On-site,"Power BI, JavaScript, Kubernetes, Python",7,3.5,217,6
+4381,Product Manager,Capgemini,Gurgaon,6601962659,Internship,5-8 years,PhD,Software,Hybrid,"Power BI, TensorFlow, Machine Learning, PyTorch",18,4.0,68,19
+4382,Full Stack Developer,Oracle,Ahmedabad,6718406868,Full-Time,1-3 years,PhD,E-commerce,Hybrid,"TensorFlow, Java, Python, Docker",16,4.7,178,23
+4383,Business Analyst,Wipro,Coimbatore,6806949034,Contract,1-3 years,Masters,Cloud,On-site,"JavaScript, Pandas, Java, PyTorch",38,4.0,116,28
+4384,Machine Learning Engineer,Zoho,Gurgaon,9261044534,Part-Time,5-8 years,Bachelors,AI,On-site,"Machine Learning, Docker, SQL, AWS",39,4.4,385,3
+4385,DevOps Engineer,Accenture,Pune,7618864158,Full-Time,0-1 years,Bachelors,FinTech,Hybrid,"Python, SQL, AWS, Node.js",34,4.2,511,10
+4386,Frontend Developer,Capgemini,Coimbatore,9991221439,Part-Time,1-3 years,Bachelors,Cloud,Hybrid,"SQL, TensorFlow, AWS, PyTorch",32,3.3,139,11
+4387,Full Stack Developer,Oracle,Coimbatore,8767350820,Full-Time,8+ years,Bachelors,FinTech,On-site,"Node.js, Python, Tableau, Machine Learning",14,4.8,412,29
+4388,AI Engineer,Infosys,Noida,8543385194,Full-Time,1-3 years,Masters,Software,Hybrid,"Python, Java, Node.js, SQL",10,3.7,287,3
+4389,Full Stack Developer,Capgemini,Pune,8557755729,Part-Time,8+ years,PhD,Healthcare,Remote,"Kubernetes, Pandas, Machine Learning, Java",8,3.6,21,19
+4390,Data Analyst,Zoho,Delhi,6234993059,Internship,0-1 years,Bachelors,E-commerce,Remote,"TensorFlow, Power BI, JavaScript, Node.js",21,5.0,774,5
+4391,DevOps Engineer,Freshworks,Mumbai,6328929577,Contract,0-1 years,Masters,AI,On-site,"AWS, Java, PyTorch, Kubernetes",14,3.2,495,2
+4392,Data Analyst,Microsoft,Coimbatore,6738766363,Internship,0-1 years,PhD,IT Services,Remote,"Tableau, Java, JavaScript, Docker",38,4.4,171,20
+4393,Business Analyst,TCS,Coimbatore,8504663072,Full-Time,5-8 years,PhD,AI,Remote,"Power BI, JavaScript, Node.js, Python",37,4.5,231,9
+4394,Cloud Engineer,Amazon,Chennai,6500316370,Internship,8+ years,PhD,Software,Hybrid,"SQL, Machine Learning, React, Python",4,3.4,407,23
+4395,Full Stack Developer,Freshworks,Pune,6730585291,Part-Time,5-8 years,PhD,IT Services,Remote,"Power BI, JavaScript, Java, Docker",25,3.1,572,20
+4396,Cloud Engineer,Oracle,Pune,7764449262,Contract,0-1 years,Masters,FinTech,Hybrid,"Python, Java, React, JavaScript",33,4.6,221,11
+4397,Full Stack Developer,Freshworks,Mumbai,8933802650,Part-Time,3-5 years,Bachelors,AI,Remote,"PyTorch, JavaScript, Java, Python",12,5.0,491,15
+4398,Cloud Engineer,Freshworks,Chennai,9032661284,Internship,1-3 years,Masters,Healthcare,On-site,"TensorFlow, Node.js, JavaScript, Kubernetes",16,3.8,203,14
+4399,Frontend Developer,Google,Pune,8353651087,Part-Time,0-1 years,Bachelors,FinTech,On-site,"PyTorch, Docker, TensorFlow, SQL",37,3.9,685,23
+4400,Product Manager,Oracle,Hyderabad,7489478393,Part-Time,8+ years,PhD,IT Services,Remote,"TensorFlow, PyTorch, SQL, JavaScript",13,4.7,502,19
+4401,Backend Developer,Wipro,Bangalore,7858653906,Contract,0-1 years,PhD,Healthcare,Remote,"Docker, Python, PyTorch, Machine Learning",6,4.9,307,6
+4402,Cloud Engineer,IBM,Chennai,8416327417,Part-Time,3-5 years,Bachelors,Healthcare,Hybrid,"AWS, Docker, PyTorch, Pandas",24,3.9,245,5
+4403,Machine Learning Engineer,Zoho,Kolkata,9367405596,Part-Time,1-3 years,Bachelors,Cloud,Hybrid,"TensorFlow, Power BI, SQL, Pandas",31,3.0,262,6
+4404,DevOps Engineer,IBM,Kolkata,7658731344,Contract,3-5 years,Bachelors,IT Services,On-site,"Tableau, JavaScript, Python, Kubernetes",25,4.5,504,24
+4405,Full Stack Developer,Zoho,Pune,8953831218,Contract,5-8 years,Bachelors,IT Services,Remote,"JavaScript, Power BI, AWS, Pandas",31,3.8,597,7
+4406,AI Engineer,Amazon,Gurgaon,7078155233,Part-Time,5-8 years,PhD,E-commerce,On-site,"Python, Java, Pandas, Power BI",30,3.9,378,10
+4407,Cloud Engineer,Oracle,Kolkata,7853341505,Full-Time,8+ years,PhD,AI,Hybrid,"React, Power BI, Tableau, AWS",21,3.2,632,25
+4408,Backend Developer,Google,Kolkata,6720253137,Part-Time,3-5 years,Masters,E-commerce,Hybrid,"Java, Node.js, Pandas, React",38,4.9,624,13
+4409,Business Analyst,IBM,Pune,9591638068,Internship,0-1 years,PhD,AI,On-site,"Tableau, AWS, Node.js, Pandas",5,3.7,511,13
+4410,Frontend Developer,Amazon,Kolkata,9637489290,Part-Time,3-5 years,Masters,AI,Hybrid,"Java, Pandas, TensorFlow, Node.js",15,4.2,96,10
+4411,Backend Developer,Oracle,Coimbatore,7423320318,Internship,1-3 years,PhD,IT Services,Remote,"AWS, Pandas, React, Kubernetes",40,4.0,570,12
+4412,Full Stack Developer,Freshworks,Pune,9810113786,Part-Time,5-8 years,Masters,Software,On-site,"JavaScript, Tableau, Python, Docker",23,3.9,682,4
+4413,DevOps Engineer,TCS,Kolkata,6193025547,Internship,8+ years,Masters,Cloud,On-site,"JavaScript, Java, PyTorch, Power BI",38,3.7,176,15
+4414,Software Engineer,SAP,Chennai,8293865680,Internship,3-5 years,PhD,AI,On-site,"PyTorch, Python, Power BI, React",22,4.4,404,2
+4415,Machine Learning Engineer,Infosys,Chennai,7313665085,Full-Time,5-8 years,PhD,IT Services,Remote,"Kubernetes, Power BI, Tableau, Pandas",40,4.5,755,11
+4416,Backend Developer,Google,Bangalore,9780924382,Contract,8+ years,Masters,AI,On-site,"Tableau, Kubernetes, Java, Pandas",16,4.1,642,7
+4417,Product Manager,SAP,Ahmedabad,9364073853,Internship,5-8 years,Bachelors,FinTech,Remote,"AWS, Docker, Tableau, SQL",12,3.3,533,25
+4418,Data Analyst,SAP,Ahmedabad,8992674576,Part-Time,0-1 years,Masters,Software,On-site,"Node.js, Tableau, Kubernetes, Machine Learning",38,3.4,371,7
+4419,Data Analyst,Oracle,Ahmedabad,6737772346,Internship,8+ years,Masters,Software,Remote,"Machine Learning, Docker, AWS, Tableau",8,4.4,771,21
+4420,Machine Learning Engineer,Capgemini,Gurgaon,9185698846,Full-Time,0-1 years,Masters,AI,Remote,"Machine Learning, AWS, React, Power BI",24,3.4,76,23
+4421,Full Stack Developer,Amazon,Ahmedabad,9300539563,Contract,0-1 years,Masters,E-commerce,On-site,"Node.js, PyTorch, Tableau, TensorFlow",13,4.8,436,18
+4422,Frontend Developer,Google,Pune,8015597940,Internship,3-5 years,Bachelors,IT Services,On-site,"Pandas, Docker, Java, Python",40,4.9,169,25
+4423,Backend Developer,Accenture,Kolkata,9762054199,Internship,8+ years,Bachelors,FinTech,Remote,"Pandas, Kubernetes, SQL, TensorFlow",28,3.9,37,1
+4424,Product Manager,SAP,Chennai,9206633126,Contract,1-3 years,PhD,E-commerce,On-site,"Node.js, React, JavaScript, Kubernetes",34,4.9,682,3
+4425,Business Analyst,Freshworks,Delhi,7993933150,Part-Time,8+ years,Bachelors,E-commerce,Hybrid,"Power BI, JavaScript, Python, Kubernetes",38,4.7,755,21
+4426,Software Engineer,Wipro,Noida,9649503146,Internship,0-1 years,Bachelors,AI,Hybrid,"Kubernetes, Node.js, Power BI, Pandas",14,4.0,237,30
+4427,Data Analyst,Amazon,Hyderabad,8206132406,Part-Time,8+ years,Masters,AI,On-site,"Tableau, Node.js, Pandas, JavaScript",21,3.6,687,6
+4428,Full Stack Developer,Cognizant,Chennai,9236070526,Contract,0-1 years,Bachelors,AI,Hybrid,"Power BI, React, PyTorch, Tableau",14,4.7,192,23
+4429,Full Stack Developer,IBM,Bangalore,6613766923,Contract,1-3 years,Bachelors,Cloud,Hybrid,"Pandas, JavaScript, React, Python",22,3.3,312,8
+4430,Backend Developer,Flipkart,Kolkata,6592320760,Contract,0-1 years,Bachelors,Software,Remote,"Tableau, AWS, React, PyTorch",13,3.6,56,4
+4431,Machine Learning Engineer,Capgemini,Delhi,8195509636,Part-Time,1-3 years,PhD,IT Services,On-site,"JavaScript, Java, SQL, AWS",13,3.6,223,19
+4432,Frontend Developer,IBM,Gurgaon,6495936830,Contract,0-1 years,PhD,Software,Remote,"Tableau, Docker, Node.js, AWS",8,3.6,775,22
+4433,Full Stack Developer,Amazon,Bangalore,9064541468,Full-Time,3-5 years,PhD,AI,Remote,"JavaScript, Kubernetes, Tableau, Docker",7,3.6,382,11
+4434,Frontend Developer,Zoho,Bangalore,8301025124,Contract,1-3 years,Masters,Healthcare,On-site,"Java, Python, PyTorch, TensorFlow",16,4.9,348,20
+4435,Data Scientist,Freshworks,Mumbai,6541871281,Internship,1-3 years,Masters,Healthcare,Remote,"Node.js, PyTorch, Pandas, React",27,4.2,139,11
+4436,Frontend Developer,TCS,Delhi,7406712948,Internship,0-1 years,Masters,E-commerce,Remote,"AWS, Pandas, Tableau, Node.js",23,3.8,733,18
+4437,DevOps Engineer,Infosys,Pune,6179930880,Contract,3-5 years,Bachelors,Software,Remote,"PyTorch, Docker, Pandas, React",34,4.3,663,11
+4438,Data Analyst,Cognizant,Gurgaon,8043845441,Part-Time,0-1 years,Bachelors,FinTech,Remote,"Machine Learning, SQL, PyTorch, Java",5,4.4,610,14
+4439,Product Manager,Freshworks,Kolkata,7134480317,Internship,8+ years,Bachelors,IT Services,Remote,"Power BI, Kubernetes, Machine Learning, Python",16,4.7,548,16
+4440,Machine Learning Engineer,Google,Kolkata,7431891729,Full-Time,1-3 years,PhD,Cloud,On-site,"TensorFlow, Python, JavaScript, Kubernetes",16,4.9,152,28
+4441,Software Engineer,Amazon,Hyderabad,8695446514,Full-Time,1-3 years,Masters,AI,Hybrid,"React, TensorFlow, AWS, Node.js",20,3.2,483,11
+4442,Data Scientist,Infosys,Hyderabad,9419421617,Internship,0-1 years,PhD,Cloud,Hybrid,"Java, Python, Machine Learning, Power BI",31,4.5,753,17
+4443,Software Engineer,Accenture,Mumbai,7956505165,Full-Time,3-5 years,Bachelors,FinTech,Hybrid,"Java, Python, React, Tableau",21,3.1,722,29
+4444,Machine Learning Engineer,Wipro,Coimbatore,6576558333,Full-Time,8+ years,Bachelors,IT Services,Remote,"Node.js, Docker, AWS, SQL",5,3.6,768,29
+4445,DevOps Engineer,Wipro,Chennai,9004844371,Full-Time,8+ years,Bachelors,E-commerce,Hybrid,"Java, Docker, PyTorch, Kubernetes",17,3.6,178,25
+4446,Full Stack Developer,Amazon,Bangalore,7102569621,Contract,0-1 years,Bachelors,Healthcare,On-site,"Pandas, Docker, JavaScript, SQL",11,4.6,176,11
+4447,Business Analyst,Infosys,Kolkata,7089008154,Part-Time,0-1 years,PhD,AI,Hybrid,"AWS, Docker, Node.js, Python",11,4.3,760,1
+4448,Frontend Developer,Oracle,Hyderabad,7007090350,Internship,3-5 years,Bachelors,Software,Hybrid,"Kubernetes, PyTorch, Node.js, Tableau",10,3.5,478,5
+4449,Full Stack Developer,Microsoft,Mumbai,6968239984,Part-Time,5-8 years,PhD,AI,On-site,"React, AWS, JavaScript, Power BI",16,4.6,663,29
+4450,Software Engineer,IBM,Ahmedabad,6295499297,Full-Time,5-8 years,Masters,FinTech,Remote,"Power BI, React, Tableau, TensorFlow",40,3.9,518,26
+4451,Software Engineer,Microsoft,Mumbai,6061514280,Contract,0-1 years,PhD,Healthcare,On-site,"Python, Machine Learning, Java, Tableau",40,4.4,89,29
+4452,Data Analyst,SAP,Gurgaon,6980393215,Internship,0-1 years,Masters,AI,Hybrid,"PyTorch, Pandas, Tableau, Java",35,4.7,497,15
+4453,Backend Developer,Google,Bangalore,7428479806,Contract,5-8 years,Bachelors,AI,Hybrid,"PyTorch, Node.js, Tableau, Machine Learning",28,4.8,777,5
+4454,Cloud Engineer,Flipkart,Ahmedabad,7424198083,Full-Time,0-1 years,Bachelors,Healthcare,Hybrid,"PyTorch, Power BI, AWS, Pandas",19,3.9,777,3
+4455,Machine Learning Engineer,SAP,Bangalore,9474291357,Full-Time,0-1 years,Bachelors,E-commerce,Remote,"AWS, Machine Learning, Tableau, Python",12,4.8,568,15
+4456,Data Scientist,TCS,Ahmedabad,8071825215,Internship,8+ years,Bachelors,Software,Remote,"JavaScript, Kubernetes, Java, Python",35,3.5,749,6
+4457,DevOps Engineer,Wipro,Kolkata,7460519256,Part-Time,3-5 years,PhD,E-commerce,Remote,"Power BI, SQL, React, Java",36,4.4,45,11
+4458,Machine Learning Engineer,Accenture,Hyderabad,9457249064,Part-Time,5-8 years,Bachelors,Software,Remote,"SQL, TensorFlow, AWS, Pandas",6,4.9,154,14
+4459,Data Scientist,Freshworks,Delhi,6279201425,Full-Time,3-5 years,Masters,FinTech,Remote,"React, Docker, TensorFlow, JavaScript",35,4.5,256,1
+4460,Business Analyst,Oracle,Pune,6217967110,Full-Time,1-3 years,Bachelors,FinTech,On-site,"Pandas, React, Tableau, Python",14,4.4,59,1
+4461,Full Stack Developer,Oracle,Hyderabad,6589380717,Part-Time,8+ years,Bachelors,AI,Hybrid,"Node.js, JavaScript, Docker, PyTorch",11,3.3,445,8
+4462,Data Analyst,Freshworks,Hyderabad,7237628792,Internship,0-1 years,Masters,Software,Hybrid,"Node.js, AWS, SQL, Kubernetes",28,4.5,89,24
+4463,Backend Developer,Capgemini,Mumbai,7533661281,Contract,3-5 years,Masters,AI,Hybrid,"Tableau, Docker, Kubernetes, PyTorch",12,4.5,374,7
+4464,Frontend Developer,Freshworks,Pune,6242391623,Internship,3-5 years,Bachelors,E-commerce,On-site,"Power BI, React, AWS, Docker",23,3.9,46,7
+4465,Backend Developer,Infosys,Chennai,7834404517,Contract,0-1 years,Masters,IT Services,On-site,"Power BI, Python, Docker, Node.js",10,3.0,152,14
+4466,Product Manager,Cognizant,Mumbai,8780843688,Internship,5-8 years,PhD,Software,Remote,"JavaScript, Machine Learning, SQL, TensorFlow",15,3.1,748,20
+4467,Data Scientist,Wipro,Coimbatore,9695573264,Internship,1-3 years,PhD,FinTech,Remote,"Pandas, Docker, PyTorch, TensorFlow",38,4.9,34,12
+4468,Data Scientist,Freshworks,Pune,6117388139,Internship,8+ years,Bachelors,FinTech,On-site,"PyTorch, React, TensorFlow, Pandas",24,3.8,52,18
+4469,Backend Developer,Freshworks,Mumbai,6068227195,Contract,0-1 years,Masters,IT Services,On-site,"SQL, Docker, Tableau, Machine Learning",33,3.6,400,6
+4470,Data Scientist,Wipro,Bangalore,6322983145,Full-Time,5-8 years,PhD,Healthcare,On-site,"AWS, Docker, TensorFlow, Pandas",32,4.9,467,9
+4471,Software Engineer,Oracle,Chennai,8190402415,Part-Time,1-3 years,Bachelors,AI,On-site,"Power BI, Java, AWS, PyTorch",32,4.5,507,19
+4472,Software Engineer,Freshworks,Bangalore,6989735619,Part-Time,5-8 years,Masters,IT Services,Remote,"Machine Learning, Node.js, PyTorch, Power BI",29,4.4,171,6
+4473,Machine Learning Engineer,Flipkart,Hyderabad,6072546444,Part-Time,5-8 years,Bachelors,FinTech,On-site,"SQL, AWS, Docker, JavaScript",11,3.3,562,12
+4474,DevOps Engineer,SAP,Noida,7225024776,Part-Time,0-1 years,PhD,Cloud,On-site,"SQL, React, Pandas, JavaScript",11,4.8,591,24
+4475,Business Analyst,TCS,Hyderabad,7573084739,Full-Time,0-1 years,PhD,Cloud,On-site,"React, Python, Node.js, Power BI",18,3.1,786,14
+4476,Frontend Developer,Flipkart,Pune,6508281373,Full-Time,0-1 years,Masters,E-commerce,Remote,"Python, Pandas, JavaScript, Tableau",23,4.2,736,10
+4477,Backend Developer,TCS,Noida,9376105178,Contract,1-3 years,Masters,Healthcare,On-site,"React, Python, JavaScript, PyTorch",23,4.8,289,12
+4478,Business Analyst,IBM,Hyderabad,9780962919,Internship,0-1 years,PhD,AI,Remote,"Python, Pandas, Machine Learning, Power BI",36,4.0,611,25
+4479,Business Analyst,Amazon,Mumbai,6505740642,Contract,0-1 years,Bachelors,IT Services,Remote,"JavaScript, TensorFlow, SQL, Kubernetes",27,4.2,593,5
+4480,Product Manager,Google,Coimbatore,9861952208,Full-Time,3-5 years,PhD,E-commerce,On-site,"Java, TensorFlow, AWS, Machine Learning",17,3.6,147,4
+4481,Cloud Engineer,Microsoft,Kolkata,7649549458,Internship,8+ years,Masters,FinTech,Remote,"Node.js, SQL, Kubernetes, Docker",18,5.0,779,12
+4482,Backend Developer,Oracle,Gurgaon,8803424275,Full-Time,1-3 years,Bachelors,AI,Hybrid,"TensorFlow, PyTorch, React, Kubernetes",4,4.3,103,20
+4483,Product Manager,TCS,Pune,6594328322,Contract,8+ years,Masters,Software,Remote,"Machine Learning, JavaScript, PyTorch, AWS",36,4.9,272,14
+4484,Backend Developer,Oracle,Noida,9259618607,Contract,5-8 years,PhD,Cloud,Hybrid,"Kubernetes, Docker, Pandas, SQL",40,4.7,566,22
+4485,Backend Developer,SAP,Bangalore,8554215640,Full-Time,3-5 years,Masters,FinTech,Remote,"AWS, Node.js, Python, PyTorch",35,3.9,615,25
+4486,Business Analyst,Freshworks,Delhi,9272223839,Internship,8+ years,PhD,FinTech,On-site,"Machine Learning, PyTorch, SQL, JavaScript",5,4.1,109,26
+4487,Frontend Developer,TCS,Chennai,7614796511,Internship,5-8 years,PhD,FinTech,Hybrid,"Power BI, AWS, Node.js, Pandas",17,4.0,401,27
+4488,Frontend Developer,Oracle,Ahmedabad,8686228582,Part-Time,1-3 years,Bachelors,Software,Remote,"Java, Power BI, Tableau, SQL",9,3.3,558,10
+4489,Product Manager,TCS,Pune,8525047956,Part-Time,0-1 years,Masters,Healthcare,Remote,"Kubernetes, Python, React, SQL",15,3.5,458,14
+4490,Business Analyst,Oracle,Pune,6648234608,Part-Time,3-5 years,Masters,Healthcare,Hybrid,"Power BI, Pandas, Kubernetes, PyTorch",28,3.5,354,30
+4491,Data Analyst,Microsoft,Coimbatore,9763338378,Part-Time,0-1 years,PhD,Cloud,On-site,"Kubernetes, PyTorch, Power BI, TensorFlow",37,4.4,280,7
+4492,Cloud Engineer,Infosys,Kolkata,6551047399,Internship,0-1 years,Bachelors,FinTech,Remote,"Kubernetes, PyTorch, SQL, TensorFlow",8,3.2,475,20
+4493,Data Analyst,Freshworks,Delhi,8917928098,Contract,1-3 years,Bachelors,FinTech,Remote,"AWS, Tableau, SQL, PyTorch",4,5.0,74,23
+4494,Cloud Engineer,Amazon,Chennai,7104502795,Part-Time,0-1 years,PhD,IT Services,Remote,"Power BI, PyTorch, Docker, React",27,4.2,752,15
+4495,Business Analyst,Oracle,Coimbatore,9998929976,Contract,0-1 years,Bachelors,Healthcare,Hybrid,"Pandas, Node.js, Kubernetes, PyTorch",16,3.9,695,23
+4496,Cloud Engineer,Oracle,Delhi,7583354810,Contract,0-1 years,Bachelors,Healthcare,On-site,"Kubernetes, SQL, JavaScript, Java",4,4.5,97,5
+4497,Software Engineer,Oracle,Chennai,6911763039,Contract,5-8 years,Bachelors,E-commerce,Remote,"Docker, React, TensorFlow, AWS",29,4.8,629,6
+4498,Business Analyst,Infosys,Pune,7376479963,Part-Time,3-5 years,Masters,Cloud,Remote,"Java, Pandas, Kubernetes, Tableau",40,3.9,563,10
+4499,Machine Learning Engineer,Amazon,Hyderabad,9371826367,Internship,0-1 years,Masters,Cloud,On-site,"PyTorch, React, Kubernetes, Power BI",40,3.3,236,15
+4500,AI Engineer,Flipkart,Bangalore,7235033485,Full-Time,5-8 years,PhD,AI,On-site,"PyTorch, Java, Machine Learning, React",23,3.2,285,26
+4501,Software Engineer,Amazon,Delhi,6391141298,Part-Time,1-3 years,Masters,Healthcare,On-site,"SQL, React, Docker, TensorFlow",4,3.9,558,26
+4502,Backend Developer,Google,Pune,7525785795,Internship,0-1 years,Bachelors,AI,Hybrid,"Docker, Pandas, SQL, Tableau",27,4.0,333,3
+4503,Machine Learning Engineer,TCS,Gurgaon,8476795155,Contract,3-5 years,Masters,Software,Hybrid,"Pandas, Docker, Tableau, Java",8,4.7,293,13
+4504,Software Engineer,Oracle,Pune,8233121930,Part-Time,3-5 years,Bachelors,Cloud,Hybrid,"JavaScript, PyTorch, Java, React",7,3.8,221,19
+4505,Product Manager,Capgemini,Ahmedabad,9635696178,Internship,3-5 years,Bachelors,Healthcare,On-site,"Tableau, Kubernetes, Power BI, AWS",24,3.0,247,10
+4506,Product Manager,Capgemini,Ahmedabad,8060630018,Part-Time,1-3 years,PhD,FinTech,On-site,"SQL, Power BI, JavaScript, TensorFlow",36,3.9,604,28
+4507,Business Analyst,Accenture,Mumbai,7863340516,Internship,5-8 years,Masters,Software,Remote,"PyTorch, Kubernetes, Pandas, Python",28,3.3,629,22
+4508,Business Analyst,Accenture,Mumbai,6722268040,Part-Time,8+ years,Masters,AI,Remote,"JavaScript, TensorFlow, Kubernetes, Machine Learning",16,4.9,498,14
+4509,Backend Developer,Microsoft,Gurgaon,8693498749,Part-Time,5-8 years,PhD,Healthcare,Remote,"React, Machine Learning, Node.js, PyTorch",25,4.3,615,23
+4510,Business Analyst,Capgemini,Chennai,9685161726,Part-Time,3-5 years,PhD,Healthcare,Remote,"Tableau, Java, PyTorch, Kubernetes",35,4.7,471,27
+4511,AI Engineer,Amazon,Mumbai,6363438628,Part-Time,5-8 years,Masters,Software,Remote,"Java, Pandas, Node.js, SQL",37,4.3,400,2
+4512,AI Engineer,Flipkart,Coimbatore,6824880992,Full-Time,5-8 years,Bachelors,E-commerce,On-site,"Pandas, Power BI, React, Docker",32,4.0,428,23
+4513,Backend Developer,Accenture,Gurgaon,8295651817,Contract,1-3 years,PhD,FinTech,Remote,"Power BI, Tableau, Docker, Machine Learning",36,3.0,766,13
+4514,Backend Developer,SAP,Mumbai,6197401786,Contract,0-1 years,PhD,AI,On-site,"JavaScript, Python, TensorFlow, Machine Learning",30,3.3,55,16
+4515,Machine Learning Engineer,TCS,Pune,9258358539,Full-Time,5-8 years,Masters,AI,On-site,"Machine Learning, JavaScript, Power BI, Node.js",24,3.4,377,14
+4516,Full Stack Developer,Amazon,Delhi,6135361766,Contract,1-3 years,Bachelors,FinTech,Hybrid,"TensorFlow, React, PyTorch, Node.js",38,4.2,538,25
+4517,Full Stack Developer,Cognizant,Pune,6109159491,Contract,8+ years,PhD,Software,Hybrid,"SQL, AWS, JavaScript, Tableau",29,3.2,717,8
+4518,Cloud Engineer,Microsoft,Mumbai,7854236744,Full-Time,1-3 years,Bachelors,E-commerce,Hybrid,"Kubernetes, AWS, Tableau, TensorFlow",25,3.5,212,21
+4519,Backend Developer,Wipro,Delhi,6146839319,Contract,0-1 years,PhD,IT Services,Hybrid,"TensorFlow, Pandas, PyTorch, Python",5,3.0,618,26
+4520,Business Analyst,SAP,Coimbatore,8480886521,Full-Time,8+ years,Bachelors,FinTech,On-site,"TensorFlow, Python, Node.js, Kubernetes",15,3.3,170,7
+4521,AI Engineer,Google,Pune,9399680074,Contract,8+ years,PhD,Cloud,On-site,"Tableau, SQL, AWS, TensorFlow",7,4.4,168,15
+4522,Frontend Developer,Wipro,Hyderabad,7688469609,Part-Time,0-1 years,Bachelors,AI,Hybrid,"Docker, Kubernetes, Node.js, Machine Learning",6,3.3,656,13
+4523,AI Engineer,Accenture,Hyderabad,7737560709,Contract,0-1 years,PhD,Software,On-site,"Node.js, React, SQL, Kubernetes",13,4.0,165,12
+4524,Cloud Engineer,Cognizant,Hyderabad,6146442469,Part-Time,3-5 years,Masters,Cloud,On-site,"Tableau, Pandas, Kubernetes, Docker",21,4.9,183,10
+4525,Data Analyst,Wipro,Ahmedabad,8869271749,Internship,0-1 years,Bachelors,Cloud,On-site,"TensorFlow, Docker, Java, Node.js",9,5.0,536,25
+4526,Data Analyst,Cognizant,Delhi,7413281013,Part-Time,1-3 years,Masters,E-commerce,Remote,"Java, PyTorch, AWS, Power BI",39,3.2,506,3
+4527,Product Manager,Wipro,Coimbatore,7816038540,Contract,0-1 years,PhD,IT Services,Remote,"AWS, Kubernetes, Machine Learning, Tableau",4,3.9,463,11
+4528,DevOps Engineer,Accenture,Mumbai,6393712542,Full-Time,1-3 years,PhD,FinTech,Remote,"Tableau, React, TensorFlow, Machine Learning",4,4.8,596,29
+4529,Full Stack Developer,Zoho,Chennai,6161166484,Full-Time,3-5 years,Masters,Healthcare,Hybrid,"Pandas, Machine Learning, Python, Node.js",34,4.2,416,19
+4530,Software Engineer,Microsoft,Noida,6450260311,Contract,0-1 years,Masters,FinTech,Remote,"Pandas, Kubernetes, PyTorch, AWS",23,4.7,178,17
+4531,Product Manager,SAP,Kolkata,7785568016,Part-Time,3-5 years,Bachelors,Healthcare,On-site,"TensorFlow, SQL, React, Kubernetes",4,4.4,398,30
+4532,Machine Learning Engineer,Zoho,Bangalore,7232168455,Full-Time,1-3 years,Bachelors,AI,Hybrid,"Kubernetes, SQL, React, Tableau",29,3.9,561,5
+4533,Machine Learning Engineer,Zoho,Chennai,9929570962,Contract,5-8 years,PhD,AI,Remote,"React, Pandas, AWS, Power BI",9,3.1,640,16
+4534,Frontend Developer,Oracle,Delhi,6016951352,Part-Time,8+ years,Masters,AI,Remote,"AWS, PyTorch, TensorFlow, Python",16,4.3,365,19
+4535,Cloud Engineer,Accenture,Delhi,7456490634,Full-Time,5-8 years,Bachelors,AI,Hybrid,"Docker, Tableau, Machine Learning, PyTorch",36,4.5,206,18
+4536,Data Scientist,Google,Chennai,8011850204,Part-Time,1-3 years,Masters,Healthcare,Remote,"Kubernetes, Power BI, Docker, Node.js",9,4.1,265,20
+4537,AI Engineer,Google,Gurgaon,7399000210,Internship,3-5 years,Bachelors,IT Services,Hybrid,"JavaScript, Machine Learning, AWS, SQL",34,3.9,737,15
+4538,Machine Learning Engineer,IBM,Kolkata,7000156859,Contract,3-5 years,PhD,Cloud,Remote,"Pandas, Java, PyTorch, Node.js",4,4.9,52,11
+4539,Data Scientist,TCS,Chennai,7681195144,Part-Time,0-1 years,PhD,IT Services,Hybrid,"AWS, Kubernetes, Java, PyTorch",10,3.9,563,12
+4540,Product Manager,Accenture,Gurgaon,9459986503,Full-Time,0-1 years,Masters,Healthcare,On-site,"JavaScript, SQL, Java, React",27,4.3,445,16
+4541,AI Engineer,Cognizant,Kolkata,9266852856,Internship,8+ years,Masters,Software,Hybrid,"Docker, PyTorch, Python, Kubernetes",4,4.4,712,1
+4542,Frontend Developer,Flipkart,Kolkata,8591770572,Part-Time,3-5 years,Masters,E-commerce,Hybrid,"AWS, React, TensorFlow, Power BI",12,4.5,704,15
+4543,Machine Learning Engineer,IBM,Kolkata,7617023432,Part-Time,0-1 years,Masters,AI,Remote,"React, Power BI, JavaScript, SQL",5,4.2,783,6
+4544,Frontend Developer,Accenture,Mumbai,7346383811,Internship,3-5 years,Masters,Healthcare,On-site,"TensorFlow, Tableau, Python, Node.js",16,3.7,358,24
+4545,AI Engineer,Zoho,Bangalore,7767553867,Full-Time,8+ years,Masters,Software,Remote,"Java, Machine Learning, JavaScript, React",4,3.4,179,9
+4546,Data Analyst,Infosys,Hyderabad,8721292107,Full-Time,0-1 years,Masters,Cloud,Hybrid,"React, Java, Docker, Node.js",37,4.3,124,24
+4547,Software Engineer,Capgemini,Hyderabad,6738348922,Part-Time,5-8 years,PhD,IT Services,On-site,"Python, Tableau, React, Power BI",32,3.4,587,6
+4548,Data Scientist,Infosys,Delhi,6306791288,Part-Time,3-5 years,Bachelors,FinTech,Remote,"SQL, AWS, Docker, Machine Learning",9,4.0,164,29
+4549,AI Engineer,Amazon,Mumbai,7631083635,Full-Time,5-8 years,Bachelors,AI,Hybrid,"React, SQL, Machine Learning, Python",30,3.6,488,23
+4550,Backend Developer,IBM,Mumbai,9607281421,Part-Time,5-8 years,Masters,IT Services,On-site,"PyTorch, Node.js, Docker, React",23,4.5,71,16
+4551,Full Stack Developer,Cognizant,Kolkata,6432127113,Part-Time,0-1 years,Bachelors,FinTech,Remote,"AWS, Pandas, SQL, Machine Learning",27,4.7,540,3
+4552,Machine Learning Engineer,Zoho,Mumbai,9071796013,Full-Time,0-1 years,Masters,Software,On-site,"Machine Learning, JavaScript, PyTorch, Java",22,3.9,755,27
+4553,Full Stack Developer,Microsoft,Delhi,6634720339,Internship,5-8 years,PhD,Cloud,On-site,"Java, Pandas, Kubernetes, PyTorch",11,4.2,781,3
+4554,Software Engineer,Capgemini,Pune,7661072924,Internship,3-5 years,PhD,Healthcare,Hybrid,"Java, TensorFlow, Node.js, AWS",20,3.1,235,18
+4555,Software Engineer,Wipro,Bangalore,7356415231,Full-Time,8+ years,Bachelors,E-commerce,Remote,"SQL, Python, Java, Node.js",36,4.9,620,22
+4556,Full Stack Developer,Zoho,Pune,8464242525,Full-Time,8+ years,PhD,E-commerce,Remote,"Node.js, Java, Power BI, JavaScript",21,3.3,120,5
+4557,Full Stack Developer,Flipkart,Gurgaon,6350681476,Internship,0-1 years,Bachelors,FinTech,Remote,"Tableau, JavaScript, Pandas, TensorFlow",6,4.7,339,30
+4558,Software Engineer,Google,Mumbai,9744068115,Part-Time,5-8 years,PhD,Healthcare,Remote,"AWS, Python, React, Docker",7,3.7,752,29
+4559,Software Engineer,Cognizant,Hyderabad,8417625679,Internship,5-8 years,PhD,Healthcare,Hybrid,"Power BI, React, Node.js, Java",34,4.0,564,20
+4560,Business Analyst,Google,Kolkata,8911342405,Internship,0-1 years,Masters,E-commerce,Remote,"Python, JavaScript, AWS, SQL",38,3.3,300,20
+4561,Data Scientist,Oracle,Pune,6472862730,Contract,8+ years,Masters,Software,Remote,"Power BI, AWS, JavaScript, React",39,3.5,341,29
+4562,Data Scientist,Amazon,Mumbai,6967004810,Full-Time,5-8 years,Masters,IT Services,Remote,"Machine Learning, JavaScript, TensorFlow, Pandas",18,4.8,194,28
+4563,Backend Developer,Accenture,Bangalore,6794983893,Full-Time,5-8 years,PhD,IT Services,Remote,"Node.js, TensorFlow, Machine Learning, Python",24,3.3,610,30
+4564,AI Engineer,Infosys,Hyderabad,9986369245,Internship,3-5 years,PhD,FinTech,Remote,"TensorFlow, Python, Tableau, Kubernetes",29,3.7,442,26
+4565,Machine Learning Engineer,Capgemini,Mumbai,8553878599,Full-Time,1-3 years,Masters,IT Services,Hybrid,"Kubernetes, Pandas, Java, JavaScript",27,3.2,719,29
+4566,Backend Developer,IBM,Hyderabad,7045604150,Internship,3-5 years,Bachelors,AI,On-site,"AWS, Docker, Power BI, Kubernetes",7,4.6,51,16
+4567,Data Scientist,Capgemini,Coimbatore,8256469669,Full-Time,5-8 years,Masters,Software,On-site,"Kubernetes, TensorFlow, React, Node.js",12,3.5,505,13
+4568,Cloud Engineer,Microsoft,Chennai,7720784732,Internship,8+ years,Bachelors,IT Services,Hybrid,"Docker, Python, Machine Learning, Java",23,3.4,775,15
+4569,AI Engineer,Microsoft,Coimbatore,8959762653,Internship,5-8 years,Bachelors,AI,Hybrid,"Kubernetes, Python, PyTorch, Tableau",31,3.2,328,20
+4570,Frontend Developer,Oracle,Delhi,8158378688,Full-Time,5-8 years,Masters,Healthcare,On-site,"Pandas, Java, Node.js, JavaScript",13,4.1,42,13
+4571,Business Analyst,Freshworks,Coimbatore,8817054900,Internship,3-5 years,PhD,IT Services,On-site,"Node.js, Java, Machine Learning, TensorFlow",40,4.4,462,10
+4572,Cloud Engineer,Cognizant,Delhi,8051446480,Internship,5-8 years,PhD,Cloud,Remote,"Kubernetes, Java, TensorFlow, Pandas",7,4.8,218,13
+4573,Product Manager,Infosys,Kolkata,7459305243,Internship,8+ years,Masters,IT Services,Hybrid,"Pandas, Python, Machine Learning, PyTorch",11,4.2,410,24
+4574,Data Analyst,Zoho,Delhi,7405246007,Full-Time,1-3 years,PhD,Cloud,On-site,"SQL, Power BI, Node.js, Tableau",34,3.3,533,17
+4575,Data Analyst,Oracle,Chennai,6628952954,Part-Time,5-8 years,Masters,Cloud,Hybrid,"Power BI, SQL, Node.js, React",8,4.8,611,29
+4576,Cloud Engineer,Infosys,Chennai,6138860411,Contract,0-1 years,PhD,Software,On-site,"TensorFlow, Pandas, AWS, Docker",18,4.1,115,5
+4577,Data Scientist,Microsoft,Chennai,6609844295,Internship,5-8 years,PhD,FinTech,On-site,"Kubernetes, Machine Learning, TensorFlow, Java",11,3.7,167,19
+4578,Data Scientist,Google,Bangalore,8602820658,Full-Time,3-5 years,Bachelors,E-commerce,Hybrid,"Machine Learning, Python, JavaScript, TensorFlow",5,5.0,495,14
+4579,Backend Developer,TCS,Mumbai,9265682955,Part-Time,3-5 years,PhD,Cloud,Remote,"PyTorch, Node.js, SQL, Power BI",15,3.2,132,11
+4580,Backend Developer,Wipro,Delhi,6554073440,Contract,8+ years,Masters,IT Services,Remote,"PyTorch, Docker, AWS, Kubernetes",26,3.8,500,3
+4581,Full Stack Developer,Zoho,Chennai,6406337807,Part-Time,8+ years,Bachelors,Cloud,Remote,"TensorFlow, Pandas, Tableau, Kubernetes",13,4.0,518,6
+4582,Frontend Developer,SAP,Ahmedabad,9041893315,Contract,8+ years,PhD,AI,On-site,"JavaScript, Pandas, Docker, Tableau",29,4.4,701,6
+4583,Software Engineer,Flipkart,Delhi,9034941372,Contract,0-1 years,PhD,FinTech,On-site,"AWS, Python, TensorFlow, Node.js",30,3.5,679,7
+4584,DevOps Engineer,Flipkart,Bangalore,9770940753,Part-Time,0-1 years,PhD,Healthcare,Hybrid,"Python, Tableau, Kubernetes, Power BI",11,3.5,796,16
+4585,Cloud Engineer,Freshworks,Chennai,6977005268,Internship,0-1 years,Bachelors,Cloud,Hybrid,"Power BI, TensorFlow, Machine Learning, AWS",37,3.4,690,9
+4586,Business Analyst,Capgemini,Ahmedabad,6552987769,Contract,8+ years,PhD,FinTech,Hybrid,"Docker, Node.js, Pandas, TensorFlow",5,3.7,590,11
+4587,Product Manager,Capgemini,Chennai,7460414018,Full-Time,8+ years,Bachelors,Cloud,On-site,"Python, Tableau, SQL, AWS",20,4.8,440,10
+4588,Data Analyst,Cognizant,Bangalore,8464232522,Contract,0-1 years,PhD,Cloud,Hybrid,"Node.js, Tableau, Python, Pandas",37,3.7,730,23
+4589,Frontend Developer,Flipkart,Mumbai,7778257965,Contract,8+ years,Bachelors,AI,Remote,"Tableau, Java, Docker, JavaScript",35,3.2,385,16
+4590,Full Stack Developer,Flipkart,Chennai,6625005207,Contract,0-1 years,Masters,Cloud,Remote,"PyTorch, JavaScript, Node.js, AWS",4,4.8,558,25
+4591,Software Engineer,IBM,Bangalore,9926748745,Full-Time,3-5 years,Bachelors,IT Services,Remote,"Node.js, PyTorch, Java, JavaScript",39,3.8,687,3
+4592,Machine Learning Engineer,Freshworks,Mumbai,9003787984,Part-Time,0-1 years,Masters,Cloud,Remote,"Docker, React, AWS, Python",6,3.7,507,19
+4593,Data Scientist,Amazon,Gurgaon,8312871215,Internship,5-8 years,PhD,E-commerce,Remote,"Kubernetes, Python, TensorFlow, JavaScript",34,4.1,54,18
+4594,Full Stack Developer,Freshworks,Pune,6792751078,Full-Time,3-5 years,Masters,FinTech,Remote,"JavaScript, AWS, Tableau, PyTorch",10,4.0,27,30
+4595,DevOps Engineer,Capgemini,Chennai,8674468538,Contract,3-5 years,PhD,Software,Remote,"Power BI, Tableau, Machine Learning, Pandas",21,3.6,350,11
+4596,AI Engineer,IBM,Bangalore,7911478563,Full-Time,3-5 years,Masters,Cloud,Remote,"SQL, PyTorch, React, Pandas",31,3.2,164,14
+4597,Full Stack Developer,Amazon,Noida,8808894604,Full-Time,5-8 years,Masters,Healthcare,Remote,"Node.js, Tableau, SQL, Docker",16,4.9,427,19
+4598,Data Scientist,SAP,Mumbai,7654092828,Full-Time,8+ years,Masters,Cloud,Hybrid,"AWS, Tableau, Java, TensorFlow",21,4.5,122,18
+4599,Frontend Developer,Amazon,Hyderabad,8528449410,Full-Time,5-8 years,Bachelors,FinTech,Remote,"Power BI, Python, Pandas, TensorFlow",7,4.6,416,19
+4600,Machine Learning Engineer,Zoho,Gurgaon,9826848899,Contract,8+ years,Masters,IT Services,Hybrid,"Machine Learning, Java, AWS, JavaScript",18,3.1,482,1
+4601,Machine Learning Engineer,Flipkart,Chennai,6398030647,Contract,1-3 years,Masters,Cloud,On-site,"Kubernetes, PyTorch, Node.js, AWS",9,4.5,742,22
+4602,AI Engineer,Zoho,Chennai,6405021228,Part-Time,0-1 years,Masters,IT Services,Hybrid,"PyTorch, Tableau, Pandas, Python",28,3.1,29,30
+4603,Data Scientist,Amazon,Pune,8781941282,Part-Time,3-5 years,PhD,E-commerce,Hybrid,"PyTorch, Pandas, Power BI, Python",31,4.0,434,23
+4604,Frontend Developer,SAP,Mumbai,7131115615,Contract,0-1 years,Bachelors,FinTech,On-site,"JavaScript, SQL, Java, Machine Learning",11,3.6,25,26
+4605,Backend Developer,Cognizant,Delhi,6634600368,Contract,5-8 years,PhD,Healthcare,Hybrid,"JavaScript, Docker, Python, Node.js",11,4.7,604,13
+4606,Full Stack Developer,Wipro,Coimbatore,8573301790,Contract,5-8 years,Bachelors,Software,Hybrid,"React, TensorFlow, Docker, Pandas",21,3.3,512,14
+4607,Data Analyst,Capgemini,Chennai,7043585725,Internship,5-8 years,PhD,E-commerce,Hybrid,"TensorFlow, React, Power BI, Kubernetes",38,3.9,564,18
+4608,AI Engineer,Oracle,Mumbai,7879335902,Full-Time,5-8 years,PhD,IT Services,Remote,"TensorFlow, Node.js, PyTorch, AWS",40,3.2,277,25
+4609,Data Scientist,Flipkart,Bangalore,8497003196,Full-Time,8+ years,PhD,IT Services,Remote,"Power BI, Pandas, Kubernetes, Machine Learning",23,4.3,137,9
+4610,Software Engineer,Cognizant,Delhi,9753838509,Contract,5-8 years,Bachelors,Healthcare,Remote,"AWS, Machine Learning, Pandas, React",14,4.5,644,5
+4611,Backend Developer,Amazon,Delhi,6557417244,Part-Time,3-5 years,Masters,FinTech,Hybrid,"Kubernetes, Tableau, Machine Learning, Power BI",18,4.6,201,1
+4612,Business Analyst,SAP,Gurgaon,8636729447,Part-Time,3-5 years,Bachelors,Software,Hybrid,"Node.js, SQL, PyTorch, Docker",19,3.7,479,23
+4613,Cloud Engineer,Wipro,Delhi,6435144779,Part-Time,0-1 years,PhD,IT Services,Hybrid,"React, Kubernetes, Java, Python",8,4.5,235,13
+4614,Full Stack Developer,Amazon,Ahmedabad,8592203615,Internship,3-5 years,PhD,IT Services,On-site,"Kubernetes, Java, Power BI, Machine Learning",35,4.4,631,9
+4615,Software Engineer,Oracle,Pune,6419807324,Contract,5-8 years,Bachelors,Cloud,On-site,"SQL, JavaScript, React, Pandas",30,4.1,342,1
+4616,Frontend Developer,Accenture,Pune,7152175261,Contract,3-5 years,Bachelors,FinTech,Remote,"Docker, Machine Learning, Kubernetes, TensorFlow",35,4.7,691,1
+4617,Cloud Engineer,IBM,Gurgaon,7688272440,Full-Time,0-1 years,Bachelors,FinTech,Remote,"Machine Learning, Java, Tableau, Kubernetes",24,4.5,179,22
+4618,Backend Developer,Infosys,Mumbai,6013560256,Contract,0-1 years,Bachelors,Healthcare,Remote,"Node.js, Tableau, Docker, Java",20,3.6,535,27
+4619,Full Stack Developer,Oracle,Ahmedabad,7225308214,Part-Time,0-1 years,Masters,AI,Hybrid,"JavaScript, Kubernetes, Python, SQL",39,4.9,280,28
+4620,AI Engineer,Microsoft,Chennai,9013694909,Full-Time,1-3 years,PhD,Healthcare,Hybrid,"Python, React, Pandas, Docker",17,4.7,771,9
+4621,Business Analyst,TCS,Kolkata,9050347848,Full-Time,5-8 years,PhD,AI,On-site,"SQL, Node.js, TensorFlow, Power BI",24,3.1,570,27
+4622,Business Analyst,Cognizant,Chennai,8941869854,Part-Time,0-1 years,Masters,IT Services,Remote,"TensorFlow, React, Docker, Python",26,3.3,795,27
+4623,AI Engineer,Infosys,Noida,7925853748,Internship,8+ years,Masters,E-commerce,On-site,"Node.js, PyTorch, Tableau, Pandas",14,3.2,355,27
+4624,Data Analyst,Oracle,Noida,7921575788,Contract,5-8 years,Bachelors,AI,On-site,"SQL, React, Pandas, Power BI",32,3.3,151,20
+4625,Software Engineer,IBM,Bangalore,7198743448,Contract,1-3 years,PhD,Cloud,Remote,"Power BI, React, SQL, Kubernetes",33,3.9,139,17
+4626,Full Stack Developer,TCS,Chennai,7930844067,Part-Time,0-1 years,Masters,FinTech,Remote,"Power BI, Docker, React, Python",27,3.7,340,28
+4627,Software Engineer,Cognizant,Gurgaon,8829117556,Internship,5-8 years,Bachelors,IT Services,On-site,"AWS, Pandas, Docker, PyTorch",15,4.5,330,28
+4628,Business Analyst,SAP,Kolkata,6011559699,Internship,8+ years,PhD,E-commerce,Hybrid,"TensorFlow, React, SQL, Java",31,3.2,470,3
+4629,Business Analyst,TCS,Hyderabad,8121870085,Part-Time,5-8 years,PhD,Cloud,On-site,"Node.js, AWS, Tableau, Python",14,3.2,527,10
+4630,DevOps Engineer,Cognizant,Mumbai,9853005203,Full-Time,3-5 years,PhD,E-commerce,Remote,"Machine Learning, Java, Pandas, PyTorch",27,3.6,778,11
+4631,Frontend Developer,TCS,Mumbai,6262811136,Part-Time,5-8 years,Bachelors,E-commerce,On-site,"JavaScript, Tableau, Java, AWS",34,3.4,53,8
+4632,Cloud Engineer,SAP,Gurgaon,7679853814,Part-Time,3-5 years,Bachelors,E-commerce,Hybrid,"React, SQL, Pandas, Python",19,4.3,275,8
+4633,Backend Developer,Amazon,Gurgaon,8771546983,Full-Time,1-3 years,PhD,FinTech,Remote,"JavaScript, SQL, Docker, AWS",30,4.7,466,22
+4634,Cloud Engineer,Accenture,Coimbatore,7610179820,Part-Time,0-1 years,Bachelors,Cloud,On-site,"SQL, Python, Pandas, PyTorch",5,4.8,638,13
+4635,Frontend Developer,Google,Ahmedabad,9981996250,Internship,0-1 years,Masters,Healthcare,Remote,"Power BI, JavaScript, Python, Java",7,3.8,326,2
+4636,Backend Developer,Oracle,Bangalore,6400419848,Internship,8+ years,Masters,FinTech,Hybrid,"React, JavaScript, Power BI, Docker",12,3.2,69,28
+4637,Backend Developer,Oracle,Hyderabad,8738408349,Full-Time,3-5 years,PhD,AI,Remote,"Python, Node.js, Power BI, AWS",20,4.4,310,30
+4638,Full Stack Developer,Flipkart,Noida,9061678650,Part-Time,3-5 years,Masters,Software,On-site,"JavaScript, Pandas, Power BI, Machine Learning",24,4.8,798,15
+4639,Frontend Developer,Microsoft,Gurgaon,7438482631,Full-Time,3-5 years,Bachelors,E-commerce,Remote,"Tableau, JavaScript, Python, Power BI",12,3.7,418,15
+4640,Full Stack Developer,Flipkart,Chennai,6568941740,Full-Time,1-3 years,PhD,Software,Remote,"AWS, Machine Learning, Tableau, PyTorch",26,3.1,648,2
+4641,Product Manager,Infosys,Chennai,9558360129,Contract,0-1 years,Masters,FinTech,On-site,"AWS, JavaScript, Docker, Python",6,3.8,523,10
+4642,Product Manager,Accenture,Noida,9041697233,Internship,3-5 years,Masters,Cloud,On-site,"Java, Docker, Machine Learning, Node.js",31,4.0,659,1
+4643,Machine Learning Engineer,Flipkart,Coimbatore,9595648437,Internship,0-1 years,Masters,FinTech,Remote,"Python, Machine Learning, PyTorch, Kubernetes",5,3.3,778,29
+4644,Backend Developer,Capgemini,Noida,8627918039,Contract,3-5 years,Masters,E-commerce,Remote,"PyTorch, Tableau, SQL, Python",23,3.8,114,25
+4645,Data Analyst,Wipro,Coimbatore,8341829375,Contract,3-5 years,Bachelors,Cloud,On-site,"Python, Kubernetes, AWS, Node.js",11,4.9,253,26
+4646,Cloud Engineer,Flipkart,Ahmedabad,9881515945,Full-Time,3-5 years,Bachelors,Cloud,Hybrid,"PyTorch, Kubernetes, Node.js, Python",39,3.9,661,14
+4647,AI Engineer,Google,Gurgaon,8325299558,Part-Time,3-5 years,Bachelors,Healthcare,On-site,"Node.js, PyTorch, Power BI, Pandas",22,3.8,311,20
+4648,Machine Learning Engineer,TCS,Delhi,7902163192,Part-Time,3-5 years,Masters,Healthcare,Hybrid,"Python, Tableau, SQL, Pandas",34,4.2,504,19
+4649,Cloud Engineer,Freshworks,Mumbai,9710887696,Part-Time,0-1 years,PhD,Healthcare,Hybrid,"SQL, Pandas, PyTorch, JavaScript",21,4.7,260,8
+4650,Data Analyst,Wipro,Kolkata,7131453708,Full-Time,0-1 years,Bachelors,Cloud,Hybrid,"Power BI, Docker, React, TensorFlow",23,3.8,261,1
+4651,Machine Learning Engineer,Oracle,Mumbai,9787751929,Internship,5-8 years,Bachelors,Software,On-site,"TensorFlow, Power BI, PyTorch, Kubernetes",19,4.2,383,5
+4652,Frontend Developer,Amazon,Delhi,9713809551,Part-Time,5-8 years,Bachelors,AI,On-site,"AWS, Pandas, Docker, Kubernetes",34,3.1,204,28
+4653,Data Analyst,Wipro,Noida,6694565763,Part-Time,5-8 years,PhD,Healthcare,Hybrid,"PyTorch, Python, Docker, AWS",9,4.3,566,25
+4654,Full Stack Developer,Amazon,Delhi,7949183396,Contract,1-3 years,Masters,FinTech,On-site,"TensorFlow, React, Java, PyTorch",16,3.0,653,13
+4655,Frontend Developer,Cognizant,Chennai,9461158888,Part-Time,1-3 years,PhD,Healthcare,Hybrid,"JavaScript, Java, Tableau, React",37,4.0,274,27
+4656,Business Analyst,Amazon,Bangalore,8086593347,Full-Time,8+ years,PhD,IT Services,On-site,"React, PyTorch, SQL, Node.js",38,3.1,462,3
+4657,Data Scientist,Microsoft,Bangalore,9049071061,Part-Time,0-1 years,Bachelors,Software,Remote,"Docker, Node.js, SQL, Power BI",25,3.6,624,24
+4658,Product Manager,TCS,Ahmedabad,7589122384,Part-Time,8+ years,Bachelors,E-commerce,On-site,"Tableau, AWS, Power BI, Docker",27,3.2,422,8
+4659,Cloud Engineer,Wipro,Bangalore,6111375450,Part-Time,0-1 years,PhD,FinTech,Remote,"Machine Learning, Pandas, SQL, React",40,3.5,455,5
+4660,Data Analyst,Cognizant,Bangalore,7589593563,Part-Time,5-8 years,PhD,Software,Remote,"Pandas, Java, TensorFlow, Tableau",4,3.3,311,28
+4661,Machine Learning Engineer,Accenture,Delhi,8776205031,Full-Time,8+ years,Masters,Cloud,Hybrid,"Python, Power BI, PyTorch, Machine Learning",16,4.5,23,29
+4662,Backend Developer,Zoho,Ahmedabad,8671290848,Part-Time,8+ years,Bachelors,FinTech,On-site,"Tableau, PyTorch, SQL, React",39,3.9,724,23
+4663,Data Scientist,Wipro,Pune,8493349266,Part-Time,0-1 years,Masters,Healthcare,Hybrid,"Machine Learning, Kubernetes, AWS, Power BI",35,3.6,690,5
+4664,Business Analyst,Google,Bangalore,9619724518,Part-Time,8+ years,Bachelors,E-commerce,Remote,"Python, Java, Power BI, Pandas",40,4.9,477,13
+4665,Machine Learning Engineer,Zoho,Coimbatore,8432321532,Part-Time,5-8 years,Masters,AI,Hybrid,"Power BI, React, Node.js, Python",28,3.5,726,3
+4666,Machine Learning Engineer,Freshworks,Chennai,8213737537,Internship,8+ years,Bachelors,E-commerce,Remote,"Python, SQL, PyTorch, Tableau",34,3.8,353,22
+4667,Machine Learning Engineer,Cognizant,Chennai,9560980395,Internship,5-8 years,Masters,E-commerce,Hybrid,"Node.js, Pandas, JavaScript, AWS",18,4.6,354,3
+4668,Software Engineer,Accenture,Gurgaon,8747523868,Contract,1-3 years,PhD,Cloud,Remote,"SQL, Node.js, Pandas, Java",10,4.3,231,15
+4669,Frontend Developer,Oracle,Bangalore,9893237624,Contract,5-8 years,Bachelors,FinTech,Remote,"Java, Docker, Pandas, JavaScript",31,4.5,300,23
+4670,Data Scientist,Amazon,Gurgaon,9447178778,Part-Time,0-1 years,Bachelors,Software,On-site,"Python, Pandas, React, Power BI",14,3.4,164,29
+4671,Machine Learning Engineer,IBM,Ahmedabad,6819411469,Part-Time,8+ years,Masters,IT Services,Remote,"AWS, Kubernetes, Docker, Power BI",39,3.7,293,3
+4672,Software Engineer,Cognizant,Kolkata,8527734080,Full-Time,1-3 years,Masters,FinTech,On-site,"AWS, Machine Learning, React, Python",33,3.9,172,7
+4673,Machine Learning Engineer,SAP,Noida,7102714492,Full-Time,3-5 years,Masters,FinTech,On-site,"Java, Kubernetes, Pandas, Node.js",16,3.2,709,27
+4674,DevOps Engineer,Google,Kolkata,8201899443,Contract,8+ years,PhD,Healthcare,On-site,"Power BI, SQL, Java, Machine Learning",12,3.9,203,27
+4675,Data Scientist,Flipkart,Pune,8903222114,Part-Time,1-3 years,Bachelors,Software,On-site,"Kubernetes, Machine Learning, Node.js, Docker",12,3.2,440,30
+4676,DevOps Engineer,IBM,Chennai,8313612238,Full-Time,8+ years,Masters,Cloud,Hybrid,"React, Node.js, Machine Learning, Kubernetes",10,4.2,531,27
+4677,Machine Learning Engineer,Freshworks,Hyderabad,7711362452,Internship,5-8 years,Masters,FinTech,Remote,"Tableau, Docker, Kubernetes, React",22,3.5,590,26
+4678,Full Stack Developer,Flipkart,Coimbatore,7184661110,Internship,5-8 years,Masters,Healthcare,Remote,"Node.js, AWS, PyTorch, Power BI",25,3.8,33,7
+4679,Machine Learning Engineer,Google,Pune,8859774395,Internship,5-8 years,Masters,IT Services,On-site,"Pandas, Python, Machine Learning, JavaScript",36,4.2,273,6
+4680,Software Engineer,Infosys,Gurgaon,6405909508,Contract,0-1 years,PhD,Cloud,On-site,"SQL, Node.js, Tableau, Power BI",35,3.2,239,26
+4681,Cloud Engineer,Cognizant,Hyderabad,8774491458,Full-Time,8+ years,Bachelors,FinTech,Hybrid,"Node.js, PyTorch, React, Machine Learning",21,3.8,626,4
+4682,AI Engineer,Wipro,Pune,6216187846,Full-Time,1-3 years,Bachelors,AI,On-site,"TensorFlow, Pandas, Power BI, React",35,4.5,753,27
+4683,Backend Developer,IBM,Gurgaon,6855011056,Internship,0-1 years,Masters,Cloud,On-site,"Kubernetes, Docker, Pandas, Power BI",20,3.7,480,29
+4684,Product Manager,Oracle,Coimbatore,7605170276,Internship,5-8 years,PhD,E-commerce,Hybrid,"Tableau, SQL, JavaScript, PyTorch",19,3.6,601,7
+4685,Business Analyst,SAP,Bangalore,8353553530,Part-Time,0-1 years,PhD,Software,On-site,"AWS, PyTorch, Node.js, SQL",39,4.7,433,16
+4686,Full Stack Developer,Cognizant,Kolkata,8083585457,Internship,1-3 years,Masters,Software,Hybrid,"JavaScript, AWS, Node.js, Docker",26,3.2,739,13
+4687,Cloud Engineer,Zoho,Pune,9815523427,Part-Time,5-8 years,PhD,Cloud,Remote,"Java, AWS, React, Docker",38,4.9,482,26
+4688,DevOps Engineer,Amazon,Mumbai,7212585671,Part-Time,0-1 years,PhD,AI,Remote,"Machine Learning, Tableau, Node.js, Pandas",20,5.0,343,10
+4689,Data Analyst,Capgemini,Delhi,9926638038,Contract,8+ years,PhD,Healthcare,Hybrid,"Python, PyTorch, Java, Power BI",4,4.8,782,5
+4690,Cloud Engineer,Freshworks,Ahmedabad,8509302575,Internship,5-8 years,Masters,Cloud,On-site,"Node.js, Kubernetes, Python, Java",28,4.7,618,15
+4691,Product Manager,Zoho,Gurgaon,8951627743,Part-Time,0-1 years,Bachelors,Software,Hybrid,"Kubernetes, SQL, Tableau, Machine Learning",9,4.9,168,20
+4692,Data Analyst,Oracle,Chennai,6775596959,Full-Time,0-1 years,Bachelors,AI,On-site,"Docker, AWS, Java, Python",25,4.2,304,20
+4693,Frontend Developer,Oracle,Mumbai,6972866900,Internship,5-8 years,Masters,Software,Remote,"Java, Power BI, React, TensorFlow",26,4.7,262,30
+4694,Data Analyst,Capgemini,Noida,6585919574,Contract,1-3 years,Masters,FinTech,Hybrid,"AWS, Java, Kubernetes, Pandas",10,3.6,399,23
+4695,Product Manager,Microsoft,Hyderabad,7206913019,Internship,0-1 years,Bachelors,AI,On-site,"SQL, JavaScript, AWS, Tableau",35,4.6,339,28
+4696,Backend Developer,Google,Ahmedabad,9230085757,Contract,1-3 years,Bachelors,FinTech,On-site,"Machine Learning, Python, JavaScript, Kubernetes",25,3.3,580,20
+4697,AI Engineer,Accenture,Hyderabad,6151035241,Contract,0-1 years,Bachelors,E-commerce,On-site,"Pandas, Python, Java, Machine Learning",25,4.6,436,27
+4698,Frontend Developer,Accenture,Gurgaon,8088892667,Internship,5-8 years,PhD,Healthcare,Remote,"React, TensorFlow, Python, Pandas",36,4.9,152,17
+4699,Business Analyst,Google,Chennai,8619311319,Contract,3-5 years,Bachelors,E-commerce,On-site,"React, AWS, Power BI, Java",5,3.7,738,17
+4700,Backend Developer,Amazon,Bangalore,7383149470,Internship,5-8 years,Masters,IT Services,On-site,"Docker, Power BI, React, Node.js",32,3.7,62,25
+4701,AI Engineer,Wipro,Ahmedabad,6581738646,Full-Time,3-5 years,Masters,Cloud,Hybrid,"AWS, Tableau, SQL, Power BI",20,3.2,747,16
+4702,DevOps Engineer,Zoho,Delhi,9865247818,Internship,5-8 years,Bachelors,Cloud,Hybrid,"SQL, TensorFlow, Java, Tableau",14,4.8,271,7
+4703,Data Analyst,Zoho,Gurgaon,8425897944,Contract,5-8 years,PhD,AI,Hybrid,"Python, Node.js, Tableau, Java",33,4.0,182,9
+4704,Backend Developer,Wipro,Hyderabad,7172329059,Full-Time,5-8 years,Bachelors,Cloud,Hybrid,"React, Node.js, Tableau, SQL",37,3.1,772,1
+4705,Data Analyst,Cognizant,Delhi,6476542836,Contract,5-8 years,Masters,Software,Remote,"Power BI, Node.js, SQL, Tableau",35,4.9,124,24
+4706,AI Engineer,Oracle,Delhi,9365310577,Full-Time,8+ years,PhD,IT Services,Remote,"Kubernetes, TensorFlow, Java, PyTorch",11,3.3,547,22
+4707,AI Engineer,Oracle,Hyderabad,7699523379,Part-Time,8+ years,Masters,IT Services,On-site,"Machine Learning, Kubernetes, Power BI, SQL",27,3.9,608,15
+4708,Product Manager,Oracle,Pune,9594404951,Contract,1-3 years,Masters,FinTech,Hybrid,"Machine Learning, Kubernetes, PyTorch, React",7,4.7,410,13
+4709,DevOps Engineer,Accenture,Pune,8226704869,Full-Time,5-8 years,PhD,FinTech,Remote,"PyTorch, Machine Learning, Node.js, Power BI",31,4.2,60,14
+4710,Data Scientist,IBM,Gurgaon,6022816568,Contract,5-8 years,PhD,FinTech,On-site,"PyTorch, Kubernetes, TensorFlow, Python",5,4.3,285,13
+4711,Machine Learning Engineer,Infosys,Kolkata,7535146327,Part-Time,5-8 years,Masters,Software,On-site,"Docker, JavaScript, Kubernetes, React",39,3.3,151,29
+4712,Backend Developer,Amazon,Chennai,7410406617,Contract,1-3 years,Bachelors,IT Services,Remote,"Machine Learning, PyTorch, Tableau, Docker",24,4.1,128,6
+4713,Software Engineer,Accenture,Bangalore,7147272706,Contract,5-8 years,Masters,Software,Hybrid,"Machine Learning, Python, Kubernetes, AWS",23,4.1,347,6
+4714,DevOps Engineer,Capgemini,Gurgaon,9229705280,Internship,8+ years,Masters,Cloud,Remote,"Tableau, SQL, JavaScript, Java",8,4.3,718,9
+4715,Cloud Engineer,IBM,Bangalore,9228009832,Full-Time,1-3 years,Bachelors,Healthcare,On-site,"Docker, Python, Node.js, Machine Learning",38,3.4,122,25
+4716,Data Analyst,TCS,Hyderabad,8890767894,Full-Time,3-5 years,PhD,FinTech,On-site,"PyTorch, Power BI, JavaScript, Pandas",33,3.4,302,8
+4717,Data Scientist,Accenture,Delhi,7117669187,Contract,5-8 years,PhD,E-commerce,On-site,"React, PyTorch, Python, Docker",36,3.4,461,8
+4718,Machine Learning Engineer,Cognizant,Coimbatore,7171920070,Full-Time,8+ years,Masters,FinTech,On-site,"Java, Tableau, Machine Learning, PyTorch",35,4.8,413,14
+4719,Data Scientist,Flipkart,Ahmedabad,8942586842,Full-Time,8+ years,PhD,E-commerce,On-site,"Python, AWS, Power BI, Machine Learning",21,4.5,242,10
+4720,Machine Learning Engineer,TCS,Gurgaon,6497845987,Internship,1-3 years,Bachelors,Software,On-site,"AWS, SQL, Kubernetes, Pandas",29,3.4,549,10
+4721,Cloud Engineer,Amazon,Delhi,9929418047,Part-Time,8+ years,Bachelors,Healthcare,On-site,"AWS, TensorFlow, SQL, Java",20,4.4,656,26
+4722,Software Engineer,Oracle,Coimbatore,7318593074,Full-Time,3-5 years,Masters,AI,Hybrid,"Kubernetes, JavaScript, Node.js, TensorFlow",20,3.5,435,29
+4723,Frontend Developer,SAP,Noida,9656319963,Internship,5-8 years,PhD,Healthcare,Remote,"Java, Python, SQL, Machine Learning",33,4.4,516,14
+4724,DevOps Engineer,TCS,Bangalore,7691384216,Internship,3-5 years,Bachelors,Cloud,On-site,"TensorFlow, Tableau, Node.js, Pandas",37,3.3,665,26
+4725,Full Stack Developer,Capgemini,Kolkata,8386492386,Part-Time,8+ years,PhD,Cloud,On-site,"Docker, React, Machine Learning, SQL",14,3.7,128,4
+4726,Product Manager,Wipro,Delhi,6866909130,Contract,8+ years,PhD,Cloud,On-site,"TensorFlow, PyTorch, JavaScript, Power BI",27,3.7,292,14
+4727,Full Stack Developer,Microsoft,Noida,6184211031,Contract,5-8 years,PhD,Healthcare,Remote,"SQL, TensorFlow, React, Docker",22,4.5,750,24
+4728,Business Analyst,Zoho,Coimbatore,8925122515,Internship,3-5 years,Bachelors,E-commerce,Hybrid,"TensorFlow, React, AWS, Kubernetes",9,5.0,172,3
+4729,Data Scientist,Flipkart,Delhi,9592638768,Full-Time,3-5 years,PhD,AI,On-site,"Tableau, Machine Learning, SQL, PyTorch",34,3.7,448,20
+4730,Software Engineer,Infosys,Gurgaon,8092220049,Internship,1-3 years,Bachelors,E-commerce,Remote,"Machine Learning, PyTorch, Python, Docker",21,3.5,763,27
+4731,DevOps Engineer,Zoho,Gurgaon,6293722016,Contract,8+ years,Masters,E-commerce,Remote,"Node.js, PyTorch, Java, AWS",5,3.0,132,6
+4732,Backend Developer,Amazon,Kolkata,8762828001,Contract,0-1 years,PhD,E-commerce,Hybrid,"Java, Pandas, JavaScript, Docker",5,4.3,700,15
+4733,Cloud Engineer,Capgemini,Hyderabad,6693198059,Full-Time,5-8 years,Bachelors,AI,Hybrid,"Java, SQL, Node.js, Docker",26,4.9,246,4
+4734,Full Stack Developer,Oracle,Mumbai,6415409315,Full-Time,0-1 years,Bachelors,Healthcare,On-site,"Machine Learning, TensorFlow, AWS, Kubernetes",6,5.0,367,29
+4735,Data Analyst,Capgemini,Mumbai,6998718349,Full-Time,3-5 years,Bachelors,Healthcare,Remote,"Power BI, Tableau, SQL, Docker",28,4.1,209,7
+4736,DevOps Engineer,Zoho,Chennai,9548499587,Contract,3-5 years,Bachelors,IT Services,Hybrid,"AWS, PyTorch, Tableau, Pandas",6,3.3,513,12
+4737,Full Stack Developer,Freshworks,Noida,8872309543,Contract,5-8 years,Masters,FinTech,Remote,"Pandas, AWS, PyTorch, Node.js",20,3.9,293,7
+4738,Cloud Engineer,Wipro,Hyderabad,9841912427,Part-Time,0-1 years,Bachelors,Software,On-site,"Tableau, SQL, JavaScript, Power BI",9,3.3,54,17
+4739,Business Analyst,Oracle,Pune,9503591273,Part-Time,0-1 years,PhD,Healthcare,Remote,"Power BI, Python, Node.js, SQL",31,3.4,453,20
+4740,Frontend Developer,Wipro,Ahmedabad,9967044600,Part-Time,5-8 years,PhD,E-commerce,On-site,"Java, Machine Learning, Kubernetes, JavaScript",15,4.1,581,26
+4741,AI Engineer,Microsoft,Delhi,7214300118,Internship,0-1 years,PhD,FinTech,On-site,"Java, Kubernetes, Power BI, SQL",29,4.2,359,4
+4742,Business Analyst,Google,Coimbatore,7057932219,Part-Time,3-5 years,Masters,AI,On-site,"Pandas, Docker, JavaScript, SQL",4,3.7,243,3
+4743,Machine Learning Engineer,Google,Bangalore,8949841922,Contract,3-5 years,Bachelors,Healthcare,Remote,"Docker, Java, PyTorch, AWS",34,3.5,513,19
+4744,AI Engineer,SAP,Ahmedabad,8575415010,Part-Time,1-3 years,Masters,Cloud,Hybrid,"JavaScript, SQL, PyTorch, AWS",17,3.5,618,22
+4745,Cloud Engineer,Flipkart,Bangalore,8256723798,Part-Time,0-1 years,Bachelors,Software,Hybrid,"Docker, Pandas, Tableau, Node.js",14,4.7,58,20
+4746,Data Analyst,Freshworks,Pune,8891575021,Full-Time,3-5 years,PhD,AI,On-site,"TensorFlow, Tableau, Docker, SQL",22,3.3,30,11
+4747,Cloud Engineer,IBM,Pune,7086733382,Internship,1-3 years,PhD,E-commerce,Remote,"Power BI, Pandas, SQL, Node.js",40,3.7,649,6
+4748,Data Scientist,Capgemini,Coimbatore,9946600170,Part-Time,0-1 years,PhD,AI,Remote,"React, AWS, SQL, Pandas",18,3.6,144,28
+4749,Software Engineer,Amazon,Chennai,6378468332,Full-Time,0-1 years,PhD,Cloud,On-site,"SQL, Pandas, Power BI, AWS",8,3.1,690,3
+4750,Data Scientist,Cognizant,Chennai,9356796441,Contract,5-8 years,PhD,Healthcare,On-site,"Docker, SQL, Python, PyTorch",27,4.3,715,3
+4751,Data Scientist,Wipro,Delhi,6889755509,Contract,3-5 years,PhD,Cloud,On-site,"TensorFlow, Kubernetes, PyTorch, AWS",20,4.0,411,27
+4752,AI Engineer,Google,Chennai,7391678145,Part-Time,1-3 years,PhD,E-commerce,Remote,"PyTorch, TensorFlow, Docker, Power BI",33,5.0,623,21
+4753,Data Analyst,Google,Noida,6373826916,Part-Time,1-3 years,Masters,E-commerce,Remote,"Machine Learning, Tableau, JavaScript, Python",35,5.0,590,11
+4754,DevOps Engineer,Capgemini,Kolkata,9750180693,Full-Time,3-5 years,PhD,E-commerce,Remote,"JavaScript, Tableau, PyTorch, Machine Learning",36,3.8,757,5
+4755,AI Engineer,TCS,Coimbatore,8978323464,Contract,3-5 years,Bachelors,AI,On-site,"JavaScript, SQL, Python, Tableau",26,4.4,372,4
+4756,Frontend Developer,IBM,Kolkata,6790932182,Full-Time,8+ years,PhD,E-commerce,Remote,"Kubernetes, AWS, Machine Learning, React",21,3.5,182,24
+4757,Software Engineer,IBM,Noida,9227140573,Internship,3-5 years,Bachelors,FinTech,On-site,"Tableau, JavaScript, PyTorch, AWS",14,4.4,107,3
+4758,Backend Developer,Microsoft,Hyderabad,9200790981,Part-Time,0-1 years,Masters,IT Services,On-site,"Python, Node.js, AWS, TensorFlow",33,3.6,600,19
+4759,DevOps Engineer,Cognizant,Noida,8723553733,Internship,3-5 years,Masters,Software,On-site,"Power BI, Java, SQL, Pandas",20,3.2,269,27
+4760,Product Manager,Flipkart,Hyderabad,6382410881,Internship,3-5 years,Masters,Software,Hybrid,"Java, Tableau, Kubernetes, SQL",26,3.2,248,26
+4761,Product Manager,Amazon,Kolkata,9930653944,Full-Time,8+ years,Bachelors,IT Services,On-site,"PyTorch, AWS, JavaScript, Python",16,4.2,267,17
+4762,Backend Developer,SAP,Gurgaon,8222051679,Contract,8+ years,Masters,Cloud,Remote,"Power BI, JavaScript, Python, Kubernetes",14,4.1,648,8
+4763,Product Manager,Accenture,Ahmedabad,7521107310,Part-Time,0-1 years,Bachelors,FinTech,Remote,"AWS, Java, Kubernetes, React",30,3.6,435,7
+4764,Data Scientist,Oracle,Bangalore,7587698054,Internship,3-5 years,PhD,Cloud,Remote,"Pandas, Java, Machine Learning, SQL",40,4.5,498,26
+4765,Backend Developer,Microsoft,Hyderabad,8060681160,Internship,8+ years,Bachelors,Cloud,Hybrid,"Node.js, Java, SQL, Kubernetes",21,3.0,111,11
+4766,Product Manager,Accenture,Chennai,7968104824,Contract,3-5 years,Masters,Software,Remote,"JavaScript, Machine Learning, Pandas, Kubernetes",27,3.3,411,10
+4767,Product Manager,IBM,Chennai,7160065451,Full-Time,8+ years,Bachelors,FinTech,Remote,"JavaScript, Docker, AWS, TensorFlow",34,3.9,771,6
+4768,Backend Developer,SAP,Ahmedabad,7610971291,Internship,0-1 years,PhD,AI,Hybrid,"Machine Learning, TensorFlow, PyTorch, AWS",16,3.1,192,7
+4769,Data Scientist,Wipro,Hyderabad,8516109543,Full-Time,3-5 years,Bachelors,Software,On-site,"SQL, JavaScript, Docker, Pandas",32,4.5,672,8
+4770,Full Stack Developer,SAP,Ahmedabad,8527613816,Internship,1-3 years,Bachelors,FinTech,Hybrid,"TensorFlow, Kubernetes, Python, Node.js",28,3.2,48,10
+4771,Machine Learning Engineer,SAP,Delhi,9330845435,Part-Time,0-1 years,Bachelors,Healthcare,On-site,"Python, Node.js, Java, Docker",39,4.9,238,12
+4772,DevOps Engineer,IBM,Delhi,9823208264,Part-Time,3-5 years,PhD,Software,On-site,"Python, JavaScript, AWS, PyTorch",16,3.7,472,28
+4773,Product Manager,Google,Mumbai,7375297792,Part-Time,1-3 years,PhD,E-commerce,Remote,"Power BI, JavaScript, Docker, Tableau",9,3.6,97,16
+4774,AI Engineer,IBM,Noida,6885645808,Full-Time,5-8 years,Bachelors,Software,On-site,"AWS, Node.js, Kubernetes, Machine Learning",27,3.6,13,2
+4775,Backend Developer,Accenture,Gurgaon,8238575886,Contract,5-8 years,Masters,Cloud,Hybrid,"Kubernetes, Pandas, SQL, Python",20,3.0,676,13
+4776,Machine Learning Engineer,Google,Pune,6309403839,Internship,1-3 years,Masters,Cloud,On-site,"Tableau, Kubernetes, PyTorch, Pandas",37,4.1,147,1
+4777,Data Scientist,Freshworks,Noida,7580576677,Contract,0-1 years,PhD,FinTech,On-site,"AWS, React, PyTorch, TensorFlow",24,4.7,791,13
+4778,Full Stack Developer,Accenture,Bangalore,9396179799,Part-Time,1-3 years,Masters,FinTech,Remote,"Node.js, Power BI, Machine Learning, SQL",10,4.5,444,14
+4779,Data Analyst,Cognizant,Coimbatore,7734372203,Part-Time,1-3 years,PhD,FinTech,Hybrid,"Python, Kubernetes, SQL, Power BI",19,3.7,633,9
+4780,AI Engineer,Infosys,Hyderabad,9403580551,Part-Time,0-1 years,Masters,AI,On-site,"Tableau, Java, AWS, Kubernetes",30,4.4,416,25
+4781,Backend Developer,Amazon,Noida,6262823499,Part-Time,3-5 years,PhD,Healthcare,On-site,"Java, Docker, PyTorch, Tableau",4,3.6,457,6
+4782,Software Engineer,Amazon,Ahmedabad,7034822855,Contract,8+ years,Bachelors,Healthcare,Hybrid,"Machine Learning, PyTorch, Java, TensorFlow",11,4.2,785,17
+4783,AI Engineer,Freshworks,Chennai,6172602935,Internship,0-1 years,Masters,IT Services,Hybrid,"Power BI, React, Python, Kubernetes",24,3.7,338,17
+4784,Cloud Engineer,Amazon,Gurgaon,8641713402,Contract,1-3 years,Bachelors,IT Services,Hybrid,"Kubernetes, Java, Machine Learning, Python",33,3.0,754,17
+4785,Data Analyst,Freshworks,Gurgaon,8889017315,Part-Time,5-8 years,PhD,Cloud,Hybrid,"React, Python, Kubernetes, Power BI",26,4.1,355,12
+4786,Full Stack Developer,Freshworks,Mumbai,6238573660,Contract,8+ years,PhD,Healthcare,Hybrid,"JavaScript, Machine Learning, Tableau, Kubernetes",38,3.6,537,1
+4787,Backend Developer,SAP,Pune,8909563656,Internship,5-8 years,PhD,IT Services,Remote,"TensorFlow, Power BI, Python, JavaScript",32,4.1,352,20
+4788,Frontend Developer,Cognizant,Pune,8059819433,Internship,1-3 years,PhD,IT Services,Hybrid,"Docker, Tableau, Machine Learning, Python",17,4.3,427,12
+4789,Business Analyst,Flipkart,Gurgaon,8149584449,Full-Time,0-1 years,Masters,FinTech,Remote,"Python, Java, Docker, AWS",8,4.7,136,22
+4790,Machine Learning Engineer,TCS,Mumbai,6495075180,Contract,3-5 years,PhD,Cloud,Remote,"React, PyTorch, Python, Tableau",16,3.7,503,21
+4791,AI Engineer,Flipkart,Delhi,7716619161,Contract,1-3 years,PhD,Software,Remote,"PyTorch, Machine Learning, Kubernetes, Java",37,3.5,474,25
+4792,DevOps Engineer,Infosys,Ahmedabad,6990564980,Contract,3-5 years,Bachelors,Healthcare,Hybrid,"Java, AWS, Machine Learning, React",35,3.3,33,22
+4793,DevOps Engineer,Wipro,Mumbai,7852187440,Part-Time,1-3 years,Bachelors,E-commerce,On-site,"PyTorch, Tableau, Pandas, Docker",23,4.5,761,12
+4794,Data Analyst,Capgemini,Noida,9196410965,Contract,0-1 years,PhD,AI,Remote,"Kubernetes, Power BI, Python, PyTorch",39,5.0,116,20
+4795,Data Scientist,IBM,Mumbai,8206036297,Internship,5-8 years,Masters,AI,On-site,"Pandas, Node.js, Power BI, Docker",6,4.2,685,8
+4796,Data Analyst,Zoho,Chennai,9517153266,Contract,8+ years,PhD,AI,On-site,"Docker, PyTorch, Machine Learning, Java",32,4.1,354,9
+4797,AI Engineer,Accenture,Chennai,8723617989,Internship,0-1 years,Masters,E-commerce,Hybrid,"Power BI, React, SQL, Node.js",15,3.6,362,20
+4798,Data Scientist,Infosys,Noida,6131318056,Full-Time,1-3 years,PhD,FinTech,Remote,"TensorFlow, React, Tableau, Pandas",4,3.3,511,18
+4799,Machine Learning Engineer,Google,Mumbai,8731257277,Contract,5-8 years,Bachelors,AI,On-site,"AWS, Pandas, Kubernetes, Docker",31,3.7,416,29
+4800,Machine Learning Engineer,Wipro,Coimbatore,6432493961,Full-Time,3-5 years,PhD,Cloud,On-site,"React, Tableau, Java, Docker",33,4.2,184,4
+4801,AI Engineer,Cognizant,Gurgaon,9019386502,Contract,5-8 years,PhD,Cloud,Remote,"Pandas, Machine Learning, JavaScript, React",13,4.0,260,16
+4802,Backend Developer,Zoho,Pune,7274896446,Contract,5-8 years,Masters,IT Services,On-site,"Docker, TensorFlow, Power BI, SQL",6,4.6,193,12
+4803,Full Stack Developer,TCS,Chennai,9372139623,Internship,3-5 years,Masters,Healthcare,Hybrid,"React, JavaScript, Kubernetes, PyTorch",14,3.7,376,24
+4804,Machine Learning Engineer,IBM,Chennai,6005431467,Part-Time,5-8 years,Masters,Healthcare,Hybrid,"Docker, Java, AWS, Python",21,4.9,566,9
+4805,Backend Developer,Wipro,Ahmedabad,9023399517,Full-Time,0-1 years,PhD,AI,On-site,"Kubernetes, TensorFlow, AWS, PyTorch",26,3.6,451,15
+4806,Business Analyst,Accenture,Hyderabad,6253509372,Contract,3-5 years,Bachelors,Healthcare,Remote,"TensorFlow, Java, Node.js, PyTorch",11,3.7,267,11
+4807,Data Analyst,TCS,Bangalore,9591173383,Contract,8+ years,PhD,IT Services,Hybrid,"AWS, Java, Pandas, Machine Learning",30,3.8,261,27
+4808,Backend Developer,Microsoft,Delhi,8143141542,Full-Time,8+ years,PhD,Healthcare,On-site,"React, JavaScript, Node.js, TensorFlow",23,5.0,425,10
+4809,DevOps Engineer,IBM,Mumbai,6054332127,Part-Time,8+ years,Bachelors,Healthcare,Remote,"Java, PyTorch, Tableau, AWS",17,4.2,243,2
+4810,AI Engineer,Accenture,Pune,6056556791,Internship,8+ years,PhD,IT Services,On-site,"SQL, Node.js, AWS, Power BI",28,4.7,667,19
+4811,Full Stack Developer,Oracle,Kolkata,8233375961,Full-Time,0-1 years,Masters,E-commerce,Hybrid,"TensorFlow, Machine Learning, Docker, Pandas",29,4.6,698,19
+4812,Full Stack Developer,Capgemini,Ahmedabad,6995643096,Internship,8+ years,Bachelors,FinTech,On-site,"AWS, PyTorch, JavaScript, Node.js",36,3.3,525,9
+4813,Cloud Engineer,Cognizant,Ahmedabad,7664006980,Full-Time,3-5 years,Masters,AI,On-site,"Kubernetes, Power BI, Java, Node.js",36,4.4,244,30
+4814,Full Stack Developer,Flipkart,Gurgaon,6919319770,Internship,0-1 years,Bachelors,Software,On-site,"Power BI, Tableau, Docker, Node.js",15,3.8,513,22
+4815,Data Analyst,Zoho,Hyderabad,7207424532,Part-Time,8+ years,Masters,Software,Hybrid,"Machine Learning, TensorFlow, Power BI, Pandas",13,3.7,604,17
+4816,DevOps Engineer,Wipro,Mumbai,9935848907,Full-Time,3-5 years,Masters,AI,Remote,"Node.js, Java, Tableau, PyTorch",40,4.9,338,21
+4817,Data Scientist,Oracle,Hyderabad,6885053463,Part-Time,5-8 years,Bachelors,Software,Remote,"Kubernetes, Python, Docker, Tableau",7,4.1,636,23
+4818,AI Engineer,Freshworks,Bangalore,7767896121,Part-Time,0-1 years,Masters,AI,Remote,"Machine Learning, Java, TensorFlow, Python",10,3.8,686,16
+4819,Cloud Engineer,Infosys,Ahmedabad,7499478339,Contract,0-1 years,Bachelors,E-commerce,Hybrid,"AWS, Kubernetes, SQL, Tableau",36,3.6,383,10
+4820,Backend Developer,Flipkart,Delhi,7708130468,Full-Time,5-8 years,Bachelors,AI,Remote,"Power BI, PyTorch, Machine Learning, React",6,3.9,11,16
+4821,DevOps Engineer,Capgemini,Gurgaon,6261465344,Full-Time,1-3 years,PhD,AI,On-site,"Machine Learning, Tableau, React, Kubernetes",32,4.7,325,6
+4822,Machine Learning Engineer,Amazon,Hyderabad,9342257728,Internship,8+ years,PhD,E-commerce,On-site,"JavaScript, Pandas, PyTorch, Java",16,3.4,734,9
+4823,Product Manager,SAP,Gurgaon,8874160451,Full-Time,1-3 years,Masters,AI,Remote,"Node.js, Machine Learning, React, TensorFlow",6,4.9,452,26
+4824,Full Stack Developer,IBM,Mumbai,9309218296,Contract,1-3 years,PhD,AI,Remote,"Node.js, Power BI, SQL, AWS",16,3.6,32,17
+4825,Backend Developer,IBM,Chennai,7252020676,Internship,5-8 years,Masters,Cloud,Remote,"Node.js, Pandas, AWS, Tableau",18,4.0,109,3
+4826,Full Stack Developer,Oracle,Mumbai,9458700421,Internship,8+ years,PhD,Healthcare,Remote,"Java, SQL, Node.js, Tableau",7,4.5,534,18
+4827,AI Engineer,SAP,Chennai,6501888770,Part-Time,8+ years,Bachelors,Software,Hybrid,"React, Kubernetes, Docker, Pandas",15,3.4,596,20
+4828,Business Analyst,Google,Kolkata,6996701236,Part-Time,3-5 years,Bachelors,Cloud,Remote,"React, Tableau, Python, Docker",24,4.4,548,13
+4829,Software Engineer,IBM,Coimbatore,6893905558,Full-Time,1-3 years,Bachelors,Software,Remote,"Java, Tableau, PyTorch, SQL",21,4.4,90,10
+4830,DevOps Engineer,Capgemini,Hyderabad,6112789843,Full-Time,5-8 years,Masters,FinTech,Hybrid,"Tableau, Node.js, Power BI, AWS",11,3.7,636,30
+4831,Product Manager,Google,Mumbai,7754358610,Full-Time,5-8 years,PhD,E-commerce,Hybrid,"Kubernetes, SQL, Tableau, Python",8,4.1,371,14
+4832,Data Scientist,Capgemini,Ahmedabad,8863612477,Internship,5-8 years,Bachelors,Healthcare,Remote,"JavaScript, Node.js, Machine Learning, Pandas",24,3.7,762,19
+4833,Backend Developer,Amazon,Ahmedabad,7349196834,Internship,0-1 years,Masters,FinTech,On-site,"TensorFlow, Node.js, Python, Java",21,3.5,29,16
+4834,Software Engineer,Accenture,Bangalore,9175945104,Part-Time,3-5 years,Masters,Software,Hybrid,"Machine Learning, JavaScript, React, PyTorch",28,4.2,484,8
+4835,DevOps Engineer,IBM,Coimbatore,6301171758,Part-Time,8+ years,PhD,E-commerce,Remote,"Docker, Node.js, React, PyTorch",32,4.5,578,24
+4836,Cloud Engineer,Freshworks,Coimbatore,6078346915,Internship,3-5 years,Masters,AI,On-site,"SQL, Kubernetes, Tableau, Power BI",30,4.9,316,6
+4837,AI Engineer,Cognizant,Ahmedabad,6914173133,Full-Time,5-8 years,Bachelors,AI,On-site,"SQL, PyTorch, JavaScript, TensorFlow",8,4.5,538,30
+4838,AI Engineer,Accenture,Hyderabad,8055335087,Full-Time,5-8 years,PhD,IT Services,On-site,"Python, Kubernetes, Java, JavaScript",34,3.7,379,24
+4839,Product Manager,Microsoft,Coimbatore,9635764477,Full-Time,3-5 years,Bachelors,FinTech,Remote,"Python, Power BI, React, Java",23,3.8,395,1
+4840,DevOps Engineer,Infosys,Coimbatore,7490049568,Contract,8+ years,Masters,IT Services,Hybrid,"React, Python, Tableau, JavaScript",16,3.5,751,7
+4841,Product Manager,Infosys,Ahmedabad,6463849948,Contract,5-8 years,Bachelors,AI,Remote,"Tableau, Kubernetes, PyTorch, AWS",34,4.1,762,30
+4842,Data Scientist,SAP,Kolkata,6701603907,Part-Time,8+ years,PhD,AI,Remote,"Java, AWS, Python, Tableau",8,3.7,146,14
+4843,Backend Developer,Accenture,Hyderabad,7028971870,Internship,8+ years,PhD,AI,Remote,"React, Java, Python, Docker",30,4.2,163,16
+4844,Full Stack Developer,Oracle,Mumbai,7195452838,Internship,3-5 years,Masters,Software,Hybrid,"Docker, Power BI, JavaScript, TensorFlow",20,3.1,610,27
+4845,Business Analyst,Capgemini,Noida,6679922607,Full-Time,0-1 years,Bachelors,IT Services,Remote,"Kubernetes, TensorFlow, Machine Learning, PyTorch",21,4.1,366,4
+4846,DevOps Engineer,Infosys,Coimbatore,7085811444,Part-Time,3-5 years,PhD,E-commerce,Remote,"SQL, PyTorch, React, Node.js",21,4.8,198,28
+4847,Product Manager,TCS,Kolkata,9933758323,Full-Time,5-8 years,PhD,Cloud,On-site,"Tableau, Pandas, Docker, React",21,4.8,711,25
+4848,Frontend Developer,Infosys,Chennai,9788875390,Full-Time,1-3 years,Bachelors,Cloud,On-site,"AWS, Python, Kubernetes, Java",24,4.6,331,18
+4849,Data Analyst,Accenture,Coimbatore,8650788178,Full-Time,1-3 years,Bachelors,E-commerce,On-site,"Machine Learning, AWS, PyTorch, Docker",38,3.7,542,21
+4850,Data Analyst,IBM,Chennai,7573585096,Full-Time,8+ years,Bachelors,Healthcare,On-site,"JavaScript, Tableau, Node.js, Docker",40,4.6,420,28
+4851,Product Manager,Capgemini,Noida,9413930338,Contract,1-3 years,PhD,Healthcare,Remote,"Machine Learning, TensorFlow, Node.js, Java",13,4.3,674,1
+4852,Data Scientist,Zoho,Chennai,6894449288,Contract,1-3 years,PhD,Healthcare,Hybrid,"SQL, Tableau, React, Machine Learning",8,3.8,340,11
+4853,Data Analyst,Capgemini,Pune,9397588905,Contract,1-3 years,Masters,AI,Hybrid,"Pandas, Machine Learning, TensorFlow, Tableau",11,3.9,283,21
+4854,Business Analyst,IBM,Hyderabad,6856505630,Full-Time,3-5 years,Bachelors,E-commerce,On-site,"PyTorch, Pandas, Kubernetes, Java",8,4.9,527,13
+4855,Cloud Engineer,Infosys,Delhi,8120946022,Contract,1-3 years,Bachelors,AI,Hybrid,"Power BI, SQL, AWS, Tableau",37,3.5,272,25
+4856,DevOps Engineer,Freshworks,Delhi,8845016553,Internship,0-1 years,PhD,FinTech,Remote,"Machine Learning, PyTorch, Python, Docker",22,4.9,157,10
+4857,Product Manager,Freshworks,Bangalore,8872020148,Part-Time,0-1 years,Masters,AI,On-site,"Pandas, AWS, Power BI, React",9,3.9,799,4
+4858,AI Engineer,Amazon,Pune,8142358205,Part-Time,5-8 years,Masters,Software,On-site,"Machine Learning, Python, React, TensorFlow",30,4.5,95,18
+4859,Business Analyst,Amazon,Delhi,6557895330,Internship,3-5 years,PhD,IT Services,Hybrid,"PyTorch, Kubernetes, Java, Python",36,3.7,628,22
+4860,Cloud Engineer,Accenture,Kolkata,9340755389,Contract,8+ years,Bachelors,Cloud,Hybrid,"Docker, Node.js, PyTorch, TensorFlow",11,3.8,765,29
+4861,Business Analyst,SAP,Gurgaon,8532086680,Internship,0-1 years,PhD,FinTech,Remote,"SQL, TensorFlow, Python, Machine Learning",13,4.2,211,15
+4862,Cloud Engineer,Wipro,Kolkata,6080049131,Part-Time,3-5 years,Bachelors,Software,Hybrid,"JavaScript, Java, Tableau, Node.js",18,4.0,234,21
+4863,Cloud Engineer,Microsoft,Pune,8157550212,Part-Time,5-8 years,PhD,Cloud,Remote,"Kubernetes, Java, TensorFlow, Machine Learning",9,4.2,165,18
+4864,Frontend Developer,Zoho,Pune,9567361788,Internship,1-3 years,Masters,Healthcare,Remote,"Pandas, TensorFlow, Power BI, Node.js",25,4.0,746,18
+4865,Machine Learning Engineer,TCS,Chennai,7676268748,Full-Time,1-3 years,Bachelors,IT Services,Hybrid,"Docker, SQL, AWS, Python",28,4.2,778,5
+4866,DevOps Engineer,TCS,Chennai,8362318013,Full-Time,3-5 years,Masters,Healthcare,On-site,"Power BI, Tableau, Python, Java",24,4.7,387,30
+4867,Frontend Developer,Flipkart,Kolkata,9976197881,Internship,0-1 years,Masters,IT Services,Hybrid,"PyTorch, AWS, SQL, Docker",23,3.8,270,9
+4868,DevOps Engineer,Zoho,Bangalore,7678360368,Contract,1-3 years,PhD,AI,Remote,"SQL, Machine Learning, AWS, PyTorch",31,3.1,512,13
+4869,Cloud Engineer,Zoho,Pune,8922605480,Part-Time,3-5 years,PhD,FinTech,Remote,"Pandas, Java, PyTorch, Docker",37,4.5,293,29
+4870,Backend Developer,Accenture,Ahmedabad,9099124339,Contract,5-8 years,Bachelors,Software,On-site,"Python, Kubernetes, AWS, React",4,4.2,652,30
+4871,Data Analyst,IBM,Chennai,8721822991,Internship,0-1 years,PhD,Cloud,Remote,"Pandas, AWS, SQL, Machine Learning",33,3.0,781,23
+4872,Data Scientist,Freshworks,Noida,7832702955,Full-Time,1-3 years,PhD,Software,Remote,"Python, React, SQL, Tableau",25,4.4,89,2
+4873,Software Engineer,Accenture,Bangalore,6197132080,Full-Time,1-3 years,Masters,E-commerce,Remote,"React, Machine Learning, Pandas, SQL",8,3.3,124,27
+4874,Product Manager,Google,Gurgaon,7646404570,Internship,3-5 years,Bachelors,Software,On-site,"AWS, Python, Power BI, Machine Learning",7,4.7,200,25
+4875,Product Manager,Wipro,Mumbai,8680679177,Internship,0-1 years,PhD,E-commerce,Remote,"Python, React, SQL, JavaScript",20,4.7,593,6
+4876,Product Manager,TCS,Ahmedabad,7876043504,Full-Time,1-3 years,PhD,Healthcare,Remote,"Kubernetes, SQL, TensorFlow, Machine Learning",18,4.4,666,3
+4877,Frontend Developer,SAP,Ahmedabad,6826630771,Internship,0-1 years,PhD,Software,Remote,"AWS, Power BI, Kubernetes, SQL",35,3.7,147,15
+4878,Product Manager,Flipkart,Pune,8973717449,Internship,8+ years,PhD,Healthcare,Remote,"Docker, Node.js, React, Tableau",23,3.3,563,16
+4879,Machine Learning Engineer,Accenture,Chennai,6194292579,Contract,0-1 years,Masters,AI,Hybrid,"Java, Pandas, JavaScript, Python",33,3.6,183,10
+4880,Backend Developer,IBM,Kolkata,7192404633,Full-Time,0-1 years,Masters,Healthcare,On-site,"Node.js, Docker, AWS, Pandas",20,4.8,755,29
+4881,Product Manager,TCS,Pune,9745642558,Contract,1-3 years,PhD,FinTech,Hybrid,"Docker, SQL, Power BI, Machine Learning",21,4.4,458,29
+4882,Machine Learning Engineer,Freshworks,Kolkata,8812406960,Internship,3-5 years,Masters,Cloud,On-site,"Machine Learning, AWS, Power BI, Python",34,4.3,50,21
+4883,AI Engineer,Amazon,Bangalore,8712627352,Contract,5-8 years,Masters,Healthcare,Hybrid,"React, Node.js, Kubernetes, PyTorch",32,4.1,92,11
+4884,Software Engineer,SAP,Hyderabad,8424471934,Contract,8+ years,Masters,IT Services,Remote,"SQL, Machine Learning, AWS, Node.js",8,4.0,447,12
+4885,Full Stack Developer,Capgemini,Hyderabad,9814553268,Part-Time,3-5 years,Bachelors,AI,Remote,"Kubernetes, React, Machine Learning, Node.js",11,4.7,303,15
+4886,Cloud Engineer,Google,Ahmedabad,8382284072,Internship,3-5 years,Masters,Software,Remote,"Node.js, Power BI, Java, TensorFlow",11,3.2,363,24
+4887,Full Stack Developer,Wipro,Ahmedabad,9037771618,Full-Time,5-8 years,Bachelors,FinTech,Hybrid,"Pandas, AWS, Tableau, Java",36,4.2,210,23
+4888,Frontend Developer,Oracle,Delhi,8041252097,Internship,3-5 years,Bachelors,Software,Hybrid,"Python, Docker, Tableau, React",17,4.7,318,14
+4889,Data Analyst,Wipro,Coimbatore,9350841156,Internship,1-3 years,Bachelors,IT Services,Remote,"Power BI, Docker, Machine Learning, TensorFlow",26,3.8,232,27
+4890,DevOps Engineer,Oracle,Gurgaon,8260534926,Full-Time,0-1 years,Bachelors,Software,Remote,"Kubernetes, Node.js, JavaScript, TensorFlow",5,3.4,527,10
+4891,Data Scientist,IBM,Mumbai,9635937870,Part-Time,5-8 years,Bachelors,AI,On-site,"Docker, Kubernetes, AWS, PyTorch",28,4.3,488,6
+4892,AI Engineer,Microsoft,Coimbatore,6646067603,Full-Time,0-1 years,Bachelors,Healthcare,On-site,"Docker, PyTorch, Python, React",7,4.3,267,10
+4893,Data Scientist,Infosys,Hyderabad,9140096564,Full-Time,0-1 years,Masters,Healthcare,Remote,"Tableau, SQL, Power BI, JavaScript",31,3.7,584,28
+4894,DevOps Engineer,Capgemini,Delhi,9047066635,Part-Time,3-5 years,PhD,E-commerce,Remote,"AWS, Docker, Kubernetes, Python",19,4.9,554,26
+4895,Cloud Engineer,Oracle,Hyderabad,9432203264,Part-Time,5-8 years,PhD,Healthcare,Hybrid,"SQL, AWS, JavaScript, TensorFlow",35,3.8,632,27
+4896,Data Analyst,SAP,Coimbatore,9121944514,Internship,5-8 years,PhD,Healthcare,On-site,"Tableau, Python, Docker, JavaScript",16,3.6,226,21
+4897,Cloud Engineer,TCS,Pune,9254006295,Internship,3-5 years,Bachelors,IT Services,Remote,"Tableau, Docker, Kubernetes, React",13,3.2,655,22
+4898,Full Stack Developer,Oracle,Hyderabad,8753219574,Contract,5-8 years,Masters,FinTech,On-site,"Power BI, AWS, JavaScript, Machine Learning",19,3.6,533,8
+4899,Backend Developer,Cognizant,Chennai,7413025867,Contract,3-5 years,PhD,Software,On-site,"React, Docker, Power BI, AWS",25,3.6,425,10
+4900,Cloud Engineer,Freshworks,Delhi,8013070862,Part-Time,0-1 years,Masters,Software,On-site,"Machine Learning, Pandas, React, Node.js",40,5.0,748,2
+4901,Software Engineer,Infosys,Coimbatore,8188791381,Part-Time,1-3 years,PhD,FinTech,Remote,"Power BI, PyTorch, Machine Learning, React",11,4.7,276,12
+4902,Product Manager,Google,Bangalore,6655384541,Contract,3-5 years,Masters,IT Services,On-site,"Machine Learning, Power BI, React, Pandas",32,3.9,799,1
+4903,Product Manager,Flipkart,Pune,7456651039,Internship,3-5 years,Masters,Cloud,Remote,"Pandas, AWS, JavaScript, React",12,4.5,765,7
+4904,Machine Learning Engineer,IBM,Hyderabad,6781536095,Internship,8+ years,PhD,E-commerce,On-site,"SQL, PyTorch, Kubernetes, Machine Learning",24,3.9,358,9
+4905,Product Manager,Google,Ahmedabad,9754175867,Internship,5-8 years,Masters,FinTech,Remote,"Docker, Tableau, Python, Kubernetes",35,4.7,43,16
+4906,Cloud Engineer,Cognizant,Chennai,9937989984,Full-Time,8+ years,PhD,Cloud,Remote,"Python, AWS, Docker, SQL",4,3.7,48,3
+4907,Product Manager,Flipkart,Coimbatore,8133367435,Part-Time,0-1 years,PhD,Software,Remote,"Python, Pandas, SQL, Tableau",40,4.4,224,4
+4908,Business Analyst,IBM,Gurgaon,7074769003,Contract,0-1 years,PhD,E-commerce,On-site,"Kubernetes, React, JavaScript, Docker",12,4.8,240,19
+4909,Full Stack Developer,Flipkart,Chennai,6139231535,Part-Time,3-5 years,Bachelors,Software,Remote,"Python, AWS, PyTorch, SQL",39,4.1,432,14
+4910,Backend Developer,Capgemini,Hyderabad,7527731701,Contract,8+ years,PhD,IT Services,Remote,"Java, Pandas, Python, Power BI",35,3.0,549,16
+4911,Backend Developer,Infosys,Noida,8773320185,Contract,0-1 years,PhD,Healthcare,Remote,"React, TensorFlow, Tableau, Pandas",9,3.5,636,29
+4912,Software Engineer,Microsoft,Pune,6992889799,Part-Time,5-8 years,Masters,E-commerce,Hybrid,"Node.js, TensorFlow, Java, SQL",9,3.6,354,5
+4913,Data Analyst,IBM,Pune,7685143757,Contract,0-1 years,Masters,FinTech,Remote,"Kubernetes, Tableau, SQL, Docker",4,4.6,781,6
+4914,DevOps Engineer,SAP,Delhi,9560156704,Contract,5-8 years,Bachelors,Cloud,Remote,"Node.js, PyTorch, Machine Learning, Pandas",39,4.9,396,16
+4915,Full Stack Developer,Freshworks,Coimbatore,7082522389,Contract,3-5 years,PhD,Healthcare,Remote,"Pandas, React, Docker, Python",17,4.9,391,23
+4916,DevOps Engineer,Amazon,Chennai,8592796428,Internship,8+ years,Masters,Cloud,On-site,"Pandas, React, SQL, JavaScript",37,3.3,34,14
+4917,Cloud Engineer,Flipkart,Kolkata,7883753513,Part-Time,8+ years,Bachelors,E-commerce,Hybrid,"JavaScript, PyTorch, Pandas, Machine Learning",38,3.6,121,30
+4918,AI Engineer,IBM,Coimbatore,7107294257,Contract,0-1 years,PhD,FinTech,Remote,"Power BI, Docker, Machine Learning, AWS",15,4.4,574,13
+4919,Business Analyst,IBM,Pune,8464322279,Full-Time,1-3 years,Masters,E-commerce,On-site,"JavaScript, Tableau, AWS, Node.js",40,3.2,298,23
+4920,Product Manager,Amazon,Mumbai,6171515130,Part-Time,8+ years,Masters,Cloud,Hybrid,"Tableau, Kubernetes, Pandas, Machine Learning",4,3.9,539,3
+4921,Full Stack Developer,Google,Noida,6864669782,Internship,1-3 years,Masters,IT Services,Remote,"JavaScript, Python, Node.js, Tableau",19,3.3,280,29
+4922,Data Scientist,Wipro,Bangalore,8329788916,Contract,1-3 years,PhD,Software,On-site,"SQL, Tableau, JavaScript, Python",9,4.0,553,26
+4923,Product Manager,Oracle,Hyderabad,8686111648,Internship,1-3 years,Masters,AI,On-site,"Python, PyTorch, Power BI, SQL",6,3.7,481,25
+4924,Backend Developer,IBM,Mumbai,9797733110,Part-Time,1-3 years,PhD,IT Services,Hybrid,"Tableau, Docker, PyTorch, SQL",16,3.8,656,1
+4925,DevOps Engineer,Wipro,Coimbatore,7706542369,Internship,0-1 years,Bachelors,IT Services,Hybrid,"Java, Tableau, Pandas, React",13,3.9,419,3
+4926,Data Analyst,Capgemini,Chennai,8589953690,Full-Time,8+ years,Masters,Healthcare,On-site,"TensorFlow, Tableau, PyTorch, Java",6,3.9,195,23
+4927,Business Analyst,Google,Noida,8693666420,Full-Time,0-1 years,Masters,Software,Hybrid,"PyTorch, Docker, Python, Node.js",37,4.2,685,26
+4928,Machine Learning Engineer,Freshworks,Pune,7076161751,Internship,1-3 years,Bachelors,E-commerce,On-site,"Machine Learning, Tableau, PyTorch, AWS",40,3.7,210,2
+4929,Business Analyst,Capgemini,Mumbai,6367379579,Part-Time,0-1 years,Bachelors,AI,Hybrid,"Kubernetes, Node.js, Java, SQL",32,3.9,397,8
+4930,Frontend Developer,Amazon,Coimbatore,6334158375,Contract,3-5 years,Masters,Healthcare,Remote,"Machine Learning, AWS, Docker, Power BI",27,3.9,665,29
+4931,Backend Developer,Cognizant,Ahmedabad,8524411455,Internship,1-3 years,PhD,Cloud,Hybrid,"Machine Learning, JavaScript, SQL, React",11,4.5,350,22
+4932,Backend Developer,Accenture,Ahmedabad,6467501909,Part-Time,3-5 years,Bachelors,Software,On-site,"Machine Learning, Python, Kubernetes, JavaScript",6,3.9,238,18
+4933,Backend Developer,Zoho,Chennai,9469404634,Internship,1-3 years,PhD,Cloud,Hybrid,"Java, Python, React, TensorFlow",31,3.9,330,3
+4934,Cloud Engineer,TCS,Pune,9492423953,Part-Time,0-1 years,PhD,Software,Hybrid,"PyTorch, Python, SQL, Power BI",15,3.4,86,13
+4935,AI Engineer,Microsoft,Ahmedabad,8189784817,Internship,1-3 years,Bachelors,Software,Hybrid,"Python, React, SQL, Java",7,4.4,664,25
+4936,AI Engineer,Flipkart,Gurgaon,8365049212,Full-Time,1-3 years,PhD,FinTech,Hybrid,"Kubernetes, React, SQL, AWS",20,4.1,388,2
+4937,Business Analyst,Amazon,Ahmedabad,7500461680,Internship,8+ years,Masters,IT Services,On-site,"React, AWS, Docker, Tableau",17,4.9,519,5
+4938,Cloud Engineer,Flipkart,Noida,8704952253,Internship,1-3 years,Bachelors,FinTech,Remote,"Docker, TensorFlow, Tableau, Java",22,4.1,323,24
+4939,Software Engineer,Oracle,Bangalore,6513947395,Internship,5-8 years,Masters,Healthcare,Remote,"AWS, JavaScript, React, Docker",39,4.9,78,25
+4940,Full Stack Developer,Google,Ahmedabad,8449032359,Contract,5-8 years,Bachelors,Software,Hybrid,"Node.js, SQL, AWS, Python",10,4.0,90,18
+4941,Data Scientist,SAP,Coimbatore,9372640518,Internship,5-8 years,Masters,IT Services,On-site,"PyTorch, React, Power BI, Kubernetes",21,3.8,485,8
+4942,Cloud Engineer,Capgemini,Bangalore,7045175250,Internship,0-1 years,PhD,IT Services,Hybrid,"Docker, Tableau, TensorFlow, Python",37,4.4,146,14
+4943,DevOps Engineer,Accenture,Gurgaon,8811786727,Contract,1-3 years,PhD,FinTech,On-site,"Machine Learning, Power BI, React, Tableau",34,4.2,422,1
+4944,Machine Learning Engineer,IBM,Noida,7279571735,Internship,1-3 years,Bachelors,Software,Remote,"Power BI, TensorFlow, Python, Kubernetes",21,3.8,123,13
+4945,Business Analyst,TCS,Delhi,6362005166,Internship,3-5 years,Masters,AI,Hybrid,"Kubernetes, Docker, Machine Learning, Pandas",9,3.4,277,7
+4946,Frontend Developer,Flipkart,Mumbai,9526702013,Contract,0-1 years,PhD,Software,Remote,"Pandas, Java, Power BI, Tableau",26,3.2,611,23
+4947,AI Engineer,Flipkart,Hyderabad,6087417788,Contract,0-1 years,Bachelors,Healthcare,Hybrid,"PyTorch, SQL, Kubernetes, Java",38,4.4,592,6
+4948,AI Engineer,Amazon,Pune,7425210992,Full-Time,3-5 years,Masters,IT Services,Remote,"Machine Learning, TensorFlow, Docker, Pandas",23,4.1,188,26
+4949,Full Stack Developer,Capgemini,Pune,8553847797,Internship,0-1 years,PhD,Healthcare,Remote,"Pandas, TensorFlow, Machine Learning, AWS",29,4.5,631,1
+4950,Data Analyst,Cognizant,Kolkata,9151315542,Contract,5-8 years,PhD,FinTech,Hybrid,"Kubernetes, JavaScript, React, Tableau",6,4.1,454,29
+4951,Business Analyst,IBM,Noida,9165047362,Full-Time,3-5 years,Masters,AI,Remote,"Tableau, Pandas, JavaScript, Power BI",40,4.1,190,27
+4952,Product Manager,Zoho,Chennai,7517699302,Part-Time,8+ years,Masters,Healthcare,Hybrid,"Pandas, PyTorch, Node.js, Kubernetes",28,4.5,605,22
+4953,Cloud Engineer,Capgemini,Mumbai,9437840303,Internship,0-1 years,Bachelors,E-commerce,On-site,"SQL, JavaScript, Pandas, Java",34,4.1,461,12
+4954,DevOps Engineer,SAP,Hyderabad,6706576290,Part-Time,0-1 years,Masters,Software,On-site,"Java, PyTorch, Node.js, Machine Learning",27,3.9,148,10
+4955,Frontend Developer,Freshworks,Pune,6152601342,Full-Time,5-8 years,Masters,Software,Hybrid,"React, JavaScript, AWS, Java",23,3.2,698,10
+4956,Machine Learning Engineer,Accenture,Hyderabad,9549377469,Contract,8+ years,PhD,Software,Remote,"Tableau, Docker, PyTorch, SQL",4,4.7,226,23
+4957,AI Engineer,Zoho,Bangalore,6206044270,Full-Time,5-8 years,PhD,Cloud,Remote,"Machine Learning, React, Power BI, Java",40,4.5,741,2
+4958,Business Analyst,Oracle,Pune,7689121221,Full-Time,8+ years,PhD,IT Services,Hybrid,"Node.js, PyTorch, React, Pandas",4,3.8,615,22
+4959,DevOps Engineer,Oracle,Kolkata,8843759255,Internship,8+ years,Bachelors,Software,Remote,"Node.js, Tableau, AWS, Python",21,4.9,766,7
+4960,DevOps Engineer,Google,Pune,6702321418,Contract,1-3 years,Bachelors,FinTech,On-site,"Python, TensorFlow, React, Pandas",10,3.7,35,8
+4961,Backend Developer,SAP,Gurgaon,9403981795,Full-Time,8+ years,Bachelors,Software,On-site,"Kubernetes, Pandas, Python, PyTorch",39,4.1,474,7
+4962,Full Stack Developer,Infosys,Bangalore,8014476100,Full-Time,0-1 years,Bachelors,Healthcare,Hybrid,"Power BI, React, Machine Learning, TensorFlow",20,4.7,559,12
+4963,Product Manager,Freshworks,Pune,6700060060,Internship,0-1 years,PhD,AI,Hybrid,"AWS, PyTorch, Java, Tableau",16,4.2,60,19
+4964,Software Engineer,SAP,Hyderabad,6677730320,Full-Time,1-3 years,PhD,IT Services,Remote,"Tableau, TensorFlow, JavaScript, Pandas",8,3.3,713,23
+4965,Data Analyst,SAP,Pune,8406638527,Internship,0-1 years,Masters,Software,Hybrid,"TensorFlow, Power BI, SQL, Java",34,3.9,149,4
+4966,Frontend Developer,Google,Gurgaon,7466159349,Internship,5-8 years,Bachelors,Software,Hybrid,"Python, Power BI, Pandas, PyTorch",23,4.2,431,5
+4967,Data Analyst,TCS,Mumbai,8181100244,Contract,3-5 years,Masters,FinTech,Hybrid,"SQL, Java, JavaScript, Pandas",26,3.6,232,4
+4968,Full Stack Developer,Zoho,Chennai,9684208737,Part-Time,8+ years,Bachelors,Cloud,On-site,"Python, React, Docker, Tableau",36,4.9,348,20
+4969,Backend Developer,Google,Hyderabad,7354792060,Contract,1-3 years,Masters,Cloud,Hybrid,"Node.js, Power BI, TensorFlow, PyTorch",32,4.6,469,29
+4970,Backend Developer,Infosys,Noida,9722060010,Full-Time,3-5 years,Bachelors,Cloud,On-site,"Machine Learning, Node.js, AWS, Docker",18,5.0,534,10
+4971,Data Scientist,Wipro,Bangalore,6607930761,Internship,0-1 years,PhD,AI,Hybrid,"React, Pandas, AWS, Kubernetes",35,4.0,296,12
+4972,DevOps Engineer,IBM,Ahmedabad,6294375156,Full-Time,1-3 years,PhD,E-commerce,Hybrid,"Python, JavaScript, PyTorch, Power BI",31,4.1,520,8
+4973,Data Analyst,IBM,Mumbai,9154228897,Internship,8+ years,PhD,Software,Remote,"Node.js, Docker, Power BI, Python",40,3.4,707,15
+4974,Machine Learning Engineer,TCS,Ahmedabad,6932359758,Full-Time,8+ years,Bachelors,FinTech,On-site,"Docker, React, AWS, Kubernetes",39,4.1,352,29
+4975,Data Scientist,Capgemini,Kolkata,8129864582,Internship,0-1 years,Masters,FinTech,Remote,"Kubernetes, Tableau, AWS, Power BI",38,4.8,14,23
+4976,AI Engineer,Freshworks,Noida,9129128091,Internship,1-3 years,Bachelors,AI,Remote,"Node.js, Docker, React, Pandas",11,4.0,489,21
+4977,DevOps Engineer,Capgemini,Coimbatore,7867559253,Contract,0-1 years,Bachelors,Cloud,On-site,"SQL, AWS, TensorFlow, Python",35,4.7,153,28
+4978,AI Engineer,Oracle,Ahmedabad,9215649545,Full-Time,3-5 years,Bachelors,Healthcare,Hybrid,"Pandas, React, PyTorch, Python",8,4.6,412,6
+4979,DevOps Engineer,Amazon,Mumbai,9754180695,Part-Time,8+ years,Masters,IT Services,Remote,"JavaScript, Java, Machine Learning, PyTorch",7,3.6,112,2
+4980,Software Engineer,Wipro,Pune,7125417022,Part-Time,1-3 years,Bachelors,E-commerce,On-site,"SQL, TensorFlow, AWS, Docker",37,4.0,207,30
+4981,Backend Developer,SAP,Bangalore,7223570166,Internship,5-8 years,Bachelors,FinTech,On-site,"Python, AWS, Tableau, Node.js",37,3.1,774,14
+4982,Machine Learning Engineer,Google,Hyderabad,9647208485,Full-Time,0-1 years,Bachelors,E-commerce,Remote,"SQL, Tableau, Java, React",5,3.0,651,16
+4983,Full Stack Developer,Cognizant,Noida,7311368757,Part-Time,0-1 years,Bachelors,AI,On-site,"Kubernetes, TensorFlow, React, AWS",27,3.6,236,17
+4984,Data Scientist,Zoho,Gurgaon,7890560253,Part-Time,3-5 years,Bachelors,Cloud,Remote,"Machine Learning, Tableau, JavaScript, Pandas",13,4.1,290,25
+4985,AI Engineer,IBM,Kolkata,6499834526,Contract,8+ years,Masters,E-commerce,Remote,"Docker, Pandas, Kubernetes, Python",36,4.0,748,28
+4986,DevOps Engineer,Freshworks,Kolkata,6688774921,Internship,3-5 years,Bachelors,Cloud,Remote,"Pandas, TensorFlow, Machine Learning, Power BI",35,3.9,374,20
+4987,Product Manager,Oracle,Bangalore,9667009036,Full-Time,5-8 years,Bachelors,Cloud,Hybrid,"Docker, PyTorch, TensorFlow, SQL",22,3.9,772,14
+4988,Business Analyst,TCS,Hyderabad,6177832916,Internship,8+ years,PhD,AI,Remote,"Kubernetes, Docker, SQL, React",6,3.5,530,29
+4989,Data Analyst,Infosys,Hyderabad,9309670841,Part-Time,5-8 years,Bachelors,E-commerce,Hybrid,"Java, Docker, SQL, Tableau",31,3.9,447,25
+4990,Backend Developer,Zoho,Bangalore,6426490618,Contract,1-3 years,PhD,IT Services,Hybrid,"Python, Machine Learning, Java, React",36,3.4,242,19
+4991,DevOps Engineer,SAP,Kolkata,8847913555,Part-Time,3-5 years,Bachelors,FinTech,On-site,"Power BI, JavaScript, Pandas, Python",14,3.6,372,7
+4992,Data Scientist,Google,Gurgaon,7301937470,Contract,8+ years,PhD,Cloud,Remote,"Docker, JavaScript, Pandas, Machine Learning",22,4.3,726,22
+4993,Business Analyst,Wipro,Bangalore,7397322882,Part-Time,5-8 years,PhD,IT Services,On-site,"Docker, Python, PyTorch, Tableau",34,4.3,86,15
+4994,Full Stack Developer,Freshworks,Ahmedabad,8920027483,Internship,8+ years,Masters,Cloud,Remote,"PyTorch, Pandas, React, Node.js",4,4.8,448,20
+4995,Frontend Developer,Accenture,Mumbai,6126186831,Full-Time,5-8 years,PhD,AI,Hybrid,"Power BI, Docker, React, Pandas",11,4.1,156,17
+4996,Data Analyst,Accenture,Gurgaon,8321957367,Part-Time,3-5 years,Bachelors,Healthcare,Remote,"Python, AWS, Node.js, Docker",7,4.6,653,9
+4997,Business Analyst,Capgemini,Kolkata,7486758839,Contract,1-3 years,Bachelors,IT Services,Remote,"Python, Power BI, TensorFlow, Tableau",10,3.4,413,2
+4998,Software Engineer,TCS,Gurgaon,6965505251,Part-Time,1-3 years,Masters,Cloud,On-site,"SQL, JavaScript, Pandas, PyTorch",16,4.0,558,28
+4999,Full Stack Developer,Oracle,Chennai,7335459012,Full-Time,1-3 years,Bachelors,IT Services,Hybrid,"Pandas, Node.js, SQL, AWS",4,3.1,617,3
+5000,Full Stack Developer,Microsoft,Mumbai,7566307377,Internship,5-8 years,PhD,IT Services,On-site,"Node.js, Machine Learning, Java, Docker",31,4.3,114,5

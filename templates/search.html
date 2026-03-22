@@ -2,19 +2,57 @@
 
 {% block content %}
 <div class="hero-banner"
-    style="background-image: linear-gradient(rgba(15, 139, 141, 0.95), rgba(12, 113, 115, 0.95)); padding: 4rem 2rem;">
+    style="background-image: linear-gradient(rgba(15, 139, 141, 0.95), rgba(12, 113, 115, 0.95)); padding: 3rem 2rem;">
     <div class="hero-content">
         <h1 style="font-size: 2.5rem;">Search All Jobs</h1>
         <p>Browse our database of thousands of active roles.</p>
+
+        <!-- Search Bar -->
+        <form method="GET" action="/search" style="margin-top: 1.5rem; display: flex; gap: 0; max-width: 700px; margin-left: auto; margin-right: auto; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+            <input type="text" name="q" value="{{ q }}" placeholder="Search by role, company or skill..."
+                style="flex: 1; padding: 1rem 1.5rem; border: none; font-size: 1rem; font-family: 'Inter', sans-serif; outline: none; color: #1e263c;">
+            <button type="submit"
+                style="padding: 1rem 2rem; background: #0a6364; color: white; border: none; font-size: 1rem; font-weight: 700; cursor: pointer; font-family: 'Inter', sans-serif; white-space: nowrap;">
+                🔍 Search
+            </button>
+        </form>
     </div>
 </div>
 
-<div class="container" style="max-width: 1000px; margin-top: 3rem;">
+<div class="container" style="max-width: 1000px; margin-top: 2rem;">
+    <!-- Filters Row -->
+    <form method="GET" action="/search" style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; align-items: center;">
+        <input type="hidden" name="q" value="{{ q }}">
+        <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+            <strong style="color: var(--text-primary);">Filter:</strong>
+        </div>
+        <input type="text" name="location" value="{{ location }}" placeholder="Location (e.g. Mumbai)"
+            style="padding: 0.5rem 1rem; border: 1px solid var(--border-color); border-radius: 8px; background: var(--panel-bg); color: var(--text-primary); font-family: 'Inter', sans-serif; font-size: 0.9rem;">
+        <select name="employment_type" onchange="this.form.submit()"
+            style="padding: 0.5rem 1rem; border: 1px solid var(--border-color); border-radius: 8px; background: var(--panel-bg); color: var(--text-primary); font-family: 'Inter', sans-serif; font-size: 0.9rem;">
+            <option value="" {% if not employment_type %}selected{% endif %}>Any Type</option>
+            <option value="Full-Time" {% if employment_type == 'Full-Time' %}selected{% endif %}>Full-Time</option>
+            <option value="Part-Time" {% if employment_type == 'Part-Time' %}selected{% endif %}>Part-Time</option>
+            <option value="Contract" {% if employment_type == 'Contract' %}selected{% endif %}>Contract</option>
+            <option value="Internship" {% if employment_type == 'Internship' %}selected{% endif %}>Internship</option>
+        </select>
+        <button type="submit" style="padding: 0.5rem 1.25rem; background: var(--accent); color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif;">Apply</button>
+        {% if q or location or employment_type %}
+        <a href="/search" style="padding: 0.5rem 1rem; color: var(--text-secondary); font-size: 0.85rem; text-decoration: none;">✕ Clear</a>
+        {% endif %}
+    </form>
+
+    <!-- Results Count -->
+    <div style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-secondary);">
+        Showing <strong style="color: var(--text-primary);">{{ jobs|length }}</strong> job{{ 's' if jobs|length != 1 else '' }}
+        {% if q %} for <em>"{{ q }}"</em>{% endif %}
+        {% if location %} in <em>{{ location }}</em>{% endif %}
+    </div>
+
     <div class="card">
-        <h2 style="margin-bottom: 1.5rem;">Latest Opportunities</h2>
         <ul class="jobs-list">
             {% for job in jobs %}
-            <li class="job-item">
+            <li class="job-item" id="job-{{ loop.index }}">
                 <div class="job-header">
                     <div style="display: flex; gap: 1rem; align-items: flex-start;">
                         <img src="https://logo.clearbit.com/{{ job.company | lower | replace(' ', '') }}.com"
@@ -22,32 +60,129 @@
                             alt="{{ job.company }} logo" class="company-logo">
                         <div>
                             <h3 class="job-title">{{ job.role }}</h3>
-                            <div class="company-name">{{ job.company }} &bull; {{ job.location }} &bull; {{
-                                job.employment_type }}</div>
+                            <div class="company-name">{{ job.company }} &bull; {{ job.location }} &bull; {{ job.employment_type }}</div>
                         </div>
                     </div>
-                </div>
-                <div style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-secondary);">
-                    <strong>Education:</strong> {{ job.education }}
-                </div>
-                <div>
-                    <span class="skill-label">Skills:</span>
-                    <div class="badge-container">
-                        {% for skill in job.required_skills.split(',') %}
-                        <span class="badge">{{ skill | trim | capitalize }}</span>
-                        {% endfor %}
+                    <div style="background: rgba(16,185,129,0.1); color: var(--success); padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 0.85rem; white-space: nowrap;">
+                        {% if job.salary_lpa and job.salary_lpa != 'None' %}₹{{ job.salary_lpa }} LPA{% else %}Salary N/A{% endif %}
                     </div>
                 </div>
+
+                <div style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-secondary); display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                    <span><strong style="color:var(--text-primary)">Location:</strong> {{ job.location }}</span>
+                    <span><strong style="color:var(--text-primary)">Contact:</strong> {{ job.phone_number if job.phone_number and job.phone_number != 'None' else 'Not Available' }}</span>
+                    <span><strong style="color:var(--text-primary)">Experience:</strong> {{ job.experience_level }}</span>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <span class="skill-label">Skills:</span>
+                    <div class="badge-container">
+                        {% for skill in job.required_skills.split(',')[:5] %}
+                        <span class="badge">{{ skill | trim | capitalize }}</span>
+                        {% endfor %}
+                        {% if job.required_skills.split(',')|length > 5 %}
+                        <span style="font-size:0.8rem; color: var(--text-secondary); align-self: center;">+{{ job.required_skills.split(',')|length - 5 }} more</span>
+                        {% endif %}
+                    </div>
+                </div>
+
                 <div class="job-actions">
-                    <button class="btn-apply">View Details</button>
-                    <button class="btn-save">Save Job</button>
+                    <button class="btn-apply" onclick="showDetail({{ loop.index }})">View Details</button>
+                    <button class="btn-save" onclick="saveJob('{{ job.id }}', this)">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z" /></svg>
+                        Save Job
+                    </button>
+                </div>
+
+                <!-- Detail Panel (hidden by default) -->
+                <div id="detail-{{ loop.index }}" style="display:none; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px dashed var(--border-color); animation: fadeIn 0.3s ease;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; font-size: 0.9rem;">
+                        <div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Company:</strong> {{ job.company }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Role:</strong> {{ job.role }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Location:</strong> {{ job.location }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Employment Type:</strong> {{ job.employment_type }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Work Mode:</strong> {{ job.remote_type }}</div>
+                        </div>
+                        <div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Salary:</strong> {% if job.salary_lpa and job.salary_lpa != 'None' %}₹{{ job.salary_lpa }} LPA{% else %}Not Specified{% endif %}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Experience Required:</strong> {{ job.experience_level }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Education:</strong> {{ job.education }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Industry:</strong> {{ job.industry or 'Not Specified' }}</div>
+                            <div style="margin-bottom: 0.75rem;"><strong>Contact:</strong> <a href="tel:{{ job.phone_number }}" style="color: var(--accent); font-weight: 600;">{{ job.phone_number if job.phone_number and job.phone_number != 'None' else 'Not Available' }}</a></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 0.5rem;">
+                        <strong>All Required Skills:</strong>
+                        <div class="badge-container" style="margin-top: 0.5rem;">
+                            {% for skill in job.required_skills.split(',') %}
+                            <span class="badge have">{{ skill | trim | capitalize }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <a href="https://www.google.com/search?q=apply+for+{{ job.role | urlencode }}+at+{{ job.company | urlencode }}"
+                            target="_blank" class="btn" style="display: inline-block; text-decoration: none; padding: 10px 24px; font-size: 0.9rem;">
+                            Apply Now ↗
+                        </a>
+                    </div>
                 </div>
             </li>
             {% endfor %}
             {% if not jobs %}
-            <p>No jobs found.</p>
+            <li class="card text-center" style="padding: 3rem; list-style: none; border: 2px dashed var(--border-color); background: transparent; border-radius: 16px;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔍</div>
+                <h3 style="margin-bottom: 0.5rem; color: var(--text-secondary);">No Jobs Found</h3>
+                <p style="color: var(--text-secondary);">Try different keywords or clear your filters.</p>
+                <a href="/search" class="btn" style="margin-top: 1rem; display: inline-block; text-decoration: none;">Clear Search</a>
+            </li>
             {% endif %}
         </ul>
     </div>
 </div>
+
+<script>
+    function showDetail(index) {
+        const panel = document.getElementById('detail-' + index);
+        const btn = event.target;
+        if (panel.style.display === 'none') {
+            panel.style.display = 'block';
+            btn.textContent = 'Hide Details';
+            btn.style.background = 'var(--text-secondary)';
+        } else {
+            panel.style.display = 'none';
+            btn.textContent = 'View Details';
+            btn.style.background = '';
+        }
+    }
+
+    function saveJob(jobId, btn) {
+        fetch('/save_job/' + jobId, { method: 'POST' })
+            .then(res => {
+                if (res.status === 401) {
+                    alert('Please login to save jobs.');
+                    window.location.href = '/login';
+                    return;
+                }
+                return res.json();
+            })
+            .then(data => {
+                if (data && (data.status === 'success' || data.status === 'already_saved')) {
+                    btn.innerHTML = '✓ Saved';
+                    btn.style.backgroundColor = '#e2e8f0';
+                    btn.style.color = 'var(--text-secondary)';
+                    btn.disabled = true;
+                    btn.style.cursor = 'default';
+                }
+            })
+            .catch(err => console.error('Error saving job:', err));
+    }
+</script>
+
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-8px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
 {% endblock %}

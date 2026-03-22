@@ -350,12 +350,33 @@ async def remove_job(job_id: str, request: Request, db: Session = Depends(get_db
     return {"status": "success"}
 
 @app.get("/search")
-def search_jobs(request: Request, db: Session = Depends(get_db)):
-    # Simple query to return a list of jobs without filtering
-    jobs = db.query(Job).limit(20).all()
+def search_jobs(request: Request, q: str = "", location: str = "", employment_type: str = "", db: Session = Depends(get_db)):
+    query = db.query(Job)
+    if q:
+        search = f"%{q}%"
+        query = query.filter(Job.role.ilike(search) | Job.company.ilike(search) | Job.required_skills.ilike(search))
+    if location:
+        query = query.filter(Job.location.ilike(f"%{location}%") | Job.remote_type.ilike(f"%{location}%"))
+    if employment_type:
+        query = query.filter(Job.employment_type == employment_type)
+    jobs = query.limit(50).all()
     return templates.TemplateResponse("search.html", {
-        "request": request, 
+        "request": request,
         "jobs": jobs,
+        "q": q,
+        "location": location,
+        "employment_type": employment_type,
+        "user": get_current_user(request, db)
+    })
+
+@app.get("/job/{job_id}")
+def job_detail(job_id: str, request: Request, db: Session = Depends(get_db)):
+    job = db.query(Job).filter(Job.id == job_id).first()
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    return templates.TemplateResponse("job_detail.html", {
+        "request": request,
+        "job": job,
         "user": get_current_user(request, db)
     })
 
