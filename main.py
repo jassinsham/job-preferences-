@@ -64,9 +64,15 @@ templates = Jinja2Templates(directory="templates")
 
 @app.on_event("startup")
 def startup_event():
-    # Initialize DB with mock data if empty
-    db = next(get_db())
-    init_db_data(db)
+    try:
+        # Create all DB tables if they don't exist
+        Base.metadata.create_all(bind=engine)
+        # Initialize DB with data if empty
+        db = next(get_db())
+        init_db_data(db)
+        print("✅ Database initialized successfully")
+    except Exception as e:
+        print(f"⚠️ Database init error (non-fatal): {e}")
 
 # Configure CORS
 app.add_middleware(
